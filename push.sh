@@ -11,7 +11,7 @@ commit_to_git() {
   echo "IN commit_to_git"
   echo "----------------"
 
-  git remote add origin2 https://$GH_TOKEN@github.com/mottaquikarim/pydev-psets.git
+  git remote add origin2 https://$GH_TOKEN@github.com/mottaquikarim/PYTH2.git
   git checkout -f $TRAVIS_BRANCH 
 
   echo "CALL PY"
