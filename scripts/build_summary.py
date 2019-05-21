@@ -7,7 +7,7 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
     summary_md = []
 
     file_ = first_file
-    i = 1
+    i = 0
     while file_:
         content_arr.append(file_)
 
@@ -20,6 +20,7 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
         title = header.get('title', file_)
         if "README" in file_:
             summary_md.append(f"### [{title.upper()}]({dirname}/{file_})")
+            i = 0
         else:
             ipyth_link = False
             for ipyth in IPYTHON_DIRS:
