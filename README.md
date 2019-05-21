@@ -17,7 +17,6 @@ Here are all the lectures for this course. This section will be updated with not
 ### [GETTING STARTED](src/Intro/README.md)
 1. **[Tools and Resources](src/Intro/tools.md)**
 2. **[Setting Up Our Environment](src/Intro/environment.md)**
-3. **[Jupyter Notebooks](src/Intro/running_py_locally.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
 1. ➡️  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
 2. **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
