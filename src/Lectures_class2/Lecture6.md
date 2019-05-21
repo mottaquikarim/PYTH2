@@ -14,5 +14,5 @@
 
 ## Agenda
 
-1. **[Modules & Packages](../Topics/nb/modules.md)**
-2. **[Functions](../Topics/nb/functions.md)**
+1. **[Modules & Packages](../Topics/nb/nb/modules.md)**
+2. **[Functions](../Topics/nb/nb/functions.md)**
