@@ -36,23 +36,23 @@
 * **[In-Class Project Work - 7/25](src/Lectures_class2/Lecture19.md)**
 * **[Project Presentations! - 7/30](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
-* **[Essential Terminology](src/src/Topics/nb/essential_terminology.ipynb)**
-* **[Basic Data Types](src/src/Topics/nb/basic_data_types.ipynb)**
-* **[Conditionals](src/src/Topics/nb/conditionals.ipynb)**
-* **[Lists](src/src/Topics/nb/lists.ipynb)**
-* **[Dicts](src/src/Topics/nb/dicts.ipynb)**
-* **[Loops](src/src/Topics/nb/loops.ipynb)**
-* **[Modules & Packages](src/src/Topics/nb/modules.ipynb)**
-* **[Functions](src/src/Topics/nb/functions.ipynb)**
-* **[List Comprehensions](src/src/Topics/nb/list_comprehensions.ipynb)**
-* **[Classes](src/src/Topics/nb/classes.ipynb)**
-* **[Data Science](src/src/Topics/nb/data_science.ipynb)**
-* **[Intro to Pandas Objects](src/src/Topics/nb/intro_pandas.ipynb)**
-* **[Exploratory Data Analysis w. 🐼](src/src/Topics/nb/preprocessing.ipynb)**
-* **[Pandas Analysis II](src/src/Topics/nb/eda.ipynb)**
-* **[Data Visualization](src/src/Topics/nb/data_viz.ipynb)**
-* **[Course Review](src/src/Topics/nb/course_review.ipynb)**
-* **[Python Project Ideas](src/src/Topics/nb/project_ideas.ipynb)**
+* **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)**
+* **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)**
+* **[Conditionals](src/Topics/nb/conditionals.ipynb)**
+* **[Lists](src/Topics/nb/lists.ipynb)**
+* **[Dicts](src/Topics/nb/dicts.ipynb)**
+* **[Loops](src/Topics/nb/loops.ipynb)**
+* **[Modules & Packages](src/Topics/nb/modules.ipynb)**
+* **[Functions](src/Topics/nb/functions.ipynb)**
+* **[List Comprehensions](src/Topics/nb/list_comprehensions.ipynb)**
+* **[Classes](src/Topics/nb/classes.ipynb)**
+* **[Data Science](src/Topics/nb/data_science.ipynb)**
+* **[Intro to Pandas Objects](src/Topics/nb/intro_pandas.ipynb)**
+* **[Exploratory Data Analysis w. 🐼](src/Topics/nb/preprocessing.ipynb)**
+* **[Pandas Analysis II](src/Topics/nb/eda.ipynb)**
+* **[Data Visualization](src/Topics/nb/data_viz.ipynb)**
+* **[Course Review](src/Topics/nb/course_review.ipynb)**
+* **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
 * **[Homework 1](src/Homework/hwk1.md)**
 * **[Homework 2](src/Homework/hwk2.md)**
