@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mottaquikarim/PYTH2.svg?branch=master)](https://travis-ci.org/mottaquikarim/PYTH2)
+[![Build Status](https://travis-ci.org/mottaquikarim/PYTH2.svg?branch=master)](https://travis-ci.org/mottaquikarim/PYTH2) ![GitHub](https://img.shields.io/github/license/mottaquikarim/PYTH2.svg)
 
 ![icon](assets/pycon.png?raw=true)
 # PYTH2: Python Programming
@@ -20,7 +20,7 @@ Here are all the lectures for this course. This section will be updated with not
 3. **[Running Python Locally](src/Intro/running_py_locally.md)**
 4. **[Jupyter Notebooks](src/Intro/jupyter_notebooks.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
-1. ✅  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
+1. ➡️  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
 2. **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
 3. **[Lists, Tuples, & Sets - 5/28](src/Lectures_class2/Lecture3.md)**
 4. **[Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
