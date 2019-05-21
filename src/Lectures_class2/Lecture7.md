@@ -12,4 +12,4 @@
 
 ## Agenda
 
-1. **[Functions](../Topics/functions.md)**
+1. **[Functions](../Topics/nb/functions.md)**

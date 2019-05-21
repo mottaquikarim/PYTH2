@@ -13,4 +13,4 @@
 
 ## Agenda
 
-1. **[Classes](../Topics/classes.md)**
+1. **[Classes](../Topics/nb/classes.md)**

@@ -3,6 +3,23 @@ from datetime import datetime
 from conf import DEFAULT_FIRST_FILE, IPYTHON_DIRS
 from utils import get_ipynb_path, mrkdown_details
 
+def scan_for_nb(filename):
+    if "Lectures_" not in filename:
+        return
+
+    f = open(filename, 'r')
+    content = f.read()
+    body = '\n'.join(content.split('\n')[4:])
+
+    for ipyth in IPYTHON_DIRS:
+        if ipyth in body:
+            body = body.replace(f'{ipyth}/', f'{ipyth}/nb/')
+        
+    f.close()
+    f = open(filename, 'w')
+    f.write('\n'.join(content.split('\n')[0:3]) + '\n\n' + body)
+    f.close()
+
 
 def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
     content_arr = []
@@ -19,6 +36,7 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
             pass
 
         nextfile_, body, header = mrkdown_details(f.read(), with_header_dict=True)
+        scan_for_nb(f'{dirname}/{file_}')
         title = header.get('title', file_)
         if "README" in file_:
             summary_md.append(f"### [{title.upper()}]({dirname}/{file_})")

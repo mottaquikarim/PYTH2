@@ -16,4 +16,4 @@
 
 ## Agenda
 
-1. **[Data Science](../Topics/data_science.md)**
+1. **[Data Science](../Topics/nb/data_science.md)**
