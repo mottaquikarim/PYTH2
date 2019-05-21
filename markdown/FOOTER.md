@@ -42,6 +42,8 @@ This is parsed by the `scripts/build_summary.py` script and a list is created wh
 python scripts/build_summary.py
 ```
 
+This also parses any `Lectures` folder and automatically swaps jupyter notebook links to it. Same for `Topics` folder in main README file.
+
 ## Instructional Team
 
 Some info about your instructors.
