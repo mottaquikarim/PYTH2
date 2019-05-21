@@ -6,79 +6,79 @@
 
 Let's discuss data types, variables, and naming.
 
-### Variables
+## Variables
 
-A data type is a unit of information that can be stored and retrieved using a program language. We store data into, and retrieve data from, **variables**.
+A data type is a unit of information that can be stored and retrieved using a program language. **Variables** store different types of data. You can display the value stored in a variable on the screen using the `print()` statement. Because variables are so ubiquitous, there are some **rules for naming variables** that help avoid confusion.
 
-### Creating a Variable
+- **Rule:** snake_case with the underscore character
+- **Rule:** Can’t use keywords as var names, e.g. True, None, function, class, object
+- **Rule:** Can’t start with a numeric value, e.g. can't name something "1var", but you CAN do function1
+- **Best Practice:** You COULD use CamelCase to name a variable, but this is typically reserved for naming a different Python object called a "class".
+
+#### Creating & Reading a Variable
 
 ```python
 first_prime = 2
-```
-
-### Reading a Variable
-
-```python
 print(first_prime) # expect to see 2
 ```
 
-#### [PRACTICE](https://mottaquikarim.github.io/pydev-psets/#pset_basic_data_types/basics/p2.ipynb)
+#### Comments
 
-### Naming Variables
-
-In python, the best practice is to **snake_case** variables, where we delimit spaces within variable names with the `_` character.
+Real quick, let's see how we create comments so that you can write notes to yourself in your code - **very** useful!
 
 ```python
-this_is_snake_cased = 1
+# I'm a comment!
+
+
+# Here is a multi-line comment:
+"""
+'Cause if you liked it, then you should have put a ring on it
+If you liked it, then you should have put a ring on it
+Don't be mad once you see that he want it
+If you liked it, then you should have put a ring on it
+"""
 ```
 
-## Integers
+## Fundamental Python Data Types
+
+These are the most basic data types, which compose the more complex data types we'll learn about later:
+
+* Strings: alphanumeric characters read as text
+	* **Important takeaway!** If you use a `'`, say in a contraction, the string might misinterpret it as the ending `'` for the string. To avoid this, add `\` right before that `'` like this: 'I\'ll`.
+* Integers: whole numbers
+* Floats: decimals
+* Booleans: represents True or False values; used for evaluating conditional statements
+* Nonetype: represents variables not yet defined or essentially blank values (shown as None, used as placeholder to avoid error)
 
 ```python
+# Strings
+cat = 'Layla' # or "Layla" because single & double quotes are both valid
+cat_description = 'Layla\'s a mischievous, but very cute kitty!' # Note the use of \' here.
 
-example_int = 1
-example_int_type = type(1) # <class 'int'>
+# Integers
+age = 8
 
+# Floats
+weight = 10.5
+
+# Booleans
+vaccinated = True
+good_with_other_cats = False
+
+# Nonetype
+good_with_other_dogs = None
 ```
 
-## Floats
 
-Floats are defined as decimals
+### String Formatting
 
-```python
+Strings have some special qualities that make dealing with them easier. For instance, you can store several separate snippets of text within a single string. One way to do this is adding `\n` to signify that you want to create a new line. However, there's another way to do this that makes it much more readable! To do this, you can use triple quotes i.e. `'''` or `"""`. You can use single and double quotes within the string freely, so no need to worry about that detail!
 
-example_float = 1.001
-example_float_type = type(1.001) # <class 'float'>
-
-```
-
-## Int/Float Operators
-
-We can operate on integers/floats in the following ways
+Let's say you're storing song lyrics, so you want to have a line break between each line of the song.
 
 ```python
-example_int = 1
+'Cause if you liked it, then you should have put a ring on it\nIf you liked it, then you should have put a ring on it\nDon\'t be mad once you see that he want it\nIf you liked it, then you should have put a ring on it'
 
-another_int = example_int + 5 # addition
-another_int = example_int * 5 # multiplication
-another_int = example_int - 5 # subtraction
-another_int = example_int / 5 # division
-another_int = example_int % 5 # modulus operator
-```
-
-## Strings
-
-Sequences of characters are called "strings"
-
-```python
-my_name = 'Taq Karim'
-your_name = "John Smith" # single or double quotes are valid
-
-string_type = type("testing") # <class 'str'>
-```
-You can also store several separate snippets of text within a single string. Let's say you're storing song lyrics, so you want to have a line break between each line of the song. To do this, you can use triple quotes i.e. `'''` or `"""`. You can use single and double quotes within the string freely, so no need to worry about that detail!
-
-```python
 '''
 'Cause if you liked it, then you should have put a ring on it
 If you liked it, then you should have put a ring on it
@@ -87,106 +87,159 @@ If you liked it, then you should have put a ring on it
 '''
 ```
 
-## String operators
-
-We can "add" strings
+If you want to insert variables within a string, you can do this:
 
 ```python
-print("this string" + "that string") # what does this output?
+cat = 'Layla'
+
+print(cat, 'is a mischievous, but very cute kitty!')
+# Note that the ',' automatically adds a space character.
 ```
 
-We cannot add strings to non strings
+But that can be annoying if you're inserting multiple variables. To simplify this, you dynamically add variables directly within a string like this:
 
 ```python
-print("this will not work" + 4) # 4 is not stype str
+cat = 'Layla' # or "Layla" because single & double quotes are both valid
+age = 8
+weight = 10.5
+
+
+print(f'{cat} is {age} years old.\n{cat} weighs {weight} pounds.')
+print(f'''
+{cat} is {age} years old.
+{cat} weighs {weight} pounds.
+''')
+
+"""
+Both of these print...
+
+Layla is 8 years old.
+Layla weighs 10.5 pounds.
+"""
 ```
 
-As a convenience, we can format strings like so:
+### Practice Problem Set 1: Basic Data Types
 
-```python
-a = 1
-b = 2
+Open these notebooks and add your own code to solve these problems. **MAKE SURE YOU MAKE A COPY OF THE NOTEBOOK FIRST!!!**
 
-formatted_string = f"{a} is {b}" # notice how a, b are formatted into string even tho they are ints
-
-print(formatted_string) # "1 is 2"
-```
-
-
-## Booleans
-
-Booleans represent true/false
-
-```python
-
-is_it_winter = True
-is_it_warm_out = False
-
-boolean_type = type(True) # <class 'bool'>
-
-```
-
-We use booleans primarily in conditional statements
-
-## Nonetype
-
-`None` represents variables that have not yet been defined.
-
-```python
-print(type(None)) # <class 'NoneType'>
-```
+[PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p1.ipynb)
+[PRACTICE 2](https://mottaquikarim.github.io/pydev-psets/#pset_basic_data_types/basics/p2.ipynb)
+[PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p1.ipynb)
+[PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p3.ipynb)
 
 ## Typecasting
 
-Sometimes, we need to convert one datatype to another. Typecasting allows us to convert between types
+#### Check what data type is stored in a variable using the `type()` statement or the `isinstance()` statement.
 
 ```python
+# Example 1 - type()
+a = 1
+print(type(a)) # <class 'int'>
 
-# convert string to int
-int('10') # 10 - but as type int
-int('tasdfa') # throws a ValueError
+b = '2.5'
+print(type(b)) #  
 
+
+# Example 2 - isinstance()
+c = -1
+print(f'Is {c} a boolean?', isinstance(c, bool)) # False
+
+d = False
+print(f'Is {d} a boolean?', isinstance(d, bool)) # True
 ```
+
+#### Typecasting is a way to convert an instance of one data type to another.
 
 ```python
+# Convert int to str
+a = str(10)
+print(f'{a} is a {type(a)} type.') # '10'
 
-# convert int to str
-str(10) # '10' - but as type str
 
+# Convert str to int
+b = int('10')
+print(f'{b} is a {type(b)} type.') # 10
+### int('tasdfa') # throws a ValueError
+
+
+# Convert int to bool
+c = bool(10) # True
+d = bool(0) # False
+
+# Convert bool to int or float
+e = int(True) # 1
+f = float(True) # 1.0
+g = int(False) # 0
+h = float(False) # 0.0
+"""You can convert any number to a True boolean,
+BUT a True boolean will only ever become 1 or 1.0."""
 ```
+
+### Practice Problem Set 2: Typecasting
+
+[PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p1.ipynb)
+[PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p2.ipynb)
+
+## Simple Integer, Float, & String Operators
+
+**Operators** are shortcuts for manipulating values stored in variables.
+
+### Integer/Float Operators
+
+We can operate on integers/floats in the following ways:
+
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Modulus (This one divides and returns **only the remainder**.)
 
 ```python
+orig_num = 10
 
-# convert int to bool
-bool(10) # True
-bool(0) # False
+# Addition
+num1 = orig_num + 5 # 15
+
+# Subtraction
+num2 = orig_num - 5 # 5
+
+# Multiplication
+num3 = orig_num * 5 # 50
+
+# Division
+num4 = orig_num / 5 # 2
+
+# Modulus
+num5 = orig_num % 5 # 0
+num6 = orig_num % 3 # 1
 ```
 
-To check the type of a data type:
+### String Operators
+
+* We can "add" strings
+* We CANNOT add strings to non strings
 
 ```python
+a = 'this string'
+b = 'that string'
 
-# check types
-isinstance(-1, bool) # False
-isinstance(False, bool) # True
+print(a + b) # 'this stringthat string'
 
-# ..etc
 
+print(a + ' and ' + b) # 'this string and that string'
+print(a, 'and', b) # 'this string and that string'
+
+
+"""ERROR!!!
+print('this will not work' + 4) doesn't work 
+because you can't add a number to a string"""
 ```
 
-## 🚗 Problems
+### Practice Problem Set 3: Simple Operators
 
-**[How to use the PSETS Repo](https://github.com/mottaquikarim/pydev-psets#getting-started)**
+*coming soon...*
 
-* **[PRACTICE: Shopping List Calculator I](https://github.com/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/p1.py)**
-
-
-* **[PRACTICE: Shopping List Calculator II](https://github.com/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/p2.py)**
-
-
-* **[PRACTICE: Shopping List Calculator III](https://github.com/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/p3.py)**
-
-## 🚗 Additional Resources
+## Additional Resources
 
 * [A Repl.it Summarizing Print Statements](https://repl.it/@brandiw/Python-01-Variables-4?lite=true)
 * [Python For Beginners](http://www.pythonforbeginners.com/basics/python-variables)
@@ -194,7 +247,7 @@ isinstance(False, bool) # True
 * [Variables in Python](https://www.guru99.com/variables-in-python.html)
 * [Operators Cheatsheet](http://python-reference.readthedocs.io/en/latest/docs/operators/)
 * [Python Style Guide: Naming](https://www.python.org/dev/peps/pep-0008/#descriptive-naming-styles)
-- [Python-Strings](https://www.tutorialspoint.com/python/python_strings.htm)
-- [String Concatenation and Formatting](http://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python)
-- [String Concatenation and Formatting - Video](https://www.youtube.com/watch?v=jA5LW3bR0Us)
+* [Python-Strings](https://www.tutorialspoint.com/python/python_strings.htm)
+* [String Concatenation and Formatting](http://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python)
+* [String Concatenation and Formatting - Video](https://www.youtube.com/watch?v=jA5LW3bR0Us)
 
