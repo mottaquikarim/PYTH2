@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mottaquikarim/PYTH2.svg?branch=master)](https://travis-ci.org/mottaquikarim/PYTH2)
+
 ![icon](assets/pycon.png?raw=true)
 # PYTH2: Python Programming
 
