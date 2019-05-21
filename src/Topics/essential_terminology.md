@@ -26,11 +26,29 @@ There are many programming languages. Way too many. But here are some of the mos
 4. **Ruby**: this language is interpreted.
 5. **C/C++**: this language is compiled.
 
-In general, anything programmable can be programmed in each of the languages defined above. However, some languages are better suited for certain tasks above others. For example:
+In general, anything programmable can be programmed in each of the languages defined above. However, some languages are better suited for certain tasks above others. For example, to perform web programming on the front-end, you'll want to write JavaScript. This is because all browsers collectively support running javascript within it's environment.
 
-* To perform web programming on the front-end, you'll want to write JavaScript. This is because all browsers collectively support running javascript within it's environment.
-* Python is particularly well-suited for dynamically processing large amounts of data and analyzing it. That’s what makes it so great for data science.
+#### When to Use Python
 
+*Python is simple, versatile, always improving, and popular among many reputable companies!*
+
+Python is particularly well-suited for dynamically processing large amounts of data and analyzing it. That’s what makes it so great for data science.
+
+- Putting up websites.
+- Analyzing data.
+- Constructing machine learning algorithms
+- Building robots.
+
+#### When NOT to Use Python
+
+Python isn't great for everything!
+
+- Mobile apps
+- Huge programs
+  - Python is interpreted - the computer reads it as it goes.
+  - Other programming languages are read in advance!
+- Sometimes too easy
+  - Easy to expect things to work that don't!
 
 ### Universal Code Fundamentals
 
