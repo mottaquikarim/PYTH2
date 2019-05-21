@@ -13,65 +13,65 @@ Here are all the lectures for this course. This section will be updated with not
 
 ### [WELCOME](src/README.md)
 ### [GETTING STARTED](src/Intro/README.md)
-3 **[Tools and Resources](src/Intro/tools.md)**
-4 **[Setting Up Our Environment](src/Intro/environment.md)**
-5 **[Running Python Locally](src/Intro/running_py_locally.md)**
-6 **[Jupyter Notebooks](src/Intro/jupyter_notebooks.md)**
+3. **[Tools and Resources](src/Intro/tools.md)**
+4. **[Setting Up Our Environment](src/Intro/environment.md)**
+5. **[Running Python Locally](src/Intro/running_py_locally.md)**
+6. **[Jupyter Notebooks](src/Intro/jupyter_notebooks.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
-8 **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
-9 **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
-10 **[Lists, Tuples, & Sets - 5/28](src/Lectures_class2/Lecture3.md)**
-11 **[Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
-12 **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
-13 **[Modules & Functions Intro - 6/6](src/Lectures_class2/Lecture6.md)**
-14 **[Functions - 6/11](src/Lectures_class2/Lecture7.md)**
-15 **[Intro to OOP & Classes - 6/13](src/Lectures_class2/Lecture8.md)**
-16 **[Classes - 6/18](src/Lectures_class2/Lecture9.md)**
-17 **[Intro to Data Science - 6/20](src/Lectures_class2/Lecture10.md)**
-18 **[Intro to Pandas Objects - 6/25](src/Lectures_class2/Lecture11.md)**
-19 **[Pandas Data Processing I - 6/27](src/Lectures_class2/Lecture12.md)**
-20 **[Pandas Data Processing II - 7/2](src/Lectures_class2/Lecture13.md)**
-21 **[Pandas EDA I - 7/9](src/Lectures_class2/Lecture14.md)**
-22 **[Pandas EDA II - 7/11](src/Lectures_class2/Lecture15.md)**
-23 **[Pandas Data Analysis Lab - 7/16](src/Lectures_class2/Lecture16.md)**
-24 **[Data Visualization - 7/18](src/Lectures_class2/Lecture17.md)**
-25 **[Data Visualization Lab - 7/23](src/Lectures_class2/Lecture18.md)**
-26 **[In-Class Project Work - 7/25](src/Lectures_class2/Lecture19.md)**
-27 **[Project Presentations! - 7/30](src/Lectures_class2/Lecture20.md)**
+8. **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
+9. **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
+10. **[Lists, Tuples, & Sets - 5/28](src/Lectures_class2/Lecture3.md)**
+11. **[Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
+12. **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
+13. **[Modules & Functions Intro - 6/6](src/Lectures_class2/Lecture6.md)**
+14. **[Functions - 6/11](src/Lectures_class2/Lecture7.md)**
+15. **[Intro to OOP & Classes - 6/13](src/Lectures_class2/Lecture8.md)**
+16. **[Classes - 6/18](src/Lectures_class2/Lecture9.md)**
+17. **[Intro to Data Science - 6/20](src/Lectures_class2/Lecture10.md)**
+18. **[Intro to Pandas Objects - 6/25](src/Lectures_class2/Lecture11.md)**
+19. **[Pandas Data Processing I - 6/27](src/Lectures_class2/Lecture12.md)**
+20. **[Pandas Data Processing II - 7/2](src/Lectures_class2/Lecture13.md)**
+21. **[Pandas EDA I - 7/9](src/Lectures_class2/Lecture14.md)**
+22. **[Pandas EDA II - 7/11](src/Lectures_class2/Lecture15.md)**
+23. **[Pandas Data Analysis Lab - 7/16](src/Lectures_class2/Lecture16.md)**
+24. **[Data Visualization - 7/18](src/Lectures_class2/Lecture17.md)**
+25. **[Data Visualization Lab - 7/23](src/Lectures_class2/Lecture18.md)**
+26. **[In-Class Project Work - 7/25](src/Lectures_class2/Lecture19.md)**
+27. **[Project Presentations! - 7/30](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
-29 **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)**
-30 **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)**
-31 **[Conditionals](src/Topics/nb/conditionals.ipynb)**
-32 **[Lists](src/Topics/nb/lists.ipynb)**
-33 **[Dicts](src/Topics/nb/dicts.ipynb)**
-34 **[Loops](src/Topics/nb/loops.ipynb)**
-35 **[Modules & Packages](src/Topics/nb/modules.ipynb)**
-36 **[Functions](src/Topics/nb/functions.ipynb)**
-37 **[List Comprehensions](src/Topics/nb/list_comprehensions.ipynb)**
-38 **[Classes](src/Topics/nb/classes.ipynb)**
-39 **[Data Science](src/Topics/nb/data_science.ipynb)**
-40 **[Intro to Pandas Objects](src/Topics/nb/intro_pandas.ipynb)**
-41 **[Exploratory Data Analysis w. 🐼](src/Topics/nb/preprocessing.ipynb)**
-42 **[Pandas Analysis II](src/Topics/nb/eda.ipynb)**
-43 **[Data Visualization](src/Topics/nb/data_viz.ipynb)**
-44 **[Course Review](src/Topics/nb/course_review.ipynb)**
-45 **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
+29. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)**
+30. **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)**
+31. **[Conditionals](src/Topics/nb/conditionals.ipynb)**
+32. **[Lists](src/Topics/nb/lists.ipynb)**
+33. **[Dicts](src/Topics/nb/dicts.ipynb)**
+34. **[Loops](src/Topics/nb/loops.ipynb)**
+35. **[Modules & Packages](src/Topics/nb/modules.ipynb)**
+36. **[Functions](src/Topics/nb/functions.ipynb)**
+37. **[List Comprehensions](src/Topics/nb/list_comprehensions.ipynb)**
+38. **[Classes](src/Topics/nb/classes.ipynb)**
+39. **[Data Science](src/Topics/nb/data_science.ipynb)**
+40. **[Intro to Pandas Objects](src/Topics/nb/intro_pandas.ipynb)**
+41. **[Exploratory Data Analysis w. 🐼](src/Topics/nb/preprocessing.ipynb)**
+42. **[Pandas Analysis II](src/Topics/nb/eda.ipynb)**
+43. **[Data Visualization](src/Topics/nb/data_viz.ipynb)**
+44. **[Course Review](src/Topics/nb/course_review.ipynb)**
+45. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
-47 **[Homework 1](src/Homework/hwk1.md)**
-48 **[Homework 2](src/Homework/hwk2.md)**
-49 **[Homework 3](src/Homework/hwk3.md)**
-50 **[Homework 4](src/Homework/hwk4.md)**
-51 **[Homework 5](src/Homework/hwk5.md)**
-52 **[Final Project Reqs](src/Homework/final.md)**
+47. **[Homework 1](src/Homework/hwk1.md)**
+48. **[Homework 2](src/Homework/hwk2.md)**
+49. **[Homework 3](src/Homework/hwk3.md)**
+50. **[Homework 4](src/Homework/hwk4.md)**
+51. **[Homework 5](src/Homework/hwk5.md)**
+52. **[Final Project Reqs](src/Homework/final.md)**
 ### [RESOURCES](src/Resources/README.md)
-54 **[Python Glossary](src/Resources/python_glossary.md)**
-55 **[Basic Statistics](src/Resources/basic_stats.md)**
-56 **[Pandas Glossary](src/Resources/pandas_glossary.md)**
-57 **[General Reference Guides](src/Resources/genref.md)**
-58 **[Libraries, Packages, & Other Tools](src/Resources/tools_libs.md)**
-59 **[Cheat Sheets](src/Resources/cheat_sheets.md)**
-60 **[Helpful Articles/Tutorials](src/Resources/articles.md)**
-61 **[Open Source Datasets](src/Resources/datasets.md)**
+54. **[Python Glossary](src/Resources/python_glossary.md)**
+55. **[Basic Statistics](src/Resources/basic_stats.md)**
+56. **[Pandas Glossary](src/Resources/pandas_glossary.md)**
+57. **[General Reference Guides](src/Resources/genref.md)**
+58. **[Libraries, Packages, & Other Tools](src/Resources/tools_libs.md)**
+59. **[Cheat Sheets](src/Resources/cheat_sheets.md)**
+60. **[Helpful Articles/Tutorials](src/Resources/articles.md)**
+61. **[Open Source Datasets](src/Resources/datasets.md)**
 ### [ABOUT](src/About/README.md)
 ## Practice Problems
 

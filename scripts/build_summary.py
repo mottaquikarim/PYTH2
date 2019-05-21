@@ -28,9 +28,9 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
                     break
 
             if not ipyth_link:
-                summary_md.append(f"{i} **[{title}]({dirname}/{file_})**")
+                summary_md.append(f"{i}. **[{title}]({dirname}/{file_})**")
             else:
-                summary_md.append(f"{i} **[{title}]({get_ipynb_path(dirname + '/' + file_)})**")
+                summary_md.append(f"{i}. **[{title}]({get_ipynb_path(dirname + '/' + file_)})**")
 
         file_ = nextfile_
         i += 1
