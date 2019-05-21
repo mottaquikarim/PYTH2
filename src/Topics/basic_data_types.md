@@ -122,10 +122,12 @@ Layla weighs 10.5 pounds.
 
 Open these notebooks and add your own code to solve these problems. **MAKE SURE YOU MAKE A COPY OF THE NOTEBOOK FIRST!!!**
 
+
 * [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p1.ipynb)
-* [PRACTICE 2](https://mottaquikarim.github.io/pydev-psets/#pset_basic_data_types/basics/p2.ipynb)
-* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p1.ipynb)
-* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p2.ipynb)
+* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p2.ipynb)
+* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p3.ipynb)
+* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p1.ipynb)
+* [PRACTICE 5](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p2.ipynb)
 
 ## Typecasting
 
@@ -177,8 +179,8 @@ BUT a True boolean will only ever become 1 or 1.0."""
 
 ### Practice Problem Set 2: Typecasting
 
-* [PRACTICE 1]()
-* [PRACTICE 2]()
+* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p1.ipynb)
+* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p2.ipynb)
 * [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p1.ipynb)
 * [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p2.ipynb)
 
@@ -239,7 +241,8 @@ because you can't add a number to a string"""
 
 ### Practice Problem Set 3: Simple Operators
 
-*coming soon...*
+* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p2.ipynb)
+* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p1.ipynb)
 
 ## Additional Resources
 
