@@ -36,7 +36,7 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
                     month, date = data.split('/')
                     today = datetime.today()
                     if int(month) == today.month and int(date) == today.day:
-                        summary_md.append(f"{i}.✅  **[{title}]({dirname}/{file_})**")
+                        summary_md.append(f"{i}. ✅  **[{title}]({dirname}/{file_})**")
                     else:
                         summary_md.append(f"{i}. **[{title}]({dirname}/{file_})**")
                 else:
