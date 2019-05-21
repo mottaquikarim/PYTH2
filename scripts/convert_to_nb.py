@@ -24,6 +24,9 @@ def mrkdown_to_nb(body, filename):
         else:
             current_block.append(line)
 
+    if len(current_block):
+        nb.cells.append(new_markdown_cell("\n".join(current_block)))
+
     nbformat.write(nb, get_ipynb_path(filename))
 
 
