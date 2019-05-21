@@ -7,6 +7,7 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
     summary_md = []
 
     file_ = first_file
+    i = 1
     while file_:
         content_arr.append(file_)
 
@@ -27,11 +28,12 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
                     break
 
             if not ipyth_link:
-                summary_md.append(f"* **[{title}]({dirname}/{file_})**")
+                summary_md.append(f"{i} **[{title}]({dirname}/{file_})**")
             else:
-                summary_md.append(f"* **[{title}]({get_ipynb_path(dirname + '/' + file_)})**")
+                summary_md.append(f"{i} **[{title}]({get_ipynb_path(dirname + '/' + file_)})**")
 
         file_ = nextfile_
+        i += 1
 
 
     return "\n".join(summary_md)
