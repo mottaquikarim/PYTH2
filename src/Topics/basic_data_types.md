@@ -181,8 +181,8 @@ BUT a True boolean will only ever become 1 or 1.0."""
 
 * [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p1.ipynb)
 * [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p2.ipynb)
-* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p1.ipynb)
-* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/booleans/nb/p2.ipynb)
+* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p3.ipynb)
+* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p4.ipynb)
 
 ## Simple Integer, Float, & String Operators
 

@@ -56,7 +56,7 @@ Some info about your instructors.
 
 ### Julianna Garreffa
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/julianna.jpg?raw=true" width="100" align="left">
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/julianna.jpeg?raw=true" width="100" align="left">
 
 Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I have experience in strategic roadmap planning, launching research-backed product features, orchestrating agile projects, directing technical client onboarding, analyzing data in R, and coding with HTML, CSS and Python. In my free time, I love traveling, volunteering with animals, cooking, and hearing live music. At home though, I'm probably reading or watching movies/TV, snuggled up with my cat, Layla Karim!
 
