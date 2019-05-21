@@ -13,7 +13,7 @@ def scan_for_nb(filename):
 
     for ipyth in IPYTHON_DIRS:
         if ipyth in body:
-            body = body.replace(f'{ipyth}/', f'{ipyth}/nb/')
+            body = body.replace(f'{ipyth}/(?!nb)', f'{ipyth}/nb/')
         
     f.close()
     f = open(filename, 'w')
