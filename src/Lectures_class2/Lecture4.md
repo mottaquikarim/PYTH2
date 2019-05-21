@@ -11,7 +11,7 @@
 
 ## Agenda
 
-1. **[Dicts](../Topics/nb/dicts.md)**
+1. **[Dicts](../Topics/nb/dicts.ipynb)**
 
 
 ## [Homework 2](../Homework/hwk2.md)

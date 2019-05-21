@@ -9,15 +9,17 @@ def scan_for_nb(filename):
 
     f = open(filename, 'r')
     content = f.read()
-    body = '\n'.join(content.split('\n')[4:])
+    body = content.split('\n')[4:]
 
     for ipyth in IPYTHON_DIRS:
-        if ipyth in body:
-            body = body.replace(f'{ipyth}/(?!nb)', f'{ipyth}/nb/')
+        for idx, line in enumerate(body):
+            if ipyth in line:
+                body[idx] = line.replace(f'{ipyth}/(?!nb)', f'{ipyth}/nb/')
+                body[idx] = line.replace('.md', '.ipynb')
         
     f.close()
     f = open(filename, 'w')
-    f.write('\n'.join(content.split('\n')[0:3]) + '\n\n' + body)
+    f.write('\n'.join(content.split('\n')[0:3]) + '\n\n' + '\n'.join(body))
     f.close()
 
 
