@@ -136,7 +136,7 @@ Some info about your instructors.
 
 Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I have experience in strategic roadmap planning, launching research-backed product features, orchestrating agile projects, directing technical client onboarding, analyzing data in R, and coding with HTML, CSS and Python. In my free time, I love traveling, volunteering with animals, cooking, and hearing live music. At home though, I'm probably reading or watching movies/TV, snuggled up with my cat, Layla Karim!
 
-<br><br>
+<br><br><br><br>
 
 ### Layla Karim
 
