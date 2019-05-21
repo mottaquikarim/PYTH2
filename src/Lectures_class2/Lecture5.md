@@ -16,4 +16,4 @@
 ## Agenda
 
 1. **[Review Homework 2](../Homework/hwk2.md)**
-2. **[Loops](../Topics/nb/nb/loops.md)**
+2. **[Loops](../Topics/nb/loops.md)**
