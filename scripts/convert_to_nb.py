@@ -14,6 +14,7 @@ def get_cell(line, block):
 
 def mrkdown_to_nb(body, filename):
     nb = new_notebook()
+    nb.cells.append(new_markdown_cell(f"[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/{filename})"))
     current_block = []
     for line in body:
         if line.startswith('```'):
