@@ -32,15 +32,15 @@ In general, anything programmable can be programmed in each of the languages def
 
 Here are a collection of these most important concepts:
 
-#### Declarations
+**Declarations**
 Typically, we can store and retrieve data in our programs by associating them with intermediary values that we call **variables**.
 
-#### Expressions
+**Expressions**
 We use expressions to evaluate stuff. For example, **`2 + 2`** is an example of an expression that will **evaluate** a value, namely 4.
 
 * **NOTE**: Typically we can use expressions and declarations in tandem to perform complex tasks. For instance, we can reference a variable we declared in an expression to help us evaluate new values which can then be stored.
 
-#### Statements & Control Flow
+**Statements & Control Flow**
 Statements will use expressions and declarations to alternate a program's **control flow**, which is essentially the order in which declarations, expressions, and other statements are executed.
 
 Aside from these fundamental concepts, we also talk a lot about this idea of **algorithms**. An **algorithm** is simple a series of declarations, expressions, and statements that can be used over and over again to solve well defined problems of a certain type.
