@@ -62,10 +62,10 @@ Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I
 
 ### Layla Karim
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla1.jpg?raw=true" widht="200" align="left"> 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla1.jpg?raw=true" width="200" align="left"> 
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" widht="200" align="left"> 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" width="200" align="left"> 
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla3.jpg?raw=true" widht="200" align="left"> 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla3.jpg?raw=true" width="200" align="left"> 
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla4.jpeg?raw=true" widht="200" align="left"> 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla4.jpeg?raw=true" width="200" align="left"> 
