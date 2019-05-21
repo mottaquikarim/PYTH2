@@ -41,6 +41,9 @@ if __name__ == "__main__":
     with open('markdown/HEADER.md', 'r') as f:
         header = f.read()
 
+    with open('markdown/FOOTER.md', 'r') as f:
+        footer = f.read()
+
     with open('README.md', 'w') as f:
-        f.write(header + '\n' + content)
+        f.write(header + '\n' + content + '\n' + footer)
 
