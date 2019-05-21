@@ -1,7 +1,5 @@
-from datetime import datetime
-
 from conf import DEFAULT_FIRST_FILE, IPYTHON_DIRS
-from utils import get_ipynb_path, mrkdown_details
+from utils import does_dir_path_exist, get_ipynb_path, get_status_icon_by_date, mrkdown_details
 
 def scan_for_nb(filename):
     if "Lectures_" not in filename:
@@ -53,16 +51,18 @@ def build_summary(dirname, first_file=DEFAULT_FIRST_FILE):
             if not ipyth_link:
                 if " - " in title:
                     data = title.split(' - ').pop()
-                    month, date = data.split('/')
-                    today = datetime.today()
-                    if int(month) == today.month and int(date) == today.day:
-                        summary_md.append(f"{i}. ✅  **[{title}]({dirname}/{file_})**")
-                    else:
-                        summary_md.append(f"{i}. **[{title}]({dirname}/{file_})**")
+                    status = get_status_icon_by_date(data)
+                    summary_md.append(f"{i}. {status}**[{title}]({dirname}/{file_})**")
                 else:
                     summary_md.append(f"{i}. **[{title}]({dirname}/{file_})**")
             else:
-                summary_md.append(f"{i}. **[{title}]({get_ipynb_path(dirname + '/' + file_)})**")
+                str_ = f"{i}. **[{title}]({get_ipynb_path(dirname + '/' + file_)})**"
+                print("FILE: ", file_)
+                path = does_dir_path_exist(dirname + "/" + file_)
+                if path:
+                    str_ += f" | **[Notes]({path})**"
+
+                summary_md.append(str_)
 
         file_ = nextfile_
         i += 1
