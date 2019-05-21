@@ -1,7 +1,6 @@
 <!---
-{"next":"Intro/jupyter_notebooks.md","title":"Running Python Locally"}
+{"next":"Lectures_class2/README.md","title":"Jupyter Notebooks"}
 -->
-
 
 # Running Python Locally
 

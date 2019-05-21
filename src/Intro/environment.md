@@ -16,8 +16,6 @@ After signing up, please visit **[this link](https://repl.it/languages)** and ty
 
 [Sublime Text](http://www.sublimetext.com/3) &mdash; code editor &mdash; you'll be writing code here. This is a free tool, but they will ask you to donate every few saves. However, you can use the program for free as long as you'd like.
 
-
-
 ## Setting up PythonAnywhere Account
 
 Although wrangling the PyCharm / Anaconda set up described above will allow us to safely and happily write python code locally, it is in some ways severely limiting because we are not able to run long standing processes or communicate with our code from real world inputs.
