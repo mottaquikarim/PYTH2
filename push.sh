@@ -30,7 +30,7 @@ commit_to_git() {
 push_to_git() {
   echo "IN push_to_git"
   echo ${GH_TOKEN}
-  echo https://$GH_TOKEN@github.com/mottaquikarim/pydev-psets.git
+  echo https://$GH_TOKEN@github.com/mottaquikarim/PYTH2.git
   git push --quiet --set-upstream origin2 $TRAVIS_BRANCH
   echo "DONE push_to_git"
 }
@@ -41,18 +41,3 @@ push_to_git || true
 EXIT_CODE=$?
 
 exit ${EXIT_CODE}
-
-# commit_files() {
-#   git checkout master
-#   git add .
-#   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
-# }
-
-# upload_files() {
-#   git remote add origin https://$GH_TOKEN@github.com/mottaquikarim/pydev-psets
-#   git push --quiet --set-upstream origin master 
-# }
-
-# setup_git
-# commit_files
-# upload_files
