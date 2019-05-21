@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mottaquikarim/PYTH2.svg?branch=master)](https://travis-ci.org/mottaquikarim/PYTH2)
+[![Build Status](https://travis-ci.org/mottaquikarim/PYTH2.svg?branch=master)](https://travis-ci.org/mottaquikarim/PYTH2) ![GitHub](https://img.shields.io/github/license/mottaquikarim/PYTH2.svg)
 
 ![icon](assets/pycon.png?raw=true)
 # PYTH2: Python Programming
