@@ -125,8 +125,6 @@ Open these notebooks and add your own code to solve these problems. **MAKE SURE 
 * [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p1.ipynb)
 * [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p2.ipynb)
 * [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p3.ipynb)
-* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p1.ipynb)
-* [PRACTICE 5](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/shopping_list/nb/p2.ipynb)
 
 ## Typecasting
 
