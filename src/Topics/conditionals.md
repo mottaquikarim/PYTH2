@@ -235,7 +235,7 @@ result = 'a' not in line # False
 
 ## Conditional Statements
 
-A conditional will attempt to evaluate an expression down to a boolean value - either `True` or `False`. Based on the boolean evaluation, the program will then execute or skip a block of code.
+A conditional statement will attempt to evaluate an expression down to a boolean value - either `True` or `False`. Based on the boolean evaluation, the program will then execute or skip a block of code.
 
 So for instance:
 
@@ -247,7 +247,7 @@ if False:
 	print("this will NEVER run!")
 ```
 
-However, since we know booleans to be datatypes, *any* of the operators discussed above can *also* be used:
+However, since we know booleans to be data types, *any* of the operators discussed above can *also* be used:
 
 ```python
 temp = 43
@@ -270,7 +270,7 @@ if is_it_raining and temp < 65:
 
 In the example above, we make use of comparison operators *and* logical operators in a compound statement.
 
-## `else`s and `elif`s
+### `else`s and `elif`s
 
 If we have a condition that can only go two ways (ie: it will only be true or false), we can leverage the `else` statement:
 
@@ -300,38 +300,43 @@ else:
 
 In the example above, we print one of 4 possibilities - the elif allows us to go from 2 potential conditions to N potential conditions.
 
-## [PSETS](https://github.com/mottaquikarim/pydev-psets)
+### BONUS TOPIC: Random Numbers
 
-The problems are reproduced below, but you will want to run on github. First,
+If you want to generate random numbers in your programs, you can import Python's `random` package ***at the top of your code***.
 
-```bash
-$ . ./update
+The example below generates a random number from 1 to 100:
+
+```python
+import random
+randn = random.randint(1, 100)
 ```
 
-## 1. Generate Traffic Light
+Notice how you have to specify that randint function came from the random package by writing random.randint().
+
+**-- OR --**
+
+Alternatively, to avoid having to reference the `random` package every time you call the `randint()` function, you can import `randint()` specifically like this:
 
 ```python
 from random import randint
-
-randn = randint(1,3) # generates a random number from 1 to 3
-# if 1, print 'red'
-# if 2, print 'green',
-# if 3, print 'blue'
+randn = randint(1, 100)
 ```
 
-## 2. Generate Phone Number w/Area Code
+## Practice Problem Set 1: Random Numbers
 
-```python
-from random import randint
+#### p1. Generate Traffic Light
 
-# generate a random phone number of the form:
-# 1-718-786-2825
-# This should be a string
-# Valid Area Codes are: 646, 718, 212
-# if phone number doesn't have this area code, pick
-# one of the above at random
-```
-## 3. Play RPS
+Import Python's randint function, and then generates a random number from 1 to 3.
+
+* if 1, print 'red'
+* if 2, print 'green',
+* if 3, print 'yellow'
+
+#### p2. Generate Phone Number w/Area Code
+
+## Practice Problem Set 2: Rock, Paper, Scissors
+
+#### p1. Play RPS
 
 ```python
 
@@ -347,7 +352,7 @@ p2 = 'r' # or 'p' or 's'
 # "r", "p", or "s"
 ```
 
-## 🚗 4. Play RPS w/Computer
+#### p2. Play RPS w/Computer
 
 
 ```python
@@ -366,7 +371,7 @@ p2 = # randomly choose 'r' or 'p' or 's'
 
 ```
 
-## 🚗 5. Play RPS w/Input
+#### p3. Play RPS w/Input
 
 ```python
 
@@ -382,7 +387,7 @@ p2 = # from user input
 # "r", "p", or "s"
 ```
 
-## 6. Play RPS w/Bad Input
+#### p4. Play RPS w/Bad Input
 
 This is the same as the original RPS problem, except that cannot expect the input to be valid. While we *want* `r` or `p` or `s`, there is a possibility that input can be anything like...
 
@@ -405,7 +410,7 @@ p2 = # from user input
 # "r", "p", or "s"
 ```
 
-## 7. Play RPS against Computer
+#### p4. Play RPS against Computer
 
 ```python
 
@@ -422,7 +427,9 @@ p2 = # randomly generated against computer
 
 ```
 
-## 8. Calculate Grade
+## Practice Problem Set 3: Logic
+
+#### p1. Calculate Grade
 
 ```python
 grade = 15 # expect this to be a number
@@ -441,7 +448,7 @@ grade = 15 # expect this to be a number
 
 **Challenge**: Can you `raise` an error if unexpected input supplied vs just printing out `Error`? What's the difference?
 
-## 9. Sign of Product
+#### p2. Sign of Product
 
 Given three numbers, `a, b, c`, **without** multiplying, determine the **sign** of their product.
 
@@ -449,13 +456,13 @@ Given three numbers, `a, b, c`, **without** multiplying, determine the **sign** 
 
 **EXAMPLE**: `a = 5, b = 6, c = -4`, print `-1`
 
-## 10. Any Uppercase
+#### p3. Any Uppercase
 
 Given a string `str`, determine if there are any uppercase values in it. Use only conditional statements and string methods (you may have to look some up!)
 
 **EXAMPLE**: `str = "teSt"`, print `True`
 
-## 11. IsEmptyString
+#### p4. IsEmptyString
 
 Given any empty string, of the form:
 
