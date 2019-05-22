@@ -25,6 +25,7 @@
 
 ### When are office hours?
 
+Office hours will be Thursday evening from 8:30-9:30pm.
 
 
 ### Where can I find MORE practice problems?

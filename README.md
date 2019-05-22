@@ -17,7 +17,8 @@ Here are all the lectures for this course. This section will be updated with not
 ### [GETTING STARTED](src/Intro/README.md)
 1. **[Tools and Resources](src/Intro/tools.md)**
 2. **[Setting Up Our Environment](src/Intro/environment.md)**
-3. **[Jupyter Notebooks](src/Intro/running_py_locally.md)**
+3. **[Running Python Locally](src/Intro/running_py_locally.md)**
+4. **[FAQ](src/Intro/FAQ.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
 1. ✅  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
 2. **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
@@ -144,7 +145,7 @@ Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I
 
 <img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla4.jpeg?raw=true" width="200" align="left"> 
 
-<br>
+<br><br><br><br>
 
 <img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" width="200" align="left"> 
 
