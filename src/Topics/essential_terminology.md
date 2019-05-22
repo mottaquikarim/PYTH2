@@ -70,7 +70,7 @@ Aside from these fundamental concepts, we also talk a lot about this idea of **a
 Algorithms can be as **simple** as converting temperatures from Fahrenheit to Celsius or as **complex** as processing payment for a purchase using facial recognition software. Others example include...
 
 * Managing what content to display based on search parameters
-* Calculating the interest total interest paid on a mortgage based on the interest rate and # of payments since the mortgage was issued.
+* Calculating the total interest paid on a mortgage based on the interest rate and # of payments since the mortgage was issued.
 * Collecting user behavior data to analyze their interests and make better recommendations
 
 ## Thinking Programmatically w. Pseudocode
@@ -233,11 +233,12 @@ resultant numbers = 2, 4, 6, 16, 10
 
 """
 - If p1 plays rock and p2 plays rock, display tie
-- If p1 plays scissor and p2 plays scissor, display tie
-- If p1 plays paper and p2 plays paper, display tie
 - If p1 plays rock and p2 plays paper, display p2 as winner
+- If p1 plays rock and p2 plays scissor, display p2 as winner
+- If p1 plays scissor and p2 plays scissor, display tie
 - If p1 plays scissor and p2 plays rock, display p2 as winner
 - If p1 plays scissor and p2 plays paper, display p1 as winner
+- If p1 plays paper and p2 plays paper, display tie
 - If p1 plays paper and p2 plays rock, display p1 as winner
 - If p1 plays paper and p2 plays scissor, display p2 as winner
 """

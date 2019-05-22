@@ -2,7 +2,7 @@
 {"next":"Homework/hwk2.md","title":"Homework 1"}
 -->
 
-# Homework 1
+# Homework 2
 
 From the **[Class PSETs](https://github.com/mottaquikarim/pydev-psets)**, solve:
 
@@ -11,4 +11,4 @@ From the **[Class PSETs](https://github.com/mottaquikarim/pydev-psets)**, solve:
 
 ## How to Submit
 
-Please zip up the files and DM your IA and instructor.
+Please zip up the files and DM your instructor.
