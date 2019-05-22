@@ -345,36 +345,45 @@ Import Python's randint function, and then generates a random number from 1 to 3
 ```
 
 
-## Practice Problem Set 2: Rock, Paper, Scissors
+## Practice Problem Set 2: Rock, Paper, Scissors (RPS)
 
 #### p1. Play RPS
 
-```python
+Given a p1 and p2
+* print 1 if p1 has won
+* print 2 if p2 has won
+* print 0 if they tie
+* print -1 if invalid input
 
-```
-
-#### p2. Play RPS w/Computer
-
-```python
-
-```
-
-
-#### p3. Play RPS w/Input
+When you assign each player's input, it should be 'r', 'p', or 's'.
 
 ```python
 
 ```
 
-#### p4. Play RPS w/Bad Input
+#### p2. Have Two Computers Play RPS
 
-This is the same as the original RPS problem, except that cannot expect the input to be valid. While we *want* `r` or `p` or `s`, there is a possibility that input can be anything like...
+Given a p1 and p2
+* print 1 if p1 has won
+* print 2 if p2 has won
+* print 0 if they tie
+* print -1 if invalid input
 
-* `ROCK` (all caps)
-* `R` (`r` but capitalized)
-* `PAPrrRR` (incorrectly spelled, upper/lowercased)
+You should expect both players' input for determining the winner to be either 'r', 'p', or 's'.
 
-Implement conditional statements that will sanitize the user input or let user know that input is invalid.
+```python
+
+```
+
+#### p3. Play RPS w. User Input
+
+Given a p1 and p2
+* print 1 if p1 has won
+* print 2 if p2 has won
+* print 0 if they tie
+* print -1 if invalid input
+
+You should expect both players' input for determining the winner to be either 'r', 'p', or 's'.
 
 ```python
 
@@ -382,7 +391,17 @@ Implement conditional statements that will sanitize the user input or let user k
 
 #### p4. Play RPS against Computer
 
+Given a p1 and p2
+* print 1 if p1 has won
+* print 2 if p2 has won
+* print 0 if they tie
+* print -1 if invalid input
 
+You should expect both players' input for determining the winner to be either 'r', 'p', or 's'.
+
+```python
+
+```
 
 ## Practice Problem Set 3: Logic
 
