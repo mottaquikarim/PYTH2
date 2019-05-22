@@ -332,7 +332,18 @@ Import Python's randint function, and then generates a random number from 1 to 3
 * if 2, print 'green',
 * if 3, print 'yellow'
 
+```python
+
+```
+
 #### p2. Generate Phone Number w/Area Code
+
+Import Python's randint function, and then generates a random number from 1 to 3.
+
+```python
+
+```
+
 
 ## Practice Problem Set 2: Rock, Paper, Scissors
 
@@ -340,51 +351,19 @@ Import Python's randint function, and then generates a random number from 1 to 3
 
 ```python
 
-p1 = 'r' # or 'p' or 's'
-p2 = 'r' # or 'p' or 's'
-
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
 ```
 
 #### p2. Play RPS w/Computer
 
-
 ```python
-from random import randint
-
-p1 = # randomly choose 'r' or 'p' or 's'
-p2 = # randomly choose 'r' or 'p' or 's'
-
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
 
 ```
+
 
 #### p3. Play RPS w/Input
 
 ```python
 
-p1 = # from user input
-p2 = # from user input
-
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
 ```
 
 #### p4. Play RPS w/Bad Input
@@ -398,63 +377,41 @@ This is the same as the original RPS problem, except that cannot expect the inpu
 Implement conditional statements that will sanitize the user input or let user know that input is invalid.
 
 ```python
-p1 = # from user input
-p2 = # from user input
 
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
 ```
 
 #### p4. Play RPS against Computer
 
-```python
 
-p1 = # from user input - we still want validation from above!
-p2 = # randomly generated against computer
-
-# Given a p1 and p2
-# print 1 if p1 has won
-# print 2 if p2 has won
-# print 0 if tie
-# print -1 if invalid input
-# expects both p1 and p2 inputs to be either
-# "r", "p", or "s"
-
-```
 
 ## Practice Problem Set 3: Logic
 
-#### p1. Calculate Grade
+#### p1. Calculate Letter Grade
+
+Write a program that will print the "letter" equivalent of the grade.
+
+* when grade = 90 # -> expect A
+* when grade = 80 # -> expect B
+* when grade = 70 # -> expect C
+* when grade = 60 # -> expect D
+* when grade = 54 # -> expect F
+* when grade = -10 # -> expect Error
+* when grade = 10000 # -> expect Error
+* when grade = "lol skool sucks" # -> expect Error
 
 ```python
-grade = 15 # expect this to be a number
 
-# write a program that will print the "letter" 
-# equivalent of the grade, for example:
-# when grade = 90 # -> expect A
-# when grade = 80 # -> expect B
-# when grade = 70 # -> expect C
-# when grade = 60 # -> expect D
-# when grade = 54 # -> expect F
-# when grade = -10 # -> expect Error
-# when grade = 10000 # -> expect Error
-# when grade = "lol skool sucks" # -> expect Error
 ```
-
-**Challenge**: Can you `raise` an error if unexpected input supplied vs just printing out `Error`? What's the difference?
 
 #### p2. Sign of Product
 
-Given three numbers, `a, b, c`, **without** multiplying, determine the **sign** of their product.
+Given three numbers, a, b, c, without multiplying, determine the sign of their product. If it's positive, print 1. If it's negative print -1.
 
-**EXAMPLE**: `a = -5, b = 6, c = -4`, print `1`
+* EXAMPLE: a = 5, b = 6, c = -4, print -1
 
-**EXAMPLE**: `a = 5, b = 6, c = -4`, print `-1`
+```python
+
+```
 
 #### p3. Any Uppercase
 
@@ -462,7 +419,11 @@ Given a string `str`, determine if there are any uppercase values in it. Use onl
 
 **EXAMPLE**: `str = "teSt"`, print `True`
 
-#### p4. IsEmptyString
+```python
+
+```
+
+#### p4. Empty Strings
 
 Given any empty string, of the form:
 
@@ -476,3 +437,6 @@ Given any empty string, of the form:
 
 determine if the `str` is empty or not (print `True` or `False`)
 
+```python
+
+```
