@@ -15,7 +15,6 @@
 
 1. **[Intros](https://mottaquikarim.github.io/rehearsal/public/stage.html?source=o66ry#/)**
 2. **[Tools](../Intro/tools.md)**
-4. **[Jupyter Notebooks](../Intro/jupyter_notebooks.md)**
 5. **[Essential Terminology](../Topics/nb/essential_terminology.ipynb)**
 6. **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)**
 

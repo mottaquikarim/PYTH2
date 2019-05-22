@@ -11,7 +11,8 @@
 
 ## Agenda
 
-1. **[Conditionals](../Topics/nb/basic_data_types.ipynb)**
+1. **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)**
+2. **[Conditionals](../Topics/nb/basic_data_types.ipynb)**
 
 
 ## [Homework 1](../Homework/hwk1.md)
