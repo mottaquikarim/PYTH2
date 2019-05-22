@@ -2,7 +2,7 @@
 {"next":"Lectures_class2/Lecture3.md","title":"Conditionals - 5/23"}
 -->
 
-# Lecture 2: Control Flow & Conditionals
+# Lecture 2: Control Flow & Conditionals (5/23)
 
 ## Objectives
 
