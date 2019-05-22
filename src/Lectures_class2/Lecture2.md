@@ -16,6 +16,6 @@
 
 
 ## Homework
-**DUE TODAY** [Homework 0](../Homework/hwk0.md)
-[Homework 1](../Homework/hwk1.md) *Due Tuesday May 28th, 6:30PM*
+* **DUE TODAY** [Homework 0](../Homework/hwk0.md)
+* [Homework 1](../Homework/hwk1.md) *Due Tuesday May 28th, 6:30PM*
 
