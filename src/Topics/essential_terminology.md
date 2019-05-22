@@ -150,7 +150,9 @@ otherwise...
 """
 ```
 
-#### **PRACTICE 2**: You have a recipe and want to convert the ingredient amounts into metric units.
+#### **PRACTICE 2**: You have a recipe and want to convert the ingredient amounts into metric units. The first 3 ingredients are 0.5 tbsp butter, 1.5 cups flour, and 2 ounces milk. Hint: Metric conversions for these are: tbsp become grams, ounces become grams, & cups become mL.
+
+**NOTE!** There are MANY units to consider here, as well as solid vs. liquid units. To simplify this example, we'll only look at the 3 above!
 
 ```python
 # Practice 2 Answer...
@@ -169,30 +171,28 @@ otherwise...
 # OR
 
 """
-
 ingredients is a collection of ingredient names, numerical amounts, and units like so:
 
 ingredients =
   'butter', 0.5, 'tbsp'
-  'sugar', 2, 'ounces'
   'flour', 1.5, 'cups'
+  'milk', 2, 'ounces'
 
 
-if unit for 'butter' == 'tbsp' then...
+for each ingredient...
+if unit for ingredient == 'tbsp' then...
   convert numerical amount of 'tbsp' to 'grams'
   if not, continue to next use case
-if unit for 'butter' == 'ounces' then...
-  convert numerical amount of 'ounces' to 'grams'
+
+if unit for ingredient == 'cups' then...
+  convert numerical amount of 'ounces' to 'mL'
   if not, continue to next use case
-if unit for 'butter' == 'cups' then...
+
+if unit for ingredient == 'ounces' then...
   convert numerical amount of 'cups' to 'grams'
 
 repeat above use cases for 'sugar'
 repeat above use cases for 'flour'
-
-
-This gets more complicated if you consider correct 
-solid vs. liquid units for different ingredients!
 """
 ```
 

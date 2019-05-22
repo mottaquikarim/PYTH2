@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/README.md","title":"Jupyter Notebooks"}
+{"next":"Intro/FAQ.md","title":"Running Python Locally"}
 -->
 
 # Running Python Locally
