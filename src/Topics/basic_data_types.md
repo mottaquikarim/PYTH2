@@ -119,12 +119,32 @@ Layla weighs 10.5 pounds.
 
 ### Practice Problem Set 1: Basic Data Types
 
-Open these notebooks and add your own code to solve these problems. **MAKE SURE YOU MAKE A COPY OF THE NOTEBOOK FIRST!!!**
+#### p1. Placeholders
+
+You're writing a program, and you don't know what your starting value for your 'initial' variable is yet. The program won't run if you leave it blank, but you don't want to forget you need it! Make a workaround.
+
+```python
+
+```
+
+#### p2. Basic Variables
+
+* A) Create a variable that represents your favorite number, and add a note to remind yourself what this variable represents. Now print it out without re-typing the number.
+
+* B) Create another variable that represents your favorite color, and do the same steps as above.
 
 
-* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p1.ipynb)
-* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p2.ipynb)
-* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/basics/nb/p3.ipynb)
+```python
+
+```
+
+#### p3. String Formatting
+
+Create a variable that contains the first 4 lines of your favorite song. Add a comment that includes the song title and artist **each on their own line**! Now print out this variable.
+
+```python
+
+```
 
 ## Typecasting
 
@@ -176,8 +196,60 @@ BUT a True boolean will only ever become 1 or 1.0."""
 
 ### Practice Problem Set 2: Typecasting
 
-* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p1.ipynb)
-* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p2.ipynb)
+#### p1. Typcasting w. Integers & Floats
+
+Convert the below numbers into floats and back. Print out each result as well as its data type.
+
+
+```python
+five = 5
+zero = 0
+neg_8 = -8
+neg_22 = -22
+
+```
+
+#### p2. Typcasting w. Strings
+
+Convert the below numbers into floats and back. Print out each result as well as its data type.
+
+```python
+five = 5
+zero = 0
+neg_8 = -8
+T = True
+F = False
+
+```
+
+#### p3. Typecasting Booleans I
+
+* A) Use typecasting to turn the below variables into boolean values. Print the result and the datatype of the result.
+* B) Use typecasting to turn the resultant variables from part A into floats. Print the result and the datatype of the result.
+* C) Use typecasting to turn the resultant variables from part B back into booleans. Print the result and the datatype of the result.
+* D) Use typecasting to turn the resultant variables from part C into integers. Print the result and the datatype of the result.
+* E) Use typecasting to turn the variable below into a boolean value. Print the result and the datatype of the result.
+
+```python
+one = 1
+zero = 0
+
+```
+
+#### p4. Typecasting Booleans II
+
+* A) Use typecasting to turn the below variables into boolean values. Print the result and the datatype of the result.
+* B) Use typecasting to turn the latest values for variables 'one' and 'zero' back into integers. Print the result and the datatype of the result.
+* C) Use typecasting to turn the latest values for variables 'bool_true' and 'bool_false' back into boolean values. Print the result and the datatype of the result.
+
+```python
+one = 1
+zero = 0
+T = True
+F = False
+
+```
+
 
 ## Simple Integer, Float, & String Operators
 
@@ -236,13 +308,121 @@ because you can't add a number to a string"""
 
 ### Practice Problem Set 3: Simple Operators
 
-* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p2.ipynb)
-* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p1.ipynb)
+#### p1. Integer & Float Operators
+
+Complete the specified math operations. Do the next operation on the result from the previous operation.
+
+orig_var = 100
+
+* A) Add 50
+* B) Subtract 90
+* C) Multiply 10
+* D) Divide 150
+* E) Modulus 3
+
+```python
+
+```
+
+#### p2. String Operators
+
+Create two variables, each of which is half of a compound sentence. Do NOT add any punctuation up front. Add the two variables together, and print the result.
+
+*Example compound sentence:* "I'll go to the beach today and I'll go snorkeling"
+
+```python
+
+```
 
 ### Practice Problem Set 4: Put it all together!
 
-* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p3.ipynb)
-* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p4.ipynb)
+#### p1. Shopping List Calculator I
+
+*(see directions in code below)*
+
+**Hint**: You can decide the number of decimal places to show from floats using the below. However, it returns a string! If you want to do math with it, you have to convert it back to a float.
+
+```python
+print(format(3.14159, '.2f')) # 3.14
+```
+
+```python
+# A) Create five variables, and set them to strings that represent 5 common shopping list items
+item_name_1 = None
+item_name_2 = None
+item_name_3 = None
+item_name_4 = None
+item_name_5 = None
+
+
+# B) Create five more variables, and set them to floats that represent the prices of each of the items above
+item_price_1 = None
+item_price_2 = None
+item_price_3 = None
+item_price_4 = None
+item_price_5 = None
+
+# C) Create five more variables, and set them to ints that represent the quantity of each of the items above
+item_quant_1 = None
+item_quant_2 = None
+item_quant_3 = None
+item_quant_4 = None
+item_quant_5 = None
+
+# D) *Print to the console the name and price of each item defined above per the following example:*
+"""
+1 Coco Puffs = $8.95, where:
+   1 would be item_quant_1
+   Coco Puffs would be item_name_1
+   8.95 would be item_name_2
+"""
+
+
+```
+
+#### p2. Shopping List Calculator II
+
+* Rewrite p1, but this time use the `input()` function to solicit user input for name, price, quantity. Here's how it works:
+
+```python
+item_name_1 = input('Name your first item')
+# this will ask user to input value of item_name_1
+```
+
+```python
+# A) Create five variables, and set them to strings that represent 5 common shopping list items
+item_name_1 = None
+item_name_2 = None
+item_name_3 = None
+item_name_4 = None
+item_name_5 = None
+
+
+# B) Create five more variables, and set them to floats that represent the prices of each of the items above
+item_price_1 = None
+item_price_2 = None
+item_price_3 = None
+item_price_4 = None
+item_price_5 = None
+
+# C) Create five more variables, and set them to ints that represent the quantity of each of the items above
+item_quant_1 = None
+item_quant_2 = None
+item_quant_3 = None
+item_quant_4 = None
+item_quant_5 = None
+
+# D) *Print to the console the name and price of each item defined above per the following example:*
+"""
+1 Coco Puffs = $8.95, where:
+   1 would be item_quant_1
+   Coco Puffs would be item_name_1
+   8.95 would be item_name_2
+"""
+
+
+```
+
 
 ## Additional Resources
 
