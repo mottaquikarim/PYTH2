@@ -69,7 +69,6 @@ good_with_other_cats = False
 good_with_other_dogs = None
 ```
 
-
 ### String Formatting
 
 Strings have some special qualities that make dealing with them easier. For instance, you can store several separate snippets of text within a single string. One way to do this is adding `\n` to signify that you want to create a new line. However, there's another way to do this that makes it much more readable! To do this, you can use triple quotes i.e. `'''` or `"""`. You can use single and double quotes within the string freely, so no need to worry about that detail!
@@ -181,8 +180,6 @@ BUT a True boolean will only ever become 1 or 1.0."""
 
 * [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p1.ipynb)
 * [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p2.ipynb)
-* [PRACTICE 3](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p3.ipynb)
-* [PRACTICE 4](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p4.ipynb)
 
 ## Simple Integer, Float, & String Operators
 
@@ -244,6 +241,11 @@ because you can't add a number to a string"""
 * [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p2.ipynb)
 * [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/operators/nb/p1.ipynb)
 
+### Practice Problem Set 4: Put it all together!
+
+* [PRACTICE 1](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p3.ipynb)
+* [PRACTICE 2](https://colab.research.google.com/github/mottaquikarim/pydev-psets/blob/master/pset_basic_data_types/typecasting/nb/p4.ipynb)
+
 ## Additional Resources
 
 * [A Repl.it Summarizing Print Statements](https://repl.it/@brandiw/Python-01-Variables-4?lite=true)
@@ -255,4 +257,3 @@ because you can't add a number to a string"""
 * [Python-Strings](https://www.tutorialspoint.com/python/python_strings.htm)
 * [String Concatenation and Formatting](http://www.pythonforbeginners.com/concatenation/string-concatenation-and-formatting-in-python)
 * [String Concatenation and Formatting - Video](https://www.youtube.com/watch?v=jA5LW3bR0Us)
-
