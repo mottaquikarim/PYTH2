@@ -116,6 +116,27 @@ Layla is 8 years old.
 Layla weighs 10.5 pounds.
 """
 ```
+
+**Pro Tip**: You can use several versions of the the `.strip()` function to remove leading and trailing spaces from strings.
+
+* `lstrip()`: remove all leading AND trailing spaces
+* `rstrip()`: remove all leading AND trailing spaces
+* `strip()`: remove all leading AND trailing spaces
+
+```python
+a = '    hi mom!'
+print(f'LEADING SPACES: \n{a} \n{a.strip()}\n\n')
+
+
+b = 'hi mom!    '
+print(f'TRAILING SPACES: \n{b} \n{c.strip()}\n\n')
+
+
+c = '    hi mom!    '
+# print(c, '\n', c.strip(), '\n\n')
+print(f'LEADING & TRAILING SPACES: \n{c} \n{c.strip()}')
+```
+
 ## Typecasting
 
 ### `type()`
@@ -164,7 +185,7 @@ string_to_float = str('strawberry') # ERROR!
 
 #### Converting Booleans
 
-As you'll see below, you can convert any number to a True boolean, BUT a True boolean will only ever become 1 or 1.0.
+As you'll see below, you can convert any number to a True boolean, BUT a True boolean will only ever become 1 or 1.0. Notice that the **ONLY** way a string converted into a boolean will be False is if it's **empty**. Spaces count as characters even though they wouldn't display anything if printed.
 
 ```python
 """EVALS TO TRUE"""
@@ -177,10 +198,6 @@ int_to_boolean = bool(0) # False, <class 'bool'>
 float_to_boolean = bool(0.0) # False, <class 'bool'>
 string_to_boolean = bool('') # False, <class 'bool'>
 ```
-
-Notice that the **ONLY** way a string converted into a boolean will be False is if it's empty. Spaces count as characters even though they wouldn't display anything if printed.
-
-**Pro Tip**: You can use the `.strip()` function to remove trailing spaces from strings.
 
 ## Simple Integer, Float, & String Operators
 
