@@ -128,6 +128,7 @@ print(my_class)
 ### Edit Items in a List
 
 #### `l[index:index]=`
+
 To *replace* items in a list by their index position, you can use the same syntax for adding a single new value. You simply reference which indeces you want to replace and specify the new values.
 
 ```python
@@ -283,79 +284,6 @@ print(9 in set_1) # False
 
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
-## Practice PSET 1: Simple List operations
-
-1. Create a **list** with the names `"Holly"`, `"Juan"`, and `"Ming"`.
-2. Print the third name.
-3. Create a **list** with the numbers `2`,`4`, `6`, and `8`.
-4. Print the first number.
-
-```python
-# 1.
-
-# 2.
-
-# 3.
-
-# 4.
-
-```
-
-## Practice PSET 2: Editing & Manipulating Lists
-
-1. Declare a list with the names of your classmates
-2. Print out the length of that list
-3. Print the 3rd name on the list
-4. Delete the first name on the list
-5. Re-add the name you deleted to the end of the list
-6. You work for Spotify and are creating a feature for users to alphabetize their playlists by song title. Below are is a list of titles from one user's playlist. Alphabetize these songs.
-`playlist_titles = ["Rollin' Stone", "At Last", "Tiny Dancer", "Hey Jude", "Movin' Out"]`
-7. Create a list with 6 numbers and sort it in descending order.
-
-```python
-# 1.
-
-# 2.
-
-# 3.
-
-# 4.
-
-# 5. 
-
-# 6.
-
-# 7.
-  
-```
-
-## Practice PSET 3: Math Operations
-
-1. Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`.
-2. Print the max of `numbers`.
-3. Pop the last element in `numbers` off; re-insert it at index `2`.
-4. Pop the second number in `numbers` off.
-5. Append `3` to `numbers`.
-6. Print out the average number.
-7. Print `numbers`.
-
-```python
-# 1.
-
-# 2.
-
-# 3.
-
-# 4.
-
-# 5. 
-
-# 6.
-
-# 7.
-
-  
-```
 
 ## Additional Resources
 
