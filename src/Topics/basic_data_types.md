@@ -117,7 +117,7 @@ Layla weighs 10.5 pounds.
 """
 ```
 
-### Practice Problem Set 1: Basic Data Types
+### Practice PSET 1: Basic Data Types
 
 #### p1. Placeholders
 
@@ -213,7 +213,7 @@ Notice that the **ONLY** way a string converted into a boolean will be False is 
 
 **Pro Tip**: You can use the `.strip()` function to remove trailing spaces from strings.
 
-### Practice Problem Set 2: Typecasting
+### Practice PSET 2: Typecasting
 
 #### p1. Typcasting w. Integers & Floats
 
@@ -324,7 +324,7 @@ print('this will not work' + 4) doesn't work
 because you can't add a number to a string"""
 ```
 
-### Practice Problem Set 3: Simple Operators
+### Practice PSET 3: Simple Operators
 
 #### p1. Integer & Float Operators
 
@@ -392,7 +392,7 @@ f = False
 
 ```
 
-### Practice Problem Set 4: Put it all together!
+### Practice PSET 4: Put it all together!
 
 #### p1. Shopping List Calculator I
 

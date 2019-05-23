@@ -4,9 +4,9 @@
 
 # Homework 1
 
-1. From the **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)** section, solve "Practice Problem Set 4: Putting it all together".
+1. From the **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)** section, solve "Practice PSET 4: Putting it all together".
 
-2. From the **[Conditionals](../Topics/nb/conditionals.ipynb)** section, solve "Practice Problem Set 4: Rock, Paper, Scissors (RPS)".
+2. From the **[Conditionals](../Topics/nb/conditionals.ipynb)** section, solve "Practice PSET 4: Rock, Paper, Scissors (RPS)".
 
 ## How to Submit
 

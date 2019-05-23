@@ -4,9 +4,7 @@
 
 # Homework 4
 
-From the **[Class PSETs](https://github.com/mottaquikarim/pydev-psets)**, solve:
-
-1. [Classes](https://github.com/mottaquikarim/pydev-psets#classes)
+*tbd...*
 
 ## How to Submit
 

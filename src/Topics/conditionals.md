@@ -322,7 +322,7 @@ from random import randint
 randn = randint(1, 100)
 ```
 
-## Practice Problem Set 1: Weather
+## Practice PSET 1: Weather
 
 #### p1. Do you need boots
 
@@ -386,7 +386,7 @@ is_it_muggy = None
 do_i_need_coat = None
 ```
 
-## Practice Problem Set 2: Random Numbers
+## Practice PSET 2: Random Numbers
 
 #### p1. Generate Traffic Light
 
@@ -408,7 +408,7 @@ Import Python's randint function, and then generates a random number from 1 to 3
 
 ```
 
-## Practice Problem Set 3: Logical Conditional Statements
+## PSET 3: Logical Conditional Statements
 
 #### p1. Calculate Letter Grade
 
@@ -465,7 +465,7 @@ determine if the `str` is empty or not (print `True` or `False`)
 
 ```
 
-## Practice Problem Set 4: Rock, Paper, Scissors (RPS)
+## Practice PSET 4: Rock, Paper, Scissors (RPS)
 
 #### p1. Play RPS
 

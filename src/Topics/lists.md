@@ -283,7 +283,7 @@ print(9 in set_1) # False
 
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
-## Practice Problem Set 1: Simple List operations
+## Practice PSET 1: Simple List operations
 
 1. Create a **list** with the names `"Holly"`, `"Juan"`, and `"Ming"`.
 2. Print the third name.
@@ -301,7 +301,7 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
 
 ```
 
-## Practice Problem Set 2: Editing & Manipulating Lists
+## Practice PSET 2: Editing & Manipulating Lists
 
 1. Declare a list with the names of your classmates
 2. Print out the length of that list
@@ -329,7 +329,7 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
   
 ```
 
-## Practice Problem Set 3: Math Operations
+## Practice PSET 3: Math Operations
 
 1. Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`.
 2. Print the max of `numbers`.
