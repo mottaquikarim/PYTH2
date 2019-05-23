@@ -13,8 +13,8 @@
 
 ## Agenda
 
-1. **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)**
-2. **[Conditionals](../Topics/nb/conditionals.ipynb)**
+1. **[Basic Data Types](https://colab.research.google.com/drive/1WiGwiP9dAWqKE02P_GAIf3UTWJbZOsGU#scrollTo=T1gTHPUW5BOI)**
+2. **[Conditionals](https://colab.research.google.com/drive/167SK5A_nLNUKDF-GbHHITS6ztdnKEUT-#scrollTo=QzlIvEGDoOFC)**
 
 
 ## Homework
