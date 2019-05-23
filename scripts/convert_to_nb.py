@@ -1,6 +1,8 @@
 import nbformat
 
 from nbformat.v4 import new_notebook, new_code_cell, new_markdown_cell
+from os import listdir
+from os.path import isfile, join
 
 from conf import DEFAULT_FIRST_FILE_NB, IPYTHON_DIRS
 from utils import get_ipynb_path, mrkdown_details
@@ -51,6 +53,16 @@ def convert_to_nb(dirname, filter_, first_file=DEFAULT_FIRST_FILE_NB):
     pass
 
 
+def convert_psets(dirname):
+    onlyfiles = [f for f in listdir(dirname) if isfile(join(dirname, f))]
+    for f in onlyfiles:
+        fh = open(f'{dirname}/{f}')
+        mrkdown_to_nb(fh.read().split('\n'), f'{dirname}/{f}')
+
+    print(onlyfiles)
+
 if __name__ == "__main__":
     for filter_ in IPYTHON_DIRS:
         convert_to_nb('src', filter_=filter_)
+
+    convert_psets('src/PSETS')
