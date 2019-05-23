@@ -2,9 +2,10 @@
 
 ## SHOPPING_LIST
 
+```python
+```
+
 ### P1.PY
-
-
 
 ```python
 """
