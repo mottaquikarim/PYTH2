@@ -148,7 +148,9 @@ Create a variable that contains the first 4 lines of your favorite song. Add a c
 
 ## Typecasting
 
-#### Check what data type is stored in a variable using the `type()` statement or the `isinstance()` statement.
+### `type()`
+
+Check what data type is stored in a variable using the `type()` statement or the `isinstance()` statement.
 
 ```python
 # Example 1 - type()
@@ -167,32 +169,49 @@ d = False
 print(f'Is {d} a boolean?', isinstance(d, bool)) # True
 ```
 
-#### Typecasting is a way to convert an instance of one data type to another.
+### Convert Values Into Different Data Types
+
+**Typecasting** is a way to convert an instance of one data type to another. Numbers are the most flexible for converting, while strings are very inflexible. Booleans get a bit more complicated, so we'll look at those last!
+
+#### Converting Numbers
 
 ```python
-# Convert int to str
-a = str(10)
-print(f'{a} is a {type(a)} type.') # '10'
+"""INTEGERS"""
+int_to_float = float(10) # 10.0, <class 'float'>
+int_to_string = str(10) # 10, <class 'str'>
 
-
-# Convert str to int
-b = int('10')
-print(f'{b} is a {type(b)} type.') # 10
-### int('tasdfa') # throws a ValueError
-
-
-# Convert int to bool
-c = bool(10) # True
-d = bool(0) # False
-
-# Convert bool to int or float
-e = int(True) # 1
-f = float(True) # 1.0
-g = int(False) # 0
-h = float(False) # 0.0
-"""You can convert any number to a True boolean,
-BUT a True boolean will only ever become 1 or 1.0."""
+"""FLOATS"""
+float_to_int = int(2.5) # 2, <class 'float'>
+# Notice it does NOT ROUND!
+float_to_string = str(2.5) # '2.5', <class 'str'>
 ```
+
+#### Converting Strings
+
+```python
+string_to_int = int('mango') # ERROR!
+string_to_float = str('strawberry') # ERROR!
+```
+
+#### Converting Booleans
+
+As you'll see below, you can convert any number to a True boolean, BUT a True boolean will only ever become 1 or 1.0.
+
+```python
+# EVALS TO TRUE
+int_to_boolean = bool(10) # True, <class 'bool'>
+float_to_boolean = bool(2.5) # True, <class 'bool'>
+string_to_boolean = bool('peach') # True, <class 'bool'>
+
+# RESULTS TO FALSE
+int_to_boolean = bool(0) # False, <class 'bool'>
+float_to_boolean = bool(0.0) # False, <class 'bool'>
+string_to_boolean = bool('') # False, <class 'bool'>
+```
+
+Notice that the **ONLY** way a string converted into a boolean will be False is if it's empty. Spaces count as characters even though they wouldn't display anything if printed.
+
+**Pro Tip**: You can use the `.strip()` function to remove trailing spaces from strings.
 
 ### Practice Problem Set 2: Typecasting
 
