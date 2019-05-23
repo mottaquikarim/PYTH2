@@ -12,7 +12,7 @@
 ## Agenda
 
 1. **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)**
-2. **[Conditionals](../Topics/nb/basic_data_types.ipynb)**
+2. **[Conditionals](../Topics/nb/conditionals.ipynb)**
 
 
 ## Homework

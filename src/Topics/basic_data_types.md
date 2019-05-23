@@ -352,6 +352,46 @@ Create two variables, each of which is half of a compound sentence. Do NOT add a
 
 ```
 
+#### p3. Addition I - Numbers & Strings
+
+Add the below sets of variables together.
+
+```python
+a = 0
+b = 2
+
+###
+
+c = '0'
+d = '2'
+
+###
+
+e = "0"
+f = 2
+
+```
+
+#### p4. Addition II - Booleans
+
+Add the below sets of variables together.
+
+```python
+a = True
+b = True
+
+###
+
+c = False
+d = False
+
+###
+
+e = True
+f = False
+
+```
+
 ### Practice Problem Set 4: Put it all together!
 
 #### p1. Shopping List Calculator I
@@ -394,8 +434,6 @@ item_quant_5 = None
    Coco Puffs would be item_name_1
    8.95 would be item_name_2
 """
-
-
 ```
 
 #### p2. Shopping List Calculator II

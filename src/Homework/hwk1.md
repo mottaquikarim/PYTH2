@@ -4,10 +4,9 @@
 
 # Homework 2
 
-From the **[Class PSETs](https://github.com/mottaquikarim/pydev-psets)**, solve:
+1. From the **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)** section, solve "Practice Problem Set 4: Putting it all together"
 
-1. [RPS](https://github.com/mottaquikarim/pydev-psets#rps-5-problems)
-2. [Logic Problems](https://github.com/mottaquikarim/pydev-psets#logic-5-problems)
+2. From the **[Conditionals](../Topics/nb/conditionals.ipynb)** section, solve Practice Problem Set 3: Logic Problems.
 
 ## How to Submit
 
