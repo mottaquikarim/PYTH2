@@ -159,7 +159,8 @@ print(my_class)
 
 Python has some built-in operations that allow you to analyze the content of a list. Some basic ones include:
 
-`len()`:
+#### `len()`
+
 This tells you how many items are in the list; can be used for lists composed of any data type (i.e. strings, numbers, booleans)
 
 ```python
@@ -171,7 +172,8 @@ print("There are", num_students, "students in the class")
 # => 5
 ```
 
-`sum()`:
+#### `sum()`
+
 This returns the sum of all items in *numerical lists*.
 
 ```python
@@ -184,7 +186,7 @@ print(f"The total of all the batting averages is {sum_avgs}")
 # => 2.409
 ```
 
-`min()` & `max()`: 
+#### `min()` & `max()`
 
 These return the smallest and largest numbers *in a numerical list* respectively.
 
@@ -199,11 +201,11 @@ print("The lowest batting average is", min(team_batting_avgs))
 # => 0.208
 ```
 
-#### Sorting Lists
+## Sorting Lists
 
-If you want to organize your lists better, you can sort them with the `sorted()` operator. At the some basic level, you can sort both numerically and alphabetically.
+If you want to organize your lists better, you can sort them with the `sorted()` operator. At the some basic level, you can sort both numerically and alphabetically. **NOTE!** You cannot sort a list that includes different data types. 
 
-**Numbers** - Ascending & Descending
+#### **Numbers** - Ascending & Descending
 
 ```python
 numbers = [1, 3, 7, 5, 6, 4, 2]
@@ -218,7 +220,7 @@ descending = sorted(numbers, reverse=True)
 print(descending) # [7, 6, 5, 4, 3, 2, 1]
 ```
 
-**Letters** - Alphabetically & Reverse
+#### **Letters** - Alphabetically & Reverse
 
 ```python
 letters = ['b', 'e', 'c', 'a', 'd']
@@ -229,8 +231,6 @@ print(ascending) # ['a', 'b', 'c', 'd', 'e']
 descending = sorted(letters, reverse=True)
 print(descending) # ['e', 'd', 'c', 'b', 'a']
 ```
-
-**NOTE!** You cannot sort a list that includes different data types. 
 
 ## Tuples
 
@@ -275,14 +275,14 @@ print(9 in set_1) # False
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
 
-## 🚗 1. Simple List operations
+## 1. Simple List operations
 
 1. Create a **list** with the names `"Holly"`, `"Juan"`, and `"Ming"`.
 2. Print the third name.
 3. Create a **list** with the numbers `2`,`4`, `6`, and `8`.
 4. Print the first number.
 
-## 🚗 2. Editing & Manipulating Lists
+## 2. Editing & Manipulating Lists
 
 1. Declare a list with the names of your classmates
 2. Print out the length of that list
@@ -293,9 +293,24 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
 `playlist_titles = ["Rollin' Stone", "At Last", "Tiny Dancer", "Hey Jude", "Movin' Out"]`
 7. Create a list with 6 numbers and sort it in descending order.
 
-## 🚗 3. Math Operations
+```python
+# 1.
 
-On your local computer, create a `.py` file named `list_practice.py`. In it:
+# 2.
+
+# 3.
+
+# 4.
+
+# 5. 
+
+# 6.
+
+# 7.
+  
+```
+
+## 3. Math Operations
 
 1. Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`.
 2. Print the max of `numbers`.
@@ -305,6 +320,23 @@ On your local computer, create a `.py` file named `list_practice.py`. In it:
 6. Print out the average number.
 7. Print `numbers`.
 
+```python
+# 1.
+
+# 2.
+
+# 3.
+
+# 4.
+
+# 5. 
+
+# 6.
+
+# 7.
+
+  
+```
 
 ## Additional Resources
 

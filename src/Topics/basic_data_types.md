@@ -250,7 +250,6 @@ F = False
 
 ```
 
-
 ## Simple Integer, Float, & String Operators
 
 **Operators** are shortcuts for manipulating values stored in variables.
