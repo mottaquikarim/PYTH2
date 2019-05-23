@@ -6,13 +6,12 @@
 
 In order to begin to truly write dynamic programs, we need to be able to work with *dynamic* data where we do not know how much of a certain type of variable we have.
 
-The problem, essentially is, **variables hold only one item**.
+The problem, essentially is, *variables hold only one item*. **Lists** hold multiple items - and lists can hold any datatype.
 
 ```python
-my_color = "red"
-my_peer = "Brandi"
+my_color = 'red'
+my_peer = 'Brandi'
 ```
-Lists hold multiple items - and lists can hold any datatype.
 
 ## Creating lists
 
@@ -24,7 +23,13 @@ grades = [100, 99, 65, 54, 19] #numbers
 bools = [True, False, True, True] #booleans
 ```
 
-To create a new **blank** list, simply use ```python blank_list = list()```.
+To create a new **blank** list, you have two options:
+
+```python
+blank_list1 = list()
+
+blank_list2 = []
+```
 
 ## Accessing Elements in the List
 
@@ -45,10 +50,10 @@ print(my_class[4]) # Prints "Dasha"
 
 ## Built-In Operations for Manipulating Lists
 
-#### Add or Edit Items to a List
+### Add Items to a List
 If you want to extend the content of a single list, you can use `.append()`, `.extend()` `.insert()` to add elements of any data type.
 
-`.append()` & `.extend()`:
+#### `.append()` vs. `.extend()`
 These methods both add items to the end of the list. The difference here is that `.append()` will add whatever value or group of values you pass it *in one chunk*. In contrast, if you pass a group of values into `.extend()`, it will add each element of the group *individually*. Here are a few examples to show you the difference in outcomes.
 
 ```python
@@ -75,7 +80,7 @@ print(x) # ['a', 'b', 'c', 'd', 'e', ('f', 'g'), ['h', 'i'], 'j']
 
 Notice that `.extend()` only considers individual values of the parent list. It still added the tuple and list - `('f', 'g')` and `['h', 'i']` - to our list `x` as their own items.
 
-`.insert(index, value)`:
+#### `.insert(index, value)`
 If you want to add an item to a specific point in your list, you can pass the desired index and value into `.insert()` as follows.
 
 ```python
@@ -87,46 +92,10 @@ print(my_class)
 # => ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
 ```
 
-`l[index:index]=`:
-To *replace* items in a list by their index position, you can use the same syntax for adding a single new value. You simply reference which indeces you want to replace and specify the new values.
-
-```python
-x = ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
-x[1] = 'Raju'
-x[6:] = ['Chloe', 'Phoebe']
-print(x) # ['Brandi', 'Raju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Chloe', 'Phoebe']
-```
-
-`.join()`:
-If you need to, you can compile your list items into a single string.
-
-```python
-letters = ['j', 'u', 'l', 'i', 'a', 'n', 'n', 'a']
-name = ''.join(letters)
-print(name) # 'julianna'
-
-words = ['this', 'is', 'fun']
-sentence = ' '.join(words)
-print(f'{sentence}.') # 'this is fun.'
-```
-
-`.split('by_char')`:
-You can also do the opposite - split values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split()` will use a space character to split the string.
-
-```python
-x = 'this is fun'
-sentence = x.split() # note - using default split char at space
-print(sentence) # ['this', 'is', 'fun']
-
-y = 'Sandra,hi@email.com,646-212-1234,8 Cherry Lane,Splitsville,FL,58028'
-data = y.split(',')
-print(data) # ['Sandra', 'hi@email.com', '646-212-1234', '8 Cherry Lane', 'Splitsville', 'FL', '58028']
-```
-
-#### Remove Items from a List
+### Remove Items from a List
 Likewise, you can use `.pop()` or `.pop(index)` to remove any type of element from a list.
 
-`.pop()`:
+#### `.pop()`
 - Removes an item from the end of the list.
 
 ```python
@@ -140,7 +109,8 @@ print(my_class)
 # => ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 ```
 
-`.pop(index)`:
+#### `.pop(index)`
+
 - Removes an item from the list.
 - Can take an index.
 
@@ -153,6 +123,44 @@ print("The student", student_that_left, "has left the class.")
 # => "Steve"
 print(my_class)
 # => ['Brandi', 'Zoe', 'Aleksander', 'Dasha']
+```
+
+### Edit Items in a List
+
+#### `l[index:index]=`
+To *replace* items in a list by their index position, you can use the same syntax for adding a single new value. You simply reference which indeces you want to replace and specify the new values.
+
+```python
+x = ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
+x[1] = 'Raju'
+x[6:] = ['Chloe', 'Phoebe']
+print(x) # ['Brandi', 'Raju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Chloe', 'Phoebe']
+```
+
+#### `.join()`
+If you need to, you can compile your list items into a single string.
+
+```python
+letters = ['j', 'u', 'l', 'i', 'a', 'n', 'n', 'a']
+name = ''.join(letters)
+print(name) # 'julianna'
+
+words = ['this', 'is', 'fun']
+sentence = ' '.join(words)
+print(f'{sentence}.') # 'this is fun.'
+```
+
+#### `.split('by_char')`
+You can also do the opposite - split values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split()` will use a space character to split the string.
+
+```python
+x = 'this is fun'
+sentence = x.split() # note - using default split char at space
+print(sentence) # ['this', 'is', 'fun']
+
+y = 'Sandra,hi@email.com,646-212-1234,8 Cherry Lane,Splitsville,FL,58028'
+data = y.split(',')
+print(data) # ['Sandra', 'hi@email.com', '646-212-1234', '8 Cherry Lane', 'Splitsville', 'FL', '58028']
 ```
 
 ## Built-in Operators for Analyzing Lists
@@ -256,7 +264,7 @@ print(score_1[0]) # 'Taq'
 
 ## Sets
 
-Sets are special lists in that they can only have **unique** elements
+Sets are special lists in that they can only have **unique** elements.
 
 ```python
 set_1 = {1,2,3,4,5} # this is a set, notice the {}
@@ -266,23 +274,34 @@ print(set_2) # {1,2,3,4,5}
 print(set_1 == set_2) # True
 ```
 
-Sets are not indexed, so you cannot access say the 3rd element in a set. Instead, you can:
+Sets are also not indexed, so you cannot access say the 3rd element in a set. Instead, you can,
 
 ```python
 print(2 in set_1) # True
 print(9 in set_1) # False
 ```
+
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
-
-## 1. Simple List operations
+## Practice Problem Set 1: Simple List operations
 
 1. Create a **list** with the names `"Holly"`, `"Juan"`, and `"Ming"`.
 2. Print the third name.
 3. Create a **list** with the numbers `2`,`4`, `6`, and `8`.
 4. Print the first number.
 
-## 2. Editing & Manipulating Lists
+```python
+# 1.
+
+# 2.
+
+# 3.
+
+# 4.
+
+```
+
+## Practice Problem Set 2: Editing & Manipulating Lists
 
 1. Declare a list with the names of your classmates
 2. Print out the length of that list
@@ -310,7 +329,7 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
   
 ```
 
-## 3. Math Operations
+## Practice Problem Set 3: Math Operations
 
 1. Save a list with the numbers `2`, `4`, `6`, and `8` into a variable called `numbers`.
 2. Print the max of `numbers`.
