@@ -327,3 +327,8 @@ randn = randint(1, 100)
 ```python
 
 ```
+
+### Class Practice PSETs
+
+[Conditionals & Control Flow](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/conditionals_inclass_psets.ipynb)
+
