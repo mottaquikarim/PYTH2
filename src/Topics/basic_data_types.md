@@ -237,11 +237,15 @@ print('this will not work' + 4) doesn't work
 because you can't add a number to a string"""
 ```
 
+### Class Practice PSETs
+
+
+[Basic Data Types]()
+
+### Practice PSET 2: Typecasting
+
+
 ### Practice PSET 3: Simple Operators
-
-
-
-### Practice PSET 4: Put it all together!
 
 
 
