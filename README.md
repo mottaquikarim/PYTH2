@@ -150,4 +150,4 @@ Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I
 
 <img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" width="200" align="left"> 
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla3.jpg?raw=true" width="200" align="left"> 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla3.jpg?raw=true" width="200" align="left">  
