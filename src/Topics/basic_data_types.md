@@ -239,15 +239,7 @@ because you can't add a number to a string"""
 
 ### Class Practice PSETs
 
-
-[Basic Data Types]()
-
-### Practice PSET 2: Typecasting
-
-
-### Practice PSET 3: Simple Operators
-
-
+[Basic Data Types](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/basic_data_inclass_psets.ipynb)
 
 ## Additional Resources
 
