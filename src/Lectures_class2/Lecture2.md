@@ -6,8 +6,10 @@
 
 ## Objectives
 
-1. Use comparison and equality operators to evaluate and compare statementsbasis by engineers and project/product managers on the job.
-2. Use if/elif/else conditionals to achieve control flow.
+1. Review basic data types
+2. Learn how to convert data into different types
+3. Use operators to evaluate data comparisons and logic
+4. Use if/elif/else conditionals to manage control flow.
 
 ## Agenda
 
