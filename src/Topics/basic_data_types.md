@@ -116,10 +116,6 @@ Layla is 8 years old.
 Layla weighs 10.5 pounds.
 """
 ```
-
-### Practice PSET 1: Basic Data Types
-
-
 ## Typecasting
 
 ### `type()`
@@ -133,7 +129,6 @@ print(type(a)) # <class 'int'>
 
 b = '2.5'
 print(type(b)) #  
-
 
 # Example 2 - isinstance()
 c = -1
