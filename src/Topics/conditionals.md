@@ -322,7 +322,71 @@ from random import randint
 randn = randint(1, 100)
 ```
 
-## Practice Problem Set 1: Random Numbers
+## Practice Problem Set 1: Weather
+
+#### p1. Do you need boots
+
+Use the values of the vars defined below to ouput the correct contextual answer to the questions below. (Note: The variables themselves ARE the questions.)
+
+Example:
+
+```python
+am_i_hungry = False
+am_i_tired = True
+do_i_need_to_stay_awake = False
+
+should_i_drink_coffee_now = am_i_tired and do_i_need_to_stay_awake
+```
+
+^^ This ^^ evaluates to False. If you're tired and don't need to stay awake, you don't need to drink coffee!
+
+```python
+is_it_raining = True
+is_it_snowing = False
+
+
+do_i_need_snow_boots = None
+can_i_skip_snow_boots = None
+do_i_need_rain_boots = None
+can_i_skip_rain_boots = None
+```
+
+#### p2. Is there precipitation?
+
+Repeat the same process as p1, using this new set of variables.
+
+```python
+sunny = True
+raining = True
+snowing = False
+
+is_it_sunny = None
+is_there_precipitation = None
+is_it_sleeting = None
+is_there_rainbow = None
+```
+
+#### p3. Describe the Weather
+
+Repeat the same process as p1, using this new set of variables.
+
+```python
+is_it_warm = True
+is_it_humid = True
+is_it_cold = False
+is_it_icy = False
+is_it_foggy = False
+is_it_windy = False
+is_it_overcast = True
+
+
+is_it_summer_weather = None
+is_rain_coming = None
+is_it_muggy = None
+do_i_need_coat = None
+```
+
+## Practice Problem Set 2: Random Numbers
 
 #### p1. Generate Traffic Light
 
@@ -344,8 +408,64 @@ Import Python's randint function, and then generates a random number from 1 to 3
 
 ```
 
+## Practice Problem Set 3: Logical Conditional Statements
 
-## Practice Problem Set 2: Rock, Paper, Scissors (RPS)
+#### p1. Calculate Letter Grade
+
+Write a program that will print the "letter" equivalent of the grade.
+
+* when grade = 90 # -> expect A
+* when grade = 80 # -> expect B
+* when grade = 70 # -> expect C
+* when grade = 60 # -> expect D
+* when grade = 54 # -> expect F
+* when grade = -10 # -> expect Error
+* when grade = 10000 # -> expect Error
+* when grade = "lol skool sucks" # -> expect Error
+
+```python
+
+```
+
+#### p2. Sign of Product
+
+Given three numbers, a, b, c, without multiplying, determine the sign of their product. If it's positive, print 1. If it's negative print -1.
+
+* EXAMPLE: a = 5, b = 6, c = -4, print -1
+
+```python
+
+```
+
+#### p3. Any Uppercase
+
+Given a string `str`, determine if there are any uppercase values in it. Use only conditional statements and string methods (you may have to look some up!)
+
+**EXAMPLE**: `str = "teSt"`, print `True`
+
+```python
+
+```
+
+#### p4. Empty Strings
+
+Given any empty string, of the form:
+
+```python
+''
+' '
+'  '
+# ...
+'        ' # etc
+```
+
+determine if the `str` is empty or not (print `True` or `False`)
+
+```python
+
+```
+
+## Practice Problem Set 4: Rock, Paper, Scissors (RPS)
 
 #### p1. Play RPS
 
@@ -398,63 +518,6 @@ Given a p1 and p2
 * print -1 if invalid input
 
 You should expect both players' input for determining the winner to be either 'r', 'p', or 's'.
-
-```python
-
-```
-
-## Practice Problem Set 3: Logic
-
-#### p1. Calculate Letter Grade
-
-Write a program that will print the "letter" equivalent of the grade.
-
-* when grade = 90 # -> expect A
-* when grade = 80 # -> expect B
-* when grade = 70 # -> expect C
-* when grade = 60 # -> expect D
-* when grade = 54 # -> expect F
-* when grade = -10 # -> expect Error
-* when grade = 10000 # -> expect Error
-* when grade = "lol skool sucks" # -> expect Error
-
-```python
-
-```
-
-#### p2. Sign of Product
-
-Given three numbers, a, b, c, without multiplying, determine the sign of their product. If it's positive, print 1. If it's negative print -1.
-
-* EXAMPLE: a = 5, b = 6, c = -4, print -1
-
-```python
-
-```
-
-#### p3. Any Uppercase
-
-Given a string `str`, determine if there are any uppercase values in it. Use only conditional statements and string methods (you may have to look some up!)
-
-**EXAMPLE**: `str = "teSt"`, print `True`
-
-```python
-
-```
-
-#### p4. Empty Strings
-
-Given any empty string, of the form:
-
-```python
-''
-' '
-'  '
-# ...
-'        ' # etc
-```
-
-determine if the `str` is empty or not (print `True` or `False`)
 
 ```python
 

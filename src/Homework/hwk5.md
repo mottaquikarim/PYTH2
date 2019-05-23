@@ -28,4 +28,6 @@
 
 ## How to Submit
 
-Please zip up the files and DM your IA and instructor.
+1. Name the Colab notebook with your answers per the naming convention "<your_name>_hwnum.ipynb", e.g. "taq_karim_hw1.ipynb"
+2. Grant edit access to your instructor.
+3. DM the file link to your instructor via Slack.
