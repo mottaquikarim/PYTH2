@@ -2,6 +2,9 @@
 
 ## BASICS
 
+```python
+```
+
 ### P1.PY
 
 This is an example problem, use print to view output.
