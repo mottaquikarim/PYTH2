@@ -2,7 +2,7 @@
 {"next":"Homework/hwk2.md","title":"Homework 1"}
 -->
 
-# Homework 2
+# Homework 1
 
 1. From the **[Basic Data Types](../Topics/nb/basic_data_types.ipynb)** section, solve "Practice Problem Set 4: Putting it all together"
 
