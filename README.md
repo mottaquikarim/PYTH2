@@ -21,7 +21,7 @@ Here are all the lectures for this course. This section will be updated with not
 4. **[FAQ](src/Intro/FAQ.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
 1. ✅  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
-2. **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
+2. ➡️  **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
 3. **[Lists, Tuples, & Sets - 5/28](src/Lectures_class2/Lecture3.md)**
 4. **[Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
 5. **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
@@ -59,13 +59,13 @@ Here are all the lectures for this course. This section will be updated with not
 16. **[Course Review](src/Topics/nb/course_review.ipynb)**
 17. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
-0. **[Homework 0](src/Homework/hwk0.md)**
-1. **[Homework 1](src/Homework/hwk1.md)**
-2. **[Homework 2](src/Homework/hwk2.md)**
-3. **[Homework 3](src/Homework/hwk3.md)**
-4. **[Homework 4](src/Homework/hwk4.md)**
-5. **[Homework 5](src/Homework/hwk5.md)**
-6. **[Final Project Reqs](src/Homework/final.md)**
+1. ➡️  **[Homework 0 DUE - 5/23](src/Homework/hwk0.md)**
+2. **[Homework 1](src/Homework/hwk1.md)**
+3. **[Homework 2](src/Homework/hwk2.md)**
+4. **[Homework 3](src/Homework/hwk3.md)**
+5. **[Homework 4](src/Homework/hwk4.md)**
+6. **[Homework 5](src/Homework/hwk5.md)**
+7. **[Final Project Reqs](src/Homework/final.md)**
 ### [RESOURCES](src/Resources/README.md)
 1. **[Python Glossary](src/Resources/python_glossary.md)**
 2. **[Basic Statistics](src/Resources/basic_stats.md)**
@@ -138,7 +138,7 @@ Some info about your instructors.
 
 Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I have experience in strategic roadmap planning, launching research-backed product features, orchestrating agile projects, directing technical client onboarding, analyzing data in R, and coding with HTML, CSS and Python. In my free time, I love traveling, volunteering with animals, cooking, and hearing live music. At home though, I'm probably reading or watching movies/TV, snuggled up with my cat, Layla Karim!
 
-<br><br><br><br>
+<br><br>
 
 ### Layla Karim
 
@@ -146,6 +146,8 @@ Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I
 
 <img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla4.jpeg?raw=true" width="200" align="left"> 
 
-<br><br>
+<br>
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" width="300" align="left">
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla2.jpg?raw=true" width="200" align="left"> 
+
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/layla3.jpg?raw=true" width="200" align="left"> 

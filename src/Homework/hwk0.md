@@ -1,5 +1,5 @@
 <!---
-{"next":"Homework/hwk1.md","title":"Homework 0 - DUE 5/23"}
+{"next":"Homework/hwk1.md","title":"Homework 0 DUE - 5/23"}
 -->
 
 # Homework 0
