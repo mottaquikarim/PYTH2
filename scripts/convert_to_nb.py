@@ -57,7 +57,7 @@ def convert_psets(dirname):
     onlyfiles = [f for f in listdir(dirname) if isfile(join(dirname, f))]
     for f in onlyfiles:
         fh = open(f'{dirname}/{f}')
-        mrkdown_to_nb(fh.read(), f'{dirname}/{f}')
+        mrkdown_to_nb(fh.read().split('\n'), f'{dirname}/{f}')
 
     print(onlyfiles)
 
