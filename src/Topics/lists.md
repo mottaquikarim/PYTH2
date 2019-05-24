@@ -212,31 +212,65 @@ print("The lowest batting average is", min(team_batting_avgs))
 
 ## Sorting Lists
 
-If you want to organize your lists better, you can sort them with the `sorted()` operator. At the some basic level, you can sort both numerically and alphabetically. **NOTE!** You cannot sort a list that includes different data types. 
+If you want to organize your lists better, you can sort them with the `.sort()` or `sorted()` functions. You can sort:
 
-#### **Numbers** - Ascending & Descending
+* Numbers: ascending and descending order
+* Strings: alphabetically and reverse alphabetically
+* You **cannot** sort a list that includes different data types. 
+
+It's important to remember that the `.sort()` function modifies the list *in place*, while the `sorted()` function requires you to assign its result back to the variable.
+
+#### `.sort()`
+
+The first two examples below illustrate how to sort lists in ascending order/alphabetically using `.sort()`.
 
 ```python
-numbers = [1, 3, 7, 5, 6, 4, 2]
+numbers = [1, 3, 7, 5, 2, 4, 6]
+numbers.sort()
+print(numbers) # [1, 2, 3, 4, 5, 6, 7]
 
+
+letters = ['b', 'e', 'c', 'a', 'd']
+letters.sort()
+print(letters) # ['a', 'b', 'c', 'd', 'e']
+```
+
+To do this in descending order, simply add `reverse=True` as an argument in `.sort()` like this:
+
+```python
+numbers = [1, 3, 7, 5, 2, 4, 6]
+numbers.sort(reverse = True)
+print(numbers) # [7, 6, 5, 4, 3, 2, 1]
+
+letters = ['b', 'e', 'c', 'a', 'd']
+letters.sort(reverse = True)
+print(letters) # ['e', 'd', 'c', 'b', 'a']
+```
+
+#### `sorted()`
+
+The first two examples below illustrate how to sort lists in **ascending order**/alphabetically using `sorted()`.
+
+```python
+numbers = [1, 3, 7, 5, 2, 4, 6]
 ascending = sorted(numbers)
 print(ascending) # [1, 2, 3, 4, 5, 6, 7]
-```
-To do this in descending order, simply add `reverse=True` as an argument in `sorted()` like this:
 
-```python
-descending = sorted(numbers, reverse=True)
-print(descending) # [7, 6, 5, 4, 3, 2, 1]
-```
 
-#### **Letters** - Alphabetically & Reverse
-
-```python
 letters = ['b', 'e', 'c', 'a', 'd']
-
 ascending = sorted(letters)
 print(ascending) # ['a', 'b', 'c', 'd', 'e']
+```
 
+To do this in **descending order**, simply add `reverse=True` as an argument in `.sorted()` like this:
+
+```python
+numbers = [1, 3, 7, 5, 2, 4, 6]
+descending = sorted(numbers, reverse=True)
+print(descending) # [7, 6, 5, 4, 3, 2, 1]
+
+
+letters = ['b', 'e', 'c', 'a', 'd']
 descending = sorted(letters, reverse=True)
 print(descending) # ['e', 'd', 'c', 'b', 'a']
 ```
@@ -284,6 +318,9 @@ print(9 in set_1) # False
 
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
+### Class Practice PSETs
+
+[Lists]()
 
 ## Additional Resources
 
