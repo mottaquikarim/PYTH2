@@ -4,10 +4,9 @@
 
 # Homework 1
 
-1. [HW1](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/hw1_psets.ipynb) w. Basic Data Types & Conditionals
+1. Simply redo the Shopping List problems based on what we learned in Lecture 2. [HW1](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/hw1.ipynb)
 
 ## How to Submit
-
 1. Copy the notebook into a new Colab notebook.
 2. Name that Colab notebook per the naming convention "<your_name>_hwnum.ipynb", e.g. "taq_karim_hw1.ipynb"
 3. Grant edit access to your instructor.
