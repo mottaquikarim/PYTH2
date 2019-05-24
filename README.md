@@ -21,7 +21,7 @@ Here are all the lectures for this course. This section will be updated with not
 4. **[FAQ](src/Intro/FAQ.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
 1. ✅  **[Intro to GA & Python - 5/21](src/Lectures_class2/Lecture1.md)**
-2. ➡️  **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
+2. ✅  **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
 3. **[Lists, Tuples, & Sets - 5/28](src/Lectures_class2/Lecture3.md)**
 4. **[Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
 5. **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
@@ -59,7 +59,7 @@ Here are all the lectures for this course. This section will be updated with not
 16. **[Course Review](src/Topics/nb/course_review.ipynb)**
 17. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
-1. ➡️  **[Homework 0 DUE - 5/23](src/Homework/hwk0.md)**
+1. ✅  **[Homework 0 DUE - 5/23](src/Homework/hwk0.md)**
 2. **[Homework 1](src/Homework/hwk1.md)**
 3. **[Homework 2](src/Homework/hwk2.md)**
 4. **[Homework 3](src/Homework/hwk3.md)**
