@@ -99,22 +99,35 @@ List indexes start counting at 0!
 
 
 ```python
+"""list_name[index]"""
+
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 print(my_class[0]) # Prints "Brandi"
 print(my_class[1]) # Prints "Zoe"
 print(my_class[4]) # Prints "Dasha"
 ```
 
-To select the last element of a list, you can use the `len()` method to find the list's length. If you then subtract 1, you will have the index of the last list element. Watch this:
+To select multiple items from a list, simply pass the range of indeces which hold the desired elements, e.g. `[2:7]`.
+
+**NOTE!** It's important to remember that the upper bound is NOT inclusive. If you want the elements and index 1 through at including index 4, you have to write `[2:5]`. See this in action below:
+
+```python
+"""list_name[start_index:end_index_+1]"""
+
+my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
+print(my_class[1:4])
+```
 
 ```python
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
-num_students = len(my_class)
-last_student_index = num_students - 1
-print(my_class[last_student_index]) # Dasha
 
-# You can do this all in one line if you want!
-# print(my_class[(len(my_class)-1)])
+print(my_class[:2]) # All indeces up to, but NOT including index 2
+
+print(my_class[2:]) # Index 2 through end of list
+
+print(my_class[:]) # Prints WHOLE LIST
+
+print(my_class[1:1]) # Prints NOTHING
 ```
 
 Let's try another one:
@@ -122,16 +135,24 @@ Let's try another one:
 ```python
 pets = ['dog', 'cat', 'guinea pig', 'ferret', 'bird', 'lizard']
 
-# Print the 3rd element:
+# Print index 1:
+
+
+# Print ['guinea pig', 'ferret']:
+
+
+# Print the 5th element:
+
+
+# Print all elements up to and INCLUDING 'ferret':
 
 
 # Print 'dog':
 
 
-# Print the 4th element:
+# Print all elements from 'ferret' onwards:
 
 
-# Print 'lizard':
 ```
 
 ## Built-In Operations for Manipulating Lists
@@ -143,34 +164,40 @@ If you want to extend the content of a single list, you can use `.append()`, `.e
 These methods both add items to the end of the list. The difference here is that `.append()` will add whatever value or group of values you pass it *in one chunk*. In contrast, if you pass a group of values into `.extend()`, it will add each element of the group *individually*. Here are a few examples to show you the difference in outcomes.
 
 ```python
-# passing direct argument
+""" Passing direct argument """
+# Append..
 x = ['a', 'b', 'c', 'd']
 x.append(['e', 'f', 'g'])
 print(x) # ['a', 'b', 'c', 'd', ['e', 'f', 'g']]
 
+# ... vs. extend
 x = ['a', 'b', 'c', 'd']
 x.extend(['e', 'f', 'g'])
 print(x) # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+```
 
-# passing argument within a var
+Notice in this next example how `.extend()` only considers individual values of the parent list. It still adds the tuple and list - `('f', 'g')` and `['h', 'i']` - to our list `x` as their own items.
+
+```python
+""" Passing argument within a var"""
+# Append..
 x = ['a', 'b', 'c', 'd']
 y = ['e', ('f', 'g'), ['h', 'i'], 'j']
 x.append(y)
 print(y) # ['a', 'b', 'c', 'd', ['e', ('f', 'g'), ['h', 'i'], 'j']]
 
+# ... vs. extend
 x = ['a', 'b', 'c', 'd']
 y = ['e', ('f', 'g'), ['h', 'i'], 'j']
 x.extend(y)
 print(x) # ['a', 'b', 'c', 'd', 'e', ('f', 'g'), ['h', 'i'], 'j']
 ```
 
-Notice that `.extend()` only considers individual values of the parent list. It still added the tuple and list - `('f', 'g')` and `['h', 'i']` - to our list `x` as their own items.
-
 #### `.insert(index, value)`
 If you want to add an item to a specific point in your list, you can pass the desired index and value into `.insert()` as follows.
 
 ```python
-# your_list.insert(index, item)
+"""your_list.insert(index, item)"""
 
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
 my_class.insert(1, 'Sanju')
@@ -185,7 +212,7 @@ Likewise, you can use `.pop()` or `.pop(index)` to remove any type of element fr
 - Removes an item from the end of the list.
 
 ```python
-# your_list.pop()
+"""your_list.pop()"""
 
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
 student_that_left = my_class.pop()
@@ -201,7 +228,7 @@ print(my_class)
 - Can take an index.
 
 ```python
-# your_list.pop(index)
+"""your_list.pop(index)"""
 
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 student_that_left = my_class.pop(2) # Remember to count from 0!
@@ -213,7 +240,7 @@ print(my_class)
 
 ### Edit Items in a List
 
-#### `l[index:index]=`
+#### `list_name[index:index]=`
 
 To *replace* items in a list by their index position, you can use the same syntax for adding a single new value. You simply reference which indeces you want to replace and specify the new values.
 
@@ -256,7 +283,7 @@ Python has some built-in operations that allow you to analyze the content of a l
 
 #### `len()`
 
-This tells you how many items are in the list; can be used for lists composed of any data type (i.e. strings, numbers, booleans)
+This counts the numbers of elements in the list, or its *length*, regardless of data type.
 
 ```python
 # length_variable = len(your_list)
@@ -265,6 +292,18 @@ my_class = ['Brandi', 'Zoe', 'Aleksander', 'Dasha']
 num_students = len(my_class)
 print(f'There are {num_students} students in the class')
 # => 5
+```
+
+Aside from merely finding the length, `len()` comes in handy during a number of other use cases. For example, you can use `len()` to dynamically select the last element of a list. If you find the list's length then subtract 1, you will have the index of the last list element. Watch this:
+
+```python
+my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
+num_students = len(my_class)
+last_student_index = num_students - 1
+print(my_class[last_student_index]) # Dasha
+
+# You can do this all in one line if you want!
+# print(my_class[(len(my_class)-1)])
 ```
 
 #### `sum()`
