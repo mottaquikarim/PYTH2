@@ -6,29 +6,85 @@
 
 In order to begin to truly write dynamic programs, we need to be able to work with *dynamic* data where we do not know how much of a certain type of variable we have.
 
-The problem, essentially is, *variables hold only one item*. **Lists** hold multiple items - and lists can hold any datatype.
+The problem, essentially is, *variables hold only one item*.
 
 ```python
 my_color = 'red'
 my_peer = 'Brandi'
 ```
 
+**Lists** hold multiple items, called **elements**. List elements can represent any data type, and *a single list can hold any mix of different data types.*
+
 ## Creating lists
 
-Here are some different ways to declare a list variable:
+To declare a new list varaible, you have two options -- `[]` or `list()`. The `[]` syntax is a bit more straightforward, as seen below.
 
 ```python
-colors = ['red', 'yellow', 'green'] #strings
-grades = [100, 99, 65, 54, 19] #numbers
-bools = [True, False, True, True] #booleans
+blank = [] # blank list
+print(blank)
+
+colors = ['red', 'yellow', 'green'] # strings
+print(colors)
+
+grades = [100, 99.5, 65, 54.1, 19] # numbers
+print(grades)
+
+coin_flips = [True, False, True, True] # booleans
+print(coin_flips)
+
+mix = [4, False, 'dog', 2.5, True] # mix of all data types!
+print(mix)
 ```
 
-To create a new **blank** list, you have two options:
+If you choose to use the `list()` method, there are a couple things to remember. First, you can only add **one** parameter into `list()`. So if you want to add multiple items, you have to pass them to `list()` within the `[]` syntax anyway. 
 
 ```python
-blank_list1 = list()
+blank = list() # blank list
+print(blank)
 
-blank_list2 = []
+colors = list(['red', 'yellow', 'green']) # strings
+print(colors)
+
+grades = list([100, 99.5, 65, 54.1, 19]) # numbers
+print(grades)
+
+coin_flips = list([True, False, True, True]) # booleans
+print(coin_flips)
+
+mix = list([4, False, 'dog', 2.5, True]) # mix of all data types!
+print(mix)
+```
+
+Take a look at what happens if you don't pass your desired item or items using the `[]` for list syntax.
+
+```python
+colors = list('red', 'yellow', 'green')
+print(colors)
+### TypeError: list() takes at most 1 argument (3 given)
+
+grades = list(100) # or any float e.g. 100.0
+print(grades)
+### TypeError: 'int' object is not iterable
+
+coin_flips = list(True) # booleans
+print(coin_flips)
+### TypeError: 'bool' object is not iterable
+```
+
+The one use case that does not throw an error is if you pass a single string value. Still, this doesn't have the intended output of adding a single names to a list of names!
+
+```python
+names = list('Julianna')
+print(names)
+# ['J', 'u', 'l', 'i', 'a', 'n', 'n', 'a']
+```
+
+And if you think it works for sentences by parsing a new list element at each space character...*nope!*
+
+```python
+sentence = list('I like to sing!')
+print(sentence)
+# ['I', ' ', 'l', 'i', 'k', 'e', ' ', 't', 'o', ' ', 's', 'i', 'n', 'g', '!']
 ```
 
 ## Accessing Elements in the List
@@ -41,11 +97,41 @@ List indexes start counting at 0!
 |:-----:|:--------:|:-----:|:-------:|:------:|:------:|
 | Index |     0    |   1   |    2    |    3   |    4   |
 
+
 ```python
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 print(my_class[0]) # Prints "Brandi"
 print(my_class[1]) # Prints "Zoe"
 print(my_class[4]) # Prints "Dasha"
+```
+
+To select the last element of a list, you can use the `len()` method to find the list's length. If you then subtract 1, you will have the index of the last list element. Watch this:
+
+```python
+my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
+num_students = len(my_class)
+last_student_index = num_students - 1
+print(my_class[last_student_index]) # Dasha
+
+# You can do this all in one line if you want!
+# print(my_class[(len(my_class)-1)])
+```
+
+Let's try another one:
+
+```python
+pets = ['dog', 'cat', 'guinea pig', 'ferret', 'bird', 'lizard']
+
+# Print the 3rd element:
+
+
+# Print 'dog':
+
+
+# Print the 4th element:
+
+
+# Print 'lizard':
 ```
 
 ## Built-In Operations for Manipulating Lists
@@ -177,7 +263,7 @@ This tells you how many items are in the list; can be used for lists composed of
 
 my_class = ['Brandi', 'Zoe', 'Aleksander', 'Dasha']
 num_students = len(my_class)
-print("There are", num_students, "students in the class")
+print(f'There are {num_students} students in the class')
 # => 5
 ```
 
@@ -191,7 +277,7 @@ This returns the sum of all items in *numerical lists*.
 
 team_batting_avgs = [.328, .299, .208, .301, .275, .226, .253, .232, .287]
 sum_avgs = sum(team_batting_avgs)
-print(f"The total of all the batting averages is {sum_avgs}")
+print(f'The total of all the batting averages is {sum_avgs}')
 # => 2.409
 ```
 
@@ -204,9 +290,9 @@ These return the smallest and largest numbers *in a numerical list* respectively
 # min(your_numeric_list)
 
 team_batting_avgs = [.328, .299, .208, .301, .275, .226, .253, .232, .287]
-print(f"The highest batting average is {max(team_batting_avgs}")
+print(f'The highest batting average is {max(team_batting_avgs}')
 # => 0.328
-print("The lowest batting average is", min(team_batting_avgs))
+print(f'The lowest batting average is {min(team_batting_avgs)}')
 # => 0.208
 ```
 
@@ -320,7 +406,8 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
 
 ### Class Practice PSETs
 
-[Lists]()
+[Lists]() - *Coming soon...!*
+
 
 ## Additional Resources
 
