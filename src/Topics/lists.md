@@ -240,19 +240,20 @@ print(my_class)
 
 ### Edit Items in a List
 
-#### `list_name[index:index]=`
+#### Update/Replace Items
 
-To *replace* items in a list by their index position, you can use the same syntax for adding a single new value. You simply reference which indeces you want to replace and specify the new values.
+To replace items in a list, you reference them by their index value and simply declare a new value for that element.
 
 ```python
 x = ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
+
 x[1] = 'Raju'
-x[6:] = ['Chloe', 'Phoebe']
-print(x) # ['Brandi', 'Raju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Chloe', 'Phoebe']
+x[4:] = ['Chloe', 'Phoebe']
+print(x)
 ```
 
-#### `.join()`
-If you need to, you can compile your list items into a single string.
+#### Join Items
+If you need to, you can compile your list items into a single string using `.join()`.
 
 ```python
 letters = ['j', 'u', 'l', 'i', 'a', 'n', 'n', 'a']
@@ -264,8 +265,8 @@ sentence = ' '.join(words)
 print(f'{sentence}.') # 'this is fun.'
 ```
 
-#### `.split('by_char')`
-You can also do the opposite - split values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split()` will use a space character to split the string.
+#### Split Items
+You can also do the opposite using `.split('by_char')`, which will parse values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split('by_char')` will use a space character to split the string.
 
 ```python
 x = 'this is fun'
