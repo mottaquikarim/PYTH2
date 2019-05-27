@@ -322,27 +322,22 @@ from random import randint
 randn = randint(1, 100)
 ```
 
-### PRACTICE TOGETHER
+### Practice together!
 
-#### Play the Lottery
-
-Ask the user what 5 numbers are on his/her lotto ticket. Then create a conditional statement that determines if they won any prizes. If they do, print out the prize they won. If not, tell them they didn't win this time.
-
-The prizes they could win are per the following logic:
-* Have all the numbers, win grand prize
-
-* Have at least one of 5th, 10th, 15th, 20th, or 25th prime numbers, win "Prime Prize" of 100 dollars
-
-* Have a pair of  2-digit numbers (none of which are greater than 60) that make a palindrome, win "Mirror Prize" of 50 dollars
-
-* Have number 13, win "Lucky 13" prize of 13 dollars.
-
-* Otherwise, they didn't win anything
-
-**NOTE!** The rules are that once you win a prize, you can't win any more of the lower-value prizes.
+Randomly generate either a `0` or a `1` to represent the outcome of a coin flip. Let `0` represent 'Heads' and `1` represent 'Tails'. Print the appropriate winning outcome.
 
 ```python
+from random import randint
 
+flip = randint(0, 1)
+print(flip)
+
+if flip == 0:
+	print('Heads wins!')
+elif flip == 1:
+	print('Tails wins!')
+else:
+	print('I can\'t believe it landed on its edge!')
 ```
 
 ### Class Practice PSETs
