@@ -655,7 +655,7 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of o
 
 ## Summary
 
-*Coming soon...*
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/Lists_Summary.png?raw=true" width="100%" align="left"/>
 
 ### Class Practice PSETs
 
