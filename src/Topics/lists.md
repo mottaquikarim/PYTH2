@@ -585,33 +585,35 @@ print(set_2) # {1,2,3,4,5}
 print(set_1 == set_2) # True
 ```
 
-Sets are also not indexed, so you cannot access say the 3rd element in a set. Instead, you can,
+Sets are also not indexed, so you cannot access, say, the 3rd element in a set. Instead, you can use *boolean membership operators* to check for a value's existence in the set. Remember those?
 
 ```python
+set_1 = {1,2,3,4,5}
+
 print(2 in set_1) # True
-print(9 in set_1) # False
+print(8 in set_1) # False
+
+print(2 and 8 in set_1) # False
+print(2 and 3 in set_1) # True
 ```
 
-Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
+**Pro Tip**: Sets give a great way to remove duplicates from a list!
+
+```python
+my_list = [1,2,4,5,2,3,1,4,5,1,5,3]
+
+uniques_in_my_list = set(my_list)
+print(uniques_in_my_list) # {1, 2, 3, 4, 5}
+
+my_list = list(uniques_in_my_list)
+print(my_list) # [1, 2, 3, 4, 5]
+```
+
+Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of other set operations.
 
 ## Summary
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/mutable-unique-sq.png?raw=true" width="450" float="right"/>
-
-| Label                        |                              [ list ]                              |                                      ( tuple )                                      | { set }                                                  |
-|------------------------------|:------------------------------------------------------------------:|:-----------------------------------------------------------------------------------:|----------------------------------------------------------|
-| Create                       | list() or []                                                       | tuple() or ()                                                                       | set() or {}                                              |
-| Add                          | `.append()`,  `.extend()`, `.insert(index, value)`                 |                                         N/A                                         | `.update()`                                              |
-| Remove                       | `.pop()`, `.pop(index)`                                            |                                         N/A                                         | `.discard()`                                             |
-| Select Single Value          | `list_name[index]`                                                 | `tuple_name[index]`                                                                 | 2 in set1 # True, 9 in set1 # False                      |
-| Select a Slice               | `list_name[index:index]`, `list_name[:index]`, `list_name[index:]` | `tuple_name[index:index]`, `tuple_name[:index]`, `tuple_name[index:]`               |                            N/A                           |
-| Find Index of a Value        | `.index()`                                                         | `.index()`                                                                          |                            N/A                           |
-| Count Occurrences of a Value | `.count()`                                                         | `.count()`                                                                          | `.count()`                                               |
-| Join                         | `'by_char'.join(list_name)` (must be a list of strings)            | `'by_char'.join(tuple_name)` (creates a NEW tuple, must be a collection of strings) | `'by_char'.join(set_name)`                               |
-| Split                        | `.split('by_char')`                                                | N/A                                                                                 | N/A                                                      |
-| Sort Ascending               | `.sort()`, `sorted(list_name)`                                     | `sorted(tuple_name)` (creates a NEW tuple)                                          | `sorted(set_name)` (creates a sorted LIST)               |
-| Sort Descending              | `.sort(reverse=True)`, `sorted(list_name, reverse=True)`           | `sorted(tuple_name, reverse=True)` (creates a NEW tuple)                            | `sorted(set_name, reverse=True)` (creates a sorted LIST) |
-
+*Coming soon...*
 
 ### Class Practice PSETs
 
