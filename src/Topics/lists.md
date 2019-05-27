@@ -527,7 +527,6 @@ print(dna[0]) # ('A', 'T')
 print(dna[1][0]) # G
 ```
 
-
 You can do SOME of the same operations on tuples despite their immutability. For example:
 
 ```python
@@ -553,7 +552,7 @@ Index of "2": {index_val2}
 
 You *can sort, join, or split* a tuple the same as a list, **BUT** because you can't edit a tuple:
 * You can't use `.sort()` because that edits the object in place
-* Each of these will return a new list object
+* Each of these will return a *new list object*
 
 ```python
 tuple2 = ('b', 'e', 'c', 'a', 'd')
@@ -564,7 +563,7 @@ print(sort_asc, type(sort_asc)) # ['a', 'b', 'c', 'd', 'e'] <class 'list'>
 sort_desc = sorted(tuple2, reverse = True)
 print(sort_desc, type(sort_desc)) # ['e', 'd', 'c', 'b', 'a'] <class 'list'>
 
-print('\n\n')
+print('\n')
 
 joined = ', '.join(tuple2) # Joined: b, e, c, a, d <class 'str'>
 print('Joined:', joined, type(joined))
@@ -595,6 +594,49 @@ print(8 in set_1) # False
 
 print(2 and 8 in set_1) # False
 print(2 and 3 in set_1) # True
+```
+
+That said, you can still perform mathmetical operations on sets. These are the same examples we used for tuples, and they have the same results. Notice how you can't find the index of an element for the reasons we just discussed!
+
+```python
+set1 = (1, 3, 7, 5, 2, 4, 6)
+
+len_set1 = len(set1) # 7
+sum_set1 = sum(set1) # 28
+min_set1 = min(set1) # 1
+max_set1 = max(set1) # 7
+
+count_val4 = set1.count(4) # 1
+
+print(f'''
+Length: {len_set1}
+Sum: {sum_set1}
+Min: {min_set1}
+Max: {max_set1}
+Occurrences of "4": {count_val4}
+''')
+```
+
+You *can also sort, join, or split* a set, **BUT** you have the same limitations as you do with a tuple:
+* You can't use `.sort()` because that edits the object in place
+* Each of these will return a *new list object*
+
+```python
+set2 = {'b', 'e', 'c', 'a', 'd'}
+
+sort_asc = sorted(set2)
+print(sort_asc, type(sort_asc)) # ['a', 'b', 'c', 'd', 'e'] <class 'list'>
+
+sort_desc = sorted(set2, reverse = True)
+print(sort_desc, type(sort_desc)) # ['e', 'd', 'c', 'b', 'a'] <class 'list'>
+
+print('\n')
+
+joined = ', '.join(set2) # Joined: b, e, c, a, d <class 'str'>
+print('Joined:', joined, type(joined))
+
+split_up = joined.split(',') # Split: ['b', ' e', ' c', ' a', ' d'] <class 'list'>
+print('Split:', split_up, type(split_up))
 ```
 
 **Pro Tip**: Sets give a great way to remove duplicates from a list!
