@@ -118,19 +118,23 @@ my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 print(my_class[1:4])
 ```
 
+Here are a few examples that illustrate what happens when you don't specify a bound:
+
 ```python
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 
-print(my_class[:2]) # All indeces up to, but NOT including index 2
+my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 
-print(my_class[2:]) # Index 2 through end of list
+print('[:2] -- ', my_class[:2]) # All indeces up to, but NOT including index 2
 
-print(my_class[:]) # Prints WHOLE LIST
+print('[2:] -- ', my_class[2:]) # Index 2 through end of list
 
-print(my_class[1:1]) # Prints NOTHING
+print('[:] -- ', my_class[:]) # Prints WHOLE LIST
+
+print('[1:1] -- ', my_class[1:1]) # Prints NOTHING
 ```
 
-Let's try another one:
+Let's try another one together:
 
 ```python
 pets = ['dog', 'cat', 'guinea pig', 'ferret', 'bird', 'lizard']
@@ -168,12 +172,14 @@ These methods both add items to the end of the list. The difference here is that
 # Append..
 x = ['a', 'b', 'c', 'd']
 x.append(['e', 'f', 'g'])
-print(x) # ['a', 'b', 'c', 'd', ['e', 'f', 'g']]
+print(x)
+# ['a', 'b', 'c', 'd', ['e', 'f', 'g']]
 
 # ... vs. extend
 x = ['a', 'b', 'c', 'd']
 x.extend(['e', 'f', 'g'])
-print(x) # ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(x)
+# ['a', 'b', 'c', 'd', 'e', 'f', 'g']
 ```
 
 Notice in this next example how `.extend()` only considers individual values of the parent list. It still adds the tuple and list - `('f', 'g')` and `['h', 'i']` - to our list `x` as their own items.
@@ -184,13 +190,15 @@ Notice in this next example how `.extend()` only considers individual values of 
 x = ['a', 'b', 'c', 'd']
 y = ['e', ('f', 'g'), ['h', 'i'], 'j']
 x.append(y)
-print(y) # ['a', 'b', 'c', 'd', ['e', ('f', 'g'), ['h', 'i'], 'j']]
+print(y)
+# ['a', 'b', 'c', 'd', ['e', ('f', 'g'), ['h', 'i'], 'j']]
 
 # ... vs. extend
 x = ['a', 'b', 'c', 'd']
 y = ['e', ('f', 'g'), ['h', 'i'], 'j']
 x.extend(y)
-print(x) # ['a', 'b', 'c', 'd', 'e', ('f', 'g'), ['h', 'i'], 'j']
+print(x)
+# ['a', 'b', 'c', 'd', 'e', ('f', 'g'), ['h', 'i'], 'j']
 ```
 
 #### `.insert(index, value)`
@@ -202,7 +210,7 @@ If you want to add an item to a specific point in your list, you can pass the de
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
 my_class.insert(1, 'Sanju')
 print(my_class)
-# => ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
+# ['Brandi', 'Sanju', 'Zoe', 'Steve', 'Aleksander', 'Dasha', 'Sonyl']
 ```
 
 ### Remove Items from a List
@@ -219,7 +227,7 @@ student_that_left = my_class.pop()
 print("The student", student_that_left, "has left the class.")
 # Sonyl
 print(my_class)
-# => ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
+# ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 ```
 
 #### `.pop(index)`
@@ -232,8 +240,8 @@ print(my_class)
 
 my_class = ['Brandi', 'Zoe', 'Steve', 'Aleksander', 'Dasha']
 student_that_left = my_class.pop(2) # Remember to count from 0!
-print("The student", student_that_left, "has left the class.")
-# => "Steve"
+print('The student', student_that_left, 'has left the class.')
+# 'Steve'
 print(my_class)
 # => ['Brandi', 'Zoe', 'Aleksander', 'Dasha']
 ```
@@ -312,13 +320,11 @@ print(my_class[last_student_index]) # Dasha
 This returns the sum of all items in *numerical lists*.
 
 ```python
-
-# sum_variable = sum(your_numeric_list)
+"""sum_variable = sum(your_numeric_list)"""
 
 team_batting_avgs = [.328, .299, .208, .301, .275, .226, .253, .232, .287]
 sum_avgs = sum(team_batting_avgs)
-print(f'The total of all the batting averages is {sum_avgs}')
-# => 2.409
+print(f'The total of all the batting averages is {sum_avgs}.')
 ```
 
 #### `min()` & `max()`
@@ -326,14 +332,16 @@ print(f'The total of all the batting averages is {sum_avgs}')
 These return the smallest and largest numbers *in a numerical list* respectively.
 
 ```python
-# max(your_numeric_list)
-# min(your_numeric_list)
+"""
+max(your_numeric_list)
+min(your_numeric_list)
+"""
 
 team_batting_avgs = [.328, .299, .208, .301, .275, .226, .253, .232, .287]
 print(f'The highest batting average is {max(team_batting_avgs}')
-# => 0.328
+# ... 0.328
 print(f'The lowest batting average is {min(team_batting_avgs)}')
-# => 0.208
+# ... 0.208
 ```
 
 ## Sorting Lists
