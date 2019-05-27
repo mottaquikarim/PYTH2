@@ -133,7 +133,14 @@ print('[:] -- ', my_class[:]) # Prints WHOLE LIST
 print('[1:1] -- ', my_class[1:1]) # Prints NOTHING
 ```
 
-Let's try another one together:
+If you have nested lists, you simply add another level of index selection, like so:
+
+```python
+nested_lists = list([['circus', 'clown'], ['trapeze', 'artist']])
+print(nested_lists[0][0]) # circus
+```
+
+#### Practice together!
 
 ```python
 pets = ['dog', 'cat', 'guinea pig', 'ferret', 'bird', 'lizard']
@@ -157,6 +164,8 @@ pets = ['dog', 'cat', 'guinea pig', 'ferret', 'bird', 'lizard']
 
 
 ```
+
+
 
 ## Built-In Operations for Manipulating Lists
 
@@ -314,6 +323,21 @@ print(my_class[last_student_index]) # Dasha
 
 # You can do this all in one line if you want!
 # print(my_class[(len(my_class)-1)])
+```
+
+Here it is with a nested list:
+
+```python
+nested_lists = [['circus', 'clown'], ['trapeze', 'artist']]
+last_index_nested_lists = len(nested_lists) - 1
+print(last_index_nested_lists)
+
+last_index_last_nested_list = len(nested_lists[last_index_nested_lists]) - 1
+print(last_index_last_nested_list)
+
+last_element_last_nested_list = nested_lists[last_index_nested_lists][last_index_last_nested_list]
+
+print(last_element_last_nested_list) # artist
 ```
 
 #### `sum()`
@@ -484,13 +508,13 @@ You can declare sets in two ways:
 
 ```python
 score1 = ('Taq', 100)
+print(score1) # ('Taq', 100)
 
 # OR
 
-score2 = 'Sue', 101
+score2 = 'Sue', 101 # ('Sue', 101)
+print(score2)
 ```
-
-Here's a nested tuple for good measure!
 
 We read tuples just like we would read a list:
 
@@ -498,24 +522,56 @@ We read tuples just like we would read a list:
 dna = ('A', 'T'), ('G', 'C')
 print(dna) # (('A', 'T'), ('G', 'C'))
 
+
+print(dna[0]) # ('A', 'T')
+print(dna[1][0]) # G
 ```
 
-We read tuples just like we would read a list:
+
+You can do SOME of the same operations on tuples despite their immutability. For example:
 
 ```python
-dna = ('A', 'T'), ('G', 'C')
-print(score_1[0]) # 'Taq'
+tuple1 = (1, 3, 7, 5, 2, 4, 6)
+
+len_tuple1 = len(tuple1) # 7
+sum_tuple1 = sum(tuple1) # 28
+min_tuple1 = min(tuple1) # 1
+max_tuple1 = max(tuple1) # 7
+
+count_val4 = tuple1.count(4) # 1
+index_val2 = tuple1.index(2) # 4
+
+print(f'''
+Length: {len_tuple1}
+Sum: {sum_tuple1}
+Min: {min_tuple1}
+Max: {max_tuple1}
+Occurrences of "4": {count_val4}
+Index of "2": {index_val2}
+''')
 ```
 
-
-We read tuples just like we would read a list:
+You *can sort, join, or split* a tuple the same as a list, **BUT** because you can't edit a tuple:
+* You can't use `.sort()` because that edits the object in place
+* Each of these will return a new list object
 
 ```python
-dna = ('A', 'T'), ('G', 'C')
-print(score_1[0]) # 'Taq'
+tuple2 = ('b', 'e', 'c', 'a', 'd')
+
+sort_asc = sorted(tuple2)
+print(sort_asc, type(sort_asc)) # ['a', 'b', 'c', 'd', 'e'] <class 'list'>
+
+sort_desc = sorted(tuple2, reverse = True)
+print(sort_desc, type(sort_desc)) # ['e', 'd', 'c', 'b', 'a'] <class 'list'>
+
+print('\n\n')
+
+joined = ', '.join(tuple2) # Joined: b, e, c, a, d <class 'str'>
+print('Joined:', joined, type(joined))
+
+split_up = joined.split(',') # Split: ['b', ' e', ' c', ' a', ' d'] <class 'list'>
+print('Split:', split_up, type(split_up))
 ```
-
-
 
 ## Sets
 
