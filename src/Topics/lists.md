@@ -454,11 +454,12 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
 
 ## Summary
 
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/mutable-unique-sq.png?raw=true"/>
 
 
 ### Class Practice PSETs
 
-[Lists]() - *Coming soon...!*
+[Lists](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/lists_inclass_psets.ipynb)
 
 
 ## Additional Resources
