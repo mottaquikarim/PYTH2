@@ -454,7 +454,21 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of s
 
 ## Summary
 
-<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/mutable-unique-sq.png?raw=true"/>
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/mutable-unique-sq.png?raw=true" width="450" float="right"/>
+
+| Label                        |                              [ list ]                              |                                    ( tuple )                                    | { set }                                                 |
+|------------------------------|:------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|---------------------------------------------------------|
+| Create                       | list() or []                                                       | tuple() or ()                                                                   | set() or {}                                             |
+| Add                          | `.append()`,  `.extend()`, `.insert(index, value)`                 |                                       N/A                                       | `.update()`                                             |
+| Remove                       | `pop()`, `.pop(index)`                                             |                                       N/A                                       | `.discard()`                                            |
+| Select Single Value          | `list_name[index]`                                                 | `tuple_name[index]`                                                             | 2 in set1 # True, 9 in set1 # False                     |
+| Select a Slice               | `list_name[index:index]`, `list_name[:index]`, `list_name[index:]` | `tuple_name[index:index]`, `tuple_name[:index]`, `tuple_name[index:]`           |                           N/A                           |
+| Find Index of a Value        | `.index()`                                                         | `.index()`                                                                      |                           N/A                           |
+| Count Occurrences of a Value | `.count()`                                                         | `.count()`                                                                      | `.count()`                                              |
+| Join                         | `'by_char'.join(list_name)`                                        | `'by_char'.join(tuple_name)` (creates a NEW tuple)                              | `'by_char'.join(set_name)`                              |
+| Split                        | `.split('by_char')`                                                | `.split('by_char')` (creates a NEW tuple)                                       | `.split('by_char')`                                     |
+| Sort Ascending               | `.sort()`, `sorted(list_name)`                                     | `.sort()`, `sorted(tuple_name)` (creates a NEW tuple)                           | `.sort()`, `sorted(set_name)`                           |
+| Sort Descending              | `.sort(reverse=True)`, `sorted(list_name, reverse=True)`           | `.sort(reverse=True)`, `sorted(tuple_name, reverse=True)` (creates a NEW tuple) | `.sort(reverse=True)`, `sorted(set_name, reverse=True)` |
 
 
 ### Class Practice PSETs
