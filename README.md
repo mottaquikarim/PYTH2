@@ -41,7 +41,7 @@ Here are all the lectures for this course. This section will be updated with not
 19. **[In-Class Project Work - 7/25](src/Lectures_class2/Lecture19.md)**
 20. **[Project Presentations! - 7/30](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
-1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)**
+1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)** | **[Notes](src/Topics/Notes/essential_terminology.ipynb)**
 2. **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)**
 3. **[Conditionals](src/Topics/nb/conditionals.ipynb)**
 4. **[Lists](src/Topics/nb/lists.ipynb)**
