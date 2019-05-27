@@ -13,30 +13,33 @@ my_color = 'red'
 my_peer = 'Brandi'
 ```
 
-**Lists** hold multiple items, called **elements**. List elements can represent any data type, and *a single list can hold any mix of different data types.*
+**Lists** hold multiple items, called **elements**. List elements can represent any data type, and *a single list can hold any mix of different data types, including **other lists**.*
 
 ## Creating lists
 
 To declare a new list varaible, you have two options -- `[]` or `list()`. The `[]` syntax is a bit more straightforward, as seen below.
 
 ```python
-blank = [] # blank list
-print(blank)
+blank = []
+print(f'Blank: {blank}\n')
 
-colors = ['red', 'yellow', 'green'] # strings
-print(colors)
+colors = ['red', 'yellow', 'green']
+print(f'Strings: {colors}\n')
 
-grades = [100, 99.5, 65, 54.1, 19] # numbers
-print(grades)
+grades = [100, 99.5, 65, 54.1, 19]
+print(f'Numbers: {grades}\n')
 
-coin_flips = [True, False, True, True] # booleans
-print(coin_flips)
+coin_flips = [True, False, True, True]
+print(f'Booleans: {coin_flips}\n')
 
-mix = [4, False, 'dog', 2.5, True] # mix of all data types!
-print(mix)
+nested_lists = [['circus', 'clown'], ['trapeze', 'artist']]
+print(f'Nested Lists: {nested_lists}\n')
+
+mix = [True, ['seal', 'spider monkey'], 22, 'lion', [False, 13]]
+print(f'Mixed Data Types: {mix}\n')
 ```
 
-If you choose to use the `list()` method, there are a couple things to remember. First, you can only add **one** parameter into `list()`. So if you want to add multiple items, you have to pass them to `list()` within the `[]` syntax anyway. 
+If you choose to use the `list()` method, there are a couple things to remember. First, you can only add **one** parameter into `list()`. So if you want to add multiple items, you have to pass them to `list()` within the `[]` syntax anyway.
 
 ```python
 blank = list() # blank list
@@ -45,14 +48,10 @@ print(blank)
 colors = list(['red', 'yellow', 'green']) # strings
 print(colors)
 
-grades = list([100, 99.5, 65, 54.1, 19]) # numbers
-print(grades)
+# etc...
 
-coin_flips = list([True, False, True, True]) # booleans
-print(coin_flips)
-
-mix = list([4, False, 'dog', 2.5, True]) # mix of all data types!
-print(mix)
+mix = list([True, ['seal', 'spider monkey'], 22, 'lion', [False, 13]])
+print(f'Mixed Data Types: {mix}\n')
 ```
 
 Take a look at what happens if you don't pass your desired item or items using the `[]` for list syntax.
@@ -261,7 +260,8 @@ print(x)
 ```
 
 #### Join Items
-If you need to, you can compile your list items into a single string using `.join()`.
+
+If you need to, you can compile your list items into a single string using `.join()`. You CANNOT do this with lists of numbers, booleans, or a list containing a mix of strings and other data types though.
 
 ```python
 letters = ['j', 'u', 'l', 'i', 'a', 'n', 'n', 'a']
@@ -274,7 +274,8 @@ print(f'{sentence}.') # 'this is fun.'
 ```
 
 #### Split Items
-You can also do the opposite using `.split('by_char')`, which will parse values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split('by_char')` will use a space character to split the string.
+
+Conversely, you can separate a string using `.split('by_char')`, which will parse values out of a string and turn each value into a list item. This one doesn't work for single words you might want to split into individual characters. That said, you *can* specify what character should convey to the method when to split out a new item. By default, `.split('by_char')` will use a space character to split the string.
 
 ```python
 x = 'this is fun'
@@ -477,29 +478,48 @@ print(descending) # ['e', 'd', 'c', 'b', 'a']
 
 ## Tuples
 
-Tuples are a special subset of lists - they are *immutable* - in that they cannot be changed after creation.
+Tuples are a special subset of lists - they are *immutable* - in that they cannot be changed after creation. Tuples are denoted with `()` as opposed to `[]`.
 
-We write tuples as:
+You can declare sets in two ways:
 
 ```python
-score_1 = ('Taq', 100)
+score1 = ('Taq', 100)
 
 # OR
 
-score_2 = 'Sue', 101
+score2 = 'Sue', 101
 ```
 
-Tuples are denoted with the `()`.
+Here's a nested tuple for good measure!
 
 We read tuples just like we would read a list:
 
 ```python
+dna = ('A', 'T'), ('G', 'C')
+print(dna) # (('A', 'T'), ('G', 'C'))
+
+```
+
+We read tuples just like we would read a list:
+
+```python
+dna = ('A', 'T'), ('G', 'C')
 print(score_1[0]) # 'Taq'
 ```
 
+
+We read tuples just like we would read a list:
+
+```python
+dna = ('A', 'T'), ('G', 'C')
+print(score_1[0]) # 'Taq'
+```
+
+
+
 ## Sets
 
-Sets are special lists in that they can only have **unique** elements.
+Sets are special lists in that they can only have **unique** elements. They are denoted with `{}`.
 
 ```python
 set_1 = {1,2,3,4,5} # this is a set, notice the {}
