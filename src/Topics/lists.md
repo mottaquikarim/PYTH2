@@ -329,7 +329,7 @@ print(f'The total of all the batting averages is {sum_avgs}.')
 
 #### `min()` & `max()`
 
-These return the smallest and largest numbers *in a numerical list* respectively.
+Return the smallest or largest number *in a numerical list*.
 
 ```python
 """
@@ -342,6 +342,72 @@ print(f'The highest batting average is {max(team_batting_avgs}')
 # ... 0.328
 print(f'The lowest batting average is {min(team_batting_avgs)}')
 # ... 0.208
+```
+
+#### `.index()`
+
+Given a list element's value, return its index.
+
+```python
+sentence = ['a', 'purple', 'pig', 'and', 'a', 'green', 'donkey', 'flew', 'a', 'kite', 'in', 'the', 'middle','of', 'the', 'night', 'and', 'ended', 'up', 'sunburnt']
+
+pig_index = sentence.index('pig')
+print(pig_index)
+```
+
+If the element occurs multiple times in the list, `.index()` will only return the index of its *first* occurrence!
+
+```
+sentence = ['a', 'purple', 'pig', 'AND', 'a', 'green', 'donkey', 'flew', 'a', 'kite', 'in', 'the', 'middle','of', 'the', 'night', 'AND', 'ended', 'up', 'sunburnt']
+
+and_index = sentence.index('AND')
+print(and_index) # 3
+```
+
+#### `.count()`
+
+This returns the number of occurrences of a *single, distinct element* within a list. That means for example, if you're searching a list of words (i.e. strings) for the occurrences of a single letter, only instances where that single letter appears as its own list item will be counted.
+
+```python
+nums = [84, 8, 18, 8, 28, 6, 10, 8, 78, 9]
+print(nums.count(8)) # 3
+
+
+sentence = ['a', 'purple', 'pig', 'and', 'a', 'green', 'donkey', 'flew', 'a', 'kite', 'in', 'the', 'middle','of', 'the', 'night', 'and', 'ended', 'up', 'sunburnt']
+print(sentence.count('a')) # 3
+```
+
+If you want to count the occurrences of a single character within a larger value, you can still use `.count()`...
+
+```python
+word = 'sunburnt'
+print(word.count('u')) # 2
+```
+
+*...BUT only on **strings**.* Notice how `.count()` throws an error if you try to count the number of times the digit "2" appears in the number below. And remember, you CANNOT use the `.split()` method as a workaround because `.split()` only works on strings!
+
+```python
+num = 22384232348
+print(num.count(2))
+```
+
+#### Practice Together!
+
+Now, take a look at how these list operations work together in this contextual example. Let's say we're conducting a probability experiment with coin tosses. We conduct some number of trials (i.e. the coin tosses) and record the outcomes. Based on the sample below, here's one way to find the probabilities of a "Heads" or "Tails" outcome.
+
+```python
+coin_toss = [True, False, False, False, True, False, True, True, False, False, True, True, False, True]
+
+num_tosses = len(coin_toss)
+
+heads = coin_toss.count(True)
+tails = coin_toss.count(False)
+print(f'# Heads: {heads} vs. # Tails: {tails}\n')
+
+P_heads = heads / num_tosses
+P_tails = tails / num_tosses
+
+print(f'P(Heads) = {P_heads} vs. P(Tails) = {P_tails}')
 ```
 
 ## Sorting Lists
