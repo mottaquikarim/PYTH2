@@ -444,6 +444,10 @@ print(9 in set_1) # False
 
 Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of set operations.
 
+## Summary
+
+
+
 ### Class Practice PSETs
 
 [Lists]() - *Coming soon...!*
