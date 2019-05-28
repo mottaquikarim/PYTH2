@@ -261,7 +261,7 @@ print(seceded1) # ('GA': 'Atlanta') for example
 
 ## Summary
 
-*Coming soon...*
+<img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/Dicts_Summary.png?raw=true" width="100%" align="left"/>
 
 ### Class Practice PSETs
 
