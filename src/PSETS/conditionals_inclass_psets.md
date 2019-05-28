@@ -45,15 +45,14 @@ Weather II - Precipitation
 
 # Repeat the same process as p1, using this new set of variables.
 
+sunny = True
+raining = True
+snowing = False
 
-is_it_raining = True
-is_it_snowing = False
-
-
-do_i_need_snow_boots = None
-can_i_skip_snow_boots = None
-do_i_need_rain_boots = None
-can_i_skip_rain_boots = None
+is_it_sunny = None
+is_there_precipitation = None
+is_it_sleeting = None
+is_there_rainbow = None
 ```
 
 
@@ -83,52 +82,6 @@ is_rain_coming = None
 is_it_muggy = None
 do_i_need_coat = None
 
-
-```
-
-
-## RANDOM_NUMS
-
-### P1.PY
-
-
-
-```python
-"""
-Generate Traffic Light
-"""
-
-# import python randomint package
-import random
-
-# generates a random number from 1 to 3
-randn = random.randint(1, 3)
-
-# if 1, print 'red'
-# if 2, print 'green',
-# if 3, print 'yellow'
-
-```
-
-
-### P2.PY
-
-
-
-```python
-"""
-Generate Phone Number w/Area Code
-"""
-
-# import python randomint package
-import random
-
-# generate a random phone number of the form:
-# 1-718-786-2825
-# This should be a string
-# Valid Area Codes are: 646, 718, 212
-# if phone number doesn't have [646, 718, 212]
-# as area code, pick one of the above at random
 
 ```
 
@@ -211,6 +164,77 @@ Empty Strings
 # any other num of spaces...
 
 # determine if the str is empty or not (print True or False). Hint: You'll need to look up how to remove trailing spaces from a string.
+
+```
+
+
+### P5.PY
+
+
+
+```python
+"""
+truthTableEvaluator
+"""
+
+# Given the following inputs:
+
+
+# P = # True or False
+# Q = # True or False
+# op = # '^' (logical AND, conjunction)
+#      # OR, 'v' (logical OR, disjunction)
+#      # OR, '->' (logical conditional, implication)
+#      # OR, '<->' (biconditional)
+# determine the correct outcome.
+
+# https://medium.com/i-math/intro-to-truth-tables-boolean-algebra-73b331dd9b94
+
+```
+
+
+## RANDOM_NUMS
+
+### P1.PY
+
+
+
+```python
+"""
+Generate Traffic Light
+"""
+
+# import python randomint package
+
+
+# generates a random number from 1 to 3
+
+
+# if 1, print 'red'
+# if 2, print 'green',
+# if 3, print 'yellow'
+
+```
+
+
+### P2.PY
+
+
+
+```python
+"""
+Generate Phone Number w/Area Code
+"""
+
+# import python randomint package
+
+
+# generate a random phone number of the form:
+# 1-718-786-2825
+# This should be a string
+# Valid Area Codes are: 646, 718, 212
+# if phone number doesn't have [646, 718, 212]
+# as area code, pick one of the above at random
 
 ```
 
