@@ -82,6 +82,8 @@ state_capitals = {
 }
 ```
 
+### Referencing Values by Keys
+
 We can access each value in the list by referencing its key like so:
 
 ```python
@@ -102,6 +104,8 @@ Instead, it's better to look up a key in a dict using `.get(key, [])`. The `.get
 print(state_capitals.get('PA', []))
 # PA is not in our dict, so .get() returns []
 ```
+
+### Retrieving All Keys, Values, & Key/Value Pairs
 
 Now, this dict has 4 keys, but what if it had *hundreds?* We can  retrieve data from large dicts using `.keys()`, `.values()`, or `.items()`.
 

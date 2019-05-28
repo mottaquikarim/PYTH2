@@ -660,6 +660,7 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of o
 ### Class Practice PSETs
 
 [Lists](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/lists_inclass_psets.ipynb)
+[Lists - CHALLENGES](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/list_challenges.ipynb)
 
 ## Additional Resources
 
