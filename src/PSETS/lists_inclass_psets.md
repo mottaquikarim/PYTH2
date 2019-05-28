@@ -82,7 +82,7 @@ numbers = None
 # Print the max of `numbers`.
 
 
-# Pop the last element in `numbers` off; re-insert it at index `2`.
+# Pop the last element in `numbers` off; re-insert it at index `2` and print the resultant list.
 
 
 
@@ -97,8 +97,6 @@ numbers = None
 # Print out the average number.
 
 
-
-# Print `numbers`.
 
 ```
 
@@ -176,24 +174,19 @@ Merge Lists with Duplicates
 list1, list2 = [2, 8, 6], [10, 4, 12]
 
 
-# Add another instance of each item in list1 to list1 again and assign the results to list3.
-list3 = list1 * 2
-print(list3) # [2, 8, 6, 2, 8, 6]
+# A) Add another instance of each item in list1 to list1 again and assign the results to list3.
+list3 = None
 
 
-# Combine the two given lists and assign them to list4.
-list4 = list2 + list3
-print(list4) # [10, 4, 12, 2, 8, 6, 2, 8, 6]
+# B) Combine the two given lists and assign them to list4.
+list4 = None
 
 
-# Replace the first 3 items in list 3 with the numbers 13, 16, 9.
-list3[:2] = [13, 16, 9]
-print(list3) # [13, 16, 9, 6, 2, 8, 6]
+# C) Replace the first 3 items in list 3 with the numbers 13, 16, 9.
+list3[:2] = None
 
-# Create a variable list5. Merge list3 and list4 to create a list containing no duplicates.
-list5 = set(list3 + list4)
-list5 = list(list5)
-print(list5) # [2, 4, 6, 8, 9, 10, 12, 13, 16]
+# D) Merge list3 and list4 to create a list containing no duplicates and store this in list5.
+list5 = None
 
 
 # Take a look at your printed statements to see the evolution of your lists with each step of this problem.
@@ -210,11 +203,15 @@ print(list5) # [2, 4, 6, 8, 9, 10, 12, 13, 16]
 Spotify Playlists - Sorting
 """
 
-# You work for Spotify and are creating a feature for users to alphabetize their playlists by song title. Below is a list of titles from a sample playlist. Alphabetize these songs and print the result.
+# You work for Spotify and are creating a feature for users to alphabetize their playlists by song title. Below is a list of titles from a sample playlist.
 
 playlist_titles = ['Tiny Dancer', 'At Last', 'Fortunate Son', 
 'Hey Jude', 'Isn\'t She Lovely', 'Just the Way You Are', 'I\'m Yours',
 'Vienna', 'Roxanne', 'Dancing in the Moonlight']
+
+# Alphabetize these songs and print the result.
+
+
 
 # Now do the reverse.
 
@@ -242,46 +239,6 @@ cool_runnings = [
 	'It\'s', 'bobsled', 'time!'
 ]
 
-
-```
-
-
-### P6.PY
-
-
-
-```python
-"""
-CHALLENGE - Extensions
-"""
-
-# ** Challenge** Add each element of the tuple1 to list1 *individually* and print the result.
-
-list1 = [6, 12, 9, 4, 10, 1]
-tuple1 = [(15,3), (6,2), (1, 8)]
-
-```
-
-
-### P7.PY
-
-
-
-```python
-"""
-CHALLENGE - Core Statistics Calculations
-"""
-
-# Given the sample below, find the mean, median, mode, variance, and standard deviation of this sample. Print them out separately, but in the same format as before.
-	# my_median = 
-	# my_mode = 
-	# my_variance = 
-	# my_sd = 
-
-sample = [6, 19, 20, 12, 6, 24, 8, 30, 28, 25]
-
-
-# Once you finish, print out each value **on its own line** in this format: "median = " etc.
 
 ```
 
