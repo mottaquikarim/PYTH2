@@ -204,7 +204,7 @@ truthTableEvaluator
 Generate Traffic Light
 """
 
-# import python randomint package
+# import python random package
 
 
 # generates a random number from 1 to 3
@@ -226,7 +226,7 @@ Generate Traffic Light
 Generate Phone Number w/Area Code
 """
 
-# import python randomint package
+# import python random package
 
 
 # generate a random phone number of the form:
