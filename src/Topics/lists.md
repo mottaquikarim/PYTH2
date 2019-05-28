@@ -661,7 +661,6 @@ Here's a **[helpful list](https://snakify.org/en/lessons/sets/#section_4)** of o
 
 [Lists](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/lists_inclass_psets.ipynb)
 
-
 ## Additional Resources
 
 - [Python Lists - Khan Academy Video](https://www.youtube.com/watch?v=zEyEC34MY1A)

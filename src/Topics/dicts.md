@@ -2,7 +2,7 @@
 {"next":"Topics/loops.md","title":"Dicts"}
 -->
 
-# Dict 
+# Dicts
 
 In addition to lists, another more comprehensive method for storing complex data are **dicts**, or dictionaries. In the example below, we associate a `key` (e.g. 'taq')  to a `value` (e.g. 'karim').
 
