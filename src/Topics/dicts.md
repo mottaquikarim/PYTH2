@@ -29,7 +29,7 @@ Do you see the pattern here so far? The data in a *dict key must be immutable.* 
 
 *3. Also, the keys in a dict _**must be unique**_ as well.*
 
-Be careful not to add a key to a dict a second time. If you do, the second item will _**override**_ the first item. For instance, if you upload data from a .csv file into a dict, it would be better to create a new dict first, then compare the two to check for identical keys and make any adjustments necessary.
+Be careful not to add a key to a dict a second time. If you do, the second item will _**override**_ the first item.
 
 ## Creating Dicts
 
@@ -89,14 +89,14 @@ state_capitals = {
 
 ### Referencing Values by Keys
 
-We can access each value in the list by referencing its key like so:
+You *CANNOT* access dict items with index positions like you do with lists! If you try, you'll get a `KeyError` because dict items do not have index positions. **Instead, the dict keys serve the same purpose as indeces in lists.** Accordingly, you can access each value in the list by referencing its key like so:
 
 ```python
 MAcap = state_capitals['MA']
 print('The capital of MA is {}.'.format(MAcap)) # 'The capital of MA is Boston.'
 ```
 
-Attempting to find a key that does not exist leads to error. *You also can't access dict items with index numbers like you do with lists!* If you try, you will get a `KeyError` - because an index number does not function like a dict key.
+Attempting to find a key that does not exist leads to error.
 
 ```python
 print(state_capitals['PA']) # KeyError from missing key
@@ -122,11 +122,14 @@ pets_owned = {
   'Caleb': ['dog','rabbit','parakeet']
 }
 
-pets.keys() # ['Taq', 'Francesca', 'Walter', 'Caleb']
+a = pets.keys() # ['Taq', 'Francesca', 'Walter', 'Caleb']
+print(f'Keys: \n{a} \n\n')
 
-pets.values() # [['teacup pig','cat','cat'], ['dog','rabbit','parakeet'], etc ]
+b = pets.values() # [['teacup pig','cat','cat'], ['dog','rabbit','parakeet'], etc ]
+print(f'Values: \n{b} \n\n')
 
-pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
+c = pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
+print(f'Key/Value Pairs: \n{c}')
 ```
 
 ## Built-in Operators for Manipulating Dicts
@@ -135,7 +138,7 @@ Just like lists, you can edit, analyze, and format your dicts. Some work the sam
 
 ### Add or Edit Dict Items
 
-We can add a single item to a dict...
+You can add a single item to dict in two ways. The first way is similar to updating a list...
 
 ```python
 state_capitals = {
@@ -150,7 +153,22 @@ state_capitals['CA'] = 'Sacramento'
 print(state_capitals) # {'NY': 'Albany', 'NJ': 'Trenton', 'CT': 'Hartford', 'MA': 'Boston', 'CA': 'Sacramento'}
 ```
 
-...but more likely you'll want to make bulk updates to save yourself time. To do so, you can use the `.update()` method to add one or more items to the dict. **NOTE!**: It's easy to accidentally override items when you're merging datasets. Don't worry though - we'll learn an easy way to check for duplicate keys in the next section.
+...but more likely you'll want to use the `.update(key, value)` method.
+
+```python
+state_capitals = {
+	'NY': 'Albany',
+	'NJ': 'Trenton',
+	'CT': 'Hartford',
+	'MA': 'Boston'
+}
+
+state_capitals.update('CA': 'Sacramento')
+
+print(state_capitals) # {'NY': 'Albany', 'NJ': 'Trenton', 'CT': 'Hartford', 'MA': 'Boston', 'CA': 'Sacramento'}
+```
+
+The `.update()` method also allows you to make bulk updates. In that case, you can simply pass it a variable containing another dict to add to the first one.
 
 ```python
 state_capitals = {
@@ -185,7 +203,7 @@ state_capitals = {
 }
 ```
 
-**Notice something?** It's easy to accidentally override items when you're merging datasets. *Oops, we just changed the capital of NJ to Hoboken!* Don't worry though - we'll learn an easy way to check for duplicate keys in the next section.
+**Notice something?** It's easy to accidentally override items when you're merging datasets. *Oops, we just changed the capital of NJ to Hoboken!* Don't worry though - we'll learn an easy way to check for duplicate keys in the next section on loops.
 
 ### Remove Items from a Dict
 
@@ -209,15 +227,14 @@ state_capitals.clear()
 print(state_capitals) # {}
 ```
 
-#### `.pop()`:
+#### `.pop(key, value)`:
 
 This removes an item, which you must specify by key. There are two things to note here -
 
-**First**, you *cannot delete a dict item by specifying a value*. Since values do not have to be unique the way keys are, trying to delete items by referencing values could cause issues.
+1. **First**, you *cannot delete a dict item by specifying a value*. Since values do not have to be unique the way keys are, trying to delete items by referencing values could cause issues.
+2. **Second**, just like we saw earlier with `.get(key, value)`, `.pop(key, value)` will raise a `KeyError` if you try to remove a key that does not exist in the dict. We avoid this in the same way, by setting a default value - typically `[]` - for the program to return in case of a missing key.
 
-**Second**, just like we saw earlier with `.get(key, value)`, `.pop(key, value)` will raise a `KeyError` if you try to remove a key that does not exist in the dict. We avoid this in the same way, by setting a default value - typically `[]` - for the program to return in case of a missing key.
-
-Unfortunately, you *can't* use the same method as we did for `.update()` to delete larger portions of data. We'll learn a way to do that in the next section.
+Unfortunately, you *can't* use the same method as we did for `.update()` to delete larger portions of data. We'll learn a way to do that in the next section on loops as well.
 
 ```python
 state_capitals = {
@@ -238,7 +255,7 @@ state_capitals.pop('AZ', [])
 ```
 
 #### `popitem()`:
-This one just removes an arbitrary key value pair from dict and returns it as a tuple. 
+This one just removes an arbitrary key value pair from dict and returns it as a tuple. For instance, you might do this if you're randomly sampling your data for QA purposes.
 
 ```python
 state_capitals = {
