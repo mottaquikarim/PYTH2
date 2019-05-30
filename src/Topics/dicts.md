@@ -4,52 +4,81 @@
 
 # Dicts
 
-In addition to lists, another more comprehensive method for storing complex data are **dicts**, or dictionaries. In the example below, we associate a `key` (e.g. 'taq') to a `value` (e.g. 'karim'). The keys and values of a single dict don't have to be homogenous. In other words, you can mix and match different key, value, and key value pair data types within one dict as seen below.
+In addition to lists, another more comprehensive method for storing complex data are **dicts**, or dictionaries. In the example below, we associate a `key` (e.g. 'taq') to a `value` (e.g. 'karim'). Instead of being enclosed in `[]`, dicts are enclosed in `{}`.
+
+```python
+my_dict = {
+    'key' : 'value'
+}
+```
+
+The keys and values of a single dict don't have to be homogenous. In other words, you can mix and match different key, value, and key/value pair data types within one dict as seen below.
 
 ```python
 dict1 = {
-  'taq': 'karim',
-  'apple': 35,
-  False: 87.96,
-  35: 'dog',
-  'tree': True,
-  47: 92,
-  # etc.
+    'taq': 'karim',
+    'apple': 35,
+    False: 87.96,
+    35: 'dog',
+    'tree': True
+    # etc.
 }
 
-print(dict1) # {'taq': 'karim', 'apple': 35, False: 87.96, 35: 'dog', 'tree': True, 47: 92}
+print(dict1)
 ```
 
 The `values` in a dict can be any valid Python data type, but there are some restrictions on what you can use as `keys`:
 
 *1. Keys **CAN** be strings, integers, floats, booleans, and tuples.* 
+
 *2. Keys **CANNOT** be lists or dicts.*
 
-Do you see the pattern here so far? The data in a *dict key must be immutable.* Since lists and dicts are mutable, they cannot be used as keys in a dict.
+Do you see the pattern here so far? The data in a *dict key must be immutable.* Since lists and dicts are mutable, they cannot be used as keys in a dict. That said, they *CAN* serve as the values in a dict.
 
-*3. Also, the keys in a dict _**must be unique**_ as well.*
+```python
+dict2 = {
+    47: [12.1, 'blue', True], # list as a dict value
+    'julianna': {False: 'cat'} # dict as a dict value
+}
+```
 
-Be careful not to add a key to a dict a second time. If you do, the second item will _**override**_ the first item.
+*3. Also, the keys in a dict _**must be unique**_.* You'll see why shortly... But remember -- be careful not to add a key to a dict a second time. If you do, the second item will _**override**_ the first item.
 
 ## Creating Dicts
 
 There are several ways you can create your `dict`, but we'll go through the most basic ones here.
 
-#### 1. The simplest is to create an empty list with the `dict()` method.
+#### 1. The simplest way is by passing in key value pairs directly using this syntax:
+
 
 ```python
-students = dict() # this creates a new, empty dict
-```
+food_groups = {} # this creates a new, empty dict
 
-#### 2. You can create a dict by passing in key value pairs directly using this syntax:
-
-```python
 food_groups = {
 	'pomegranate': 'fruit',
 	'asparagus': 'vegetable',
 	'goat cheese': 'dairy',
 	'walnut': 'legume'
 }
+
+print(food_groups)
+```
+
+#### 2. You can also create an empty dict with the `dict()` method.
+
+Just like with the `list()` method, `dict()` only accepts one argument, meaning you have to pass in key/value pairs within the `{}`.
+
+```python
+food_groups = dict() # this creates a new, empty dict
+
+food_groups = dict({
+	'pomegranate': 'fruit',
+	'asparagus': 'vegetable',
+	'goat cheese': 'dairy',
+	'walnut': 'legume'
+})
+
+print(food_groups)
 ```
 
 #### 3. You can also convert a *list of tuples* into a dict using `dict()`...
@@ -64,13 +93,15 @@ print(wordFrequency) # {'this': 77, 'there': 45, 'hi': 10, 'at': 23, 'Hello': 7}
 
 #### 4. ...and even combine two lists to create a dict by using the `zip()` method.
 
-The `zip()` method takes the name of each list as parameters - the first list will become the dict's keys, and the second list will become the dict's values. **NOTE!** This only works if you're sure the key value pairs have the same index position in their original lists (so they will match in the dict).
+The `.zip()` method takes the names of each list as parameters - the first list will become the dict's keys, and the second list will become the dict's values.
+
+**NOTE!** *This only works if you're sure the key/value pairs have the same index position in their original lists (so they will match in the dict).*
 
 ```python
-names = ['Taq', 'Zola', 'Valerie', 'Valerie']
+names = ['Taq', 'Valerie', 'Viktor', 'Zola']
 scores = [[98, 89, 92, 94], [86, 45, 98, 100], [100, 100, 100, 100], [76, 79, 80, 82]]
 
-grades = dict(zip(names,scores))
+grades = dict(zip(names, scores))
 print(grades) # {'Taq': [98, 89, 92, 94], 'Zola': [86, 45, 98, 100], 'Valerie': [76, 79, 80, 82]}
 ```
 
