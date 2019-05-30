@@ -2,9 +2,7 @@
 
 ## LIST_MANIPULATION
 
-### P1.PY
-
-
+### P1.PY Phone Numbers
 
 ```python
 """
@@ -19,7 +17,7 @@ cell = '1.192.168.0143'
 ```
 
 
-### P2.PY
+### P2.PY Basic Math Ops
 
 
 
@@ -44,8 +42,7 @@ nums = [2, 19, 20, 12, 6, 24, 8, 30, 28, 25]
 ```
 
 
-### P3.PY
-
+### P3.PY Merge Lists with Duplicates
 
 
 ```python
@@ -78,9 +75,7 @@ list5 = None
 ```
 
 
-### P4.PY
-
-
+### P4.PY Spotify Playlists - Sorting
 
 ```python
 """
@@ -98,14 +93,10 @@ playlist_titles = ['Tiny Dancer', 'At Last', 'Fortunate Son',
 
 
 # Now do the reverse.
-
-
 ```
 
 
-### P5.PY
-
-
+### P5.PY Cool Runnings!
 
 ```python
 """
@@ -123,15 +114,12 @@ cool_runnings = [
 	'It\'s', 'bobsled', 'time!'
 ]
 
-
 ```
 
 
 ## LIST_CHALLENGES
 
-### P1.PY
-
-
+### P1.PY CHALLENGE - Extensions
 
 ```python
 """
@@ -146,9 +134,7 @@ tuple1 = [(15,3), (6,2), (1, 8)]
 ```
 
 
-### P2.PY
-
-
+### P2.PY CHALLENGE - Core Statistics Calculations
 
 ```python
 """
@@ -173,9 +159,7 @@ sample = [6, 19, 20, 12, 6, 24, 8, 30, 28, 25]
 
 ## DICT_OPS
 
-### P1.PY
-
-
+### P1.PY Basic Dict Concepts
 
 ```python
 """
@@ -217,7 +201,7 @@ Basic Dict Concepts
 ```
 
 
-### P2.PY
+### P2.PY Merging Dicts
 
 
 
@@ -235,7 +219,7 @@ d2 = {'c': 300, 'd': 400, 'e': 500}
 ```
 
 
-### P3.PY
+### P3.PY Math with Girl Scout Cookies
 
 
 
@@ -284,7 +268,7 @@ Francesca = {'tagalongs': 18, 'thin mints': 14, 'samoas': 10}
 ```
 
 
-### P4.PY
+### P4.PY Inverting Keys & Values
 
 
 
@@ -302,7 +286,7 @@ dict1 = { "k1" : "v1", "k2" : "v2", "k3" : "v1" }
 ```
 
 
-### P5.PY
+### P5.PY Lists to Dicts
 
 
 
@@ -322,13 +306,13 @@ scores = [[98, 89, 92, 94], [86, 45, 98, 100], [100, 100, 100, 100], [76, 79, 80
 
 ## SEARCH_VALIDATION
 
-### P1.PY
+### P1.PY Login Credentials
 
 
 
 ```python
 """
-Basic Login
+Login Credentials
 """
 
 # Imagine you work for a movie streaming service. You're in charge of safeguarding user privacy by ensuring the login feature remains secure. For the sake of example only, below is the dict of user login info. Normally, you wouldn't have access to see this unencrypted of course!
@@ -351,13 +335,13 @@ current_user = { 'me@email.com': 'myPassword' }
 
 ## COUNTERS_CHALLENGE
 
-### P1.PY
+### P1.PY CHALLENGE - Word Frequency
 
 
 
 ```python
 """
-Word Frequency
+CHALLENGE - Word Frequency
 """
 
 # Print out the number of words in this movie quote. Find and print out the most common word in the quote and how many times it was used.
@@ -377,13 +361,13 @@ princess_bride = [
 ```
 
 
-### P2.PY
+### P2.PY CHALLENGE - Summing Dict Values
 
 
 
 ```python
 """
-Summing Dict Values
+CHALLENGE - Summing Dict Values
 """
 
 # Two Kindergarten teachers poll their classes for what fruit they want to eat for snacktime tomorrow. Only one of them is going shopping, so she needs to know how many of each fruit she needs to buy in total. Tally these up and assign them to the "shopping_list" dict.
