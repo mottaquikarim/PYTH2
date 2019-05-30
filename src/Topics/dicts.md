@@ -257,18 +257,6 @@ pets = {
   'Caleb': ['dog','rabbit','parakeet']
 }
 
-pet_kv_pairs = pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
-print(f'Key/Value Pairs: \n{pet_kv_pairs}\n{type(pet_kv_pairs)}')
-```
-
-```python
-pets = {
-  'Taq': ['teacup pig','cat','cat'],
-  'Francesca': ['llama','horse','dog'],
-  'Walter': ['ferret','iguana'],
-  'Caleb': ['dog','rabbit','parakeet']
-}
-
 pet_kv_pairs = list(pets.items())
 print(f'Key/Value Pairs: \n{pet_kv_pairs}\n{type(pet_kv_pairs)}\n\n')
 # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
@@ -277,15 +265,9 @@ print(pet_kv_pairs[0])
 # ('Taq', ['teacup pig','cat','cat'])
 ```
 
-
-```python
-
-```
-
-
 ## Built-in Operators for Manipulating Dicts
 
-Just like lists, you can edit, analyze, and format your dicts. Some work the same for dicts and lists such as `len()`. However, adding, deleting, and updating data requires a little more detail for dicts than for lists.
+Just like lists, you can edit, analyze, and format your dicts. Some work the same for dicts and lists such as `len()` -- that will give you the number of key/value pairs in the dict. However, adding, deleting, and updating data requires a little more detail for dicts than for lists.
 
 ### Add or Edit Dict Items
 
