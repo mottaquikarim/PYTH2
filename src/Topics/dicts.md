@@ -123,13 +123,27 @@ state_capitals = {
 You *CANNOT* access dict items with index positions like you do with lists! If you try, you'll get a `KeyError` because dict items do not have index positions. **Instead, the dict keys serve the same purpose as indeces in lists.** Accordingly, you can access each value in the list by referencing its key like so:
 
 ```python
+state_capitals = {
+	'NY': 'Albany',
+	'NJ': 'Trenton',
+	'CT': 'Hartford',
+	'MA': 'Boston'
+}
+
 MAcap = state_capitals['MA']
-print('The capital of MA is {}.'.format(MAcap)) # 'The capital of MA is Boston.'
+print(f'The capital of MA is {MAcap}.') # 'The capital of MA is Boston.'
 ```
 
 Attempting to find a key that does not exist leads to error.
 
 ```python
+state_capitals = {
+	'NY': 'Albany',
+	'NJ': 'Trenton',
+	'CT': 'Hartford',
+	'MA': 'Boston'
+}
+
 print(state_capitals['PA']) # KeyError from missing key
 print(state_capitals[2]) # KeyError from index reference
 ```
@@ -137,31 +151,137 @@ print(state_capitals[2]) # KeyError from index reference
 Instead, it's better to look up a key in a dict using `.get(key, [])`. The `.get()` method takes the key argument just as above EXCEPT it allows you to enter some default value it should return if the key you enter does not exist. Usually, we use `[]` as that value.
 
 ```python
+state_capitals = {
+	'NY': 'Albany',
+	'NJ': 'Trenton',
+	'CT': 'Hartford',
+	'MA': 'Boston'
+}
+
 print(state_capitals.get('PA', []))
 # PA is not in our dict, so .get() returns []
 ```
 
 ### Retrieving All Keys, Values, & Key/Value Pairs
 
-Now, this dict has 4 keys, but what if it had *hundreds?* We can  retrieve data from large dicts using `.keys()`, `.values()`, or `.items()`.
+Now, this dict has 4 keys, but what if it had *hundreds?* We can isolate pieces of the dict's data structure using these functions:
+
+* `.keys()` -- returns a collection of all the keys in a dict 
+* `.values()` -- returns a collection of all the values in a dict 
+* `.items()` -- returns a collection of all the key/value pairs in a dict 
+
+#### Isolating Key & Values
+
+You would think the `.keys()` and `.values()` functions return lists of the keys and values repsectively, right? Wrong. These functions return *list-LIKE* objects called `dict_keys()` and `dict_values()`.
 
 ```python
-pets_owned = {
+pets = {
   'Taq': ['teacup pig','cat','cat'],
   'Francesca': ['llama','horse','dog'],
   'Walter': ['ferret','iguana'],
   'Caleb': ['dog','rabbit','parakeet']
 }
 
-a = pets.keys() # ['Taq', 'Francesca', 'Walter', 'Caleb']
-print(f'Keys: \n{a} \n\n')
+pet_keys = pets.keys()
+print(f'Keys: \n{pet_keys}\n{type(pet_keys)}\n\n')
+# ['Taq', 'Francesca', 'Walter', 'Caleb']
 
-b = pets.values() # [['teacup pig','cat','cat'], ['dog','rabbit','parakeet'], etc ]
-print(f'Values: \n{b} \n\n')
 
-c = pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
-print(f'Key/Value Pairs: \n{c}')
+pet_values = pets.values()
+print(f'Values: \n{pet_values}\n{type(pet_values)}')
+# [['teacup pig','cat','cat'], ['dog','rabbit','parakeet'], etc ]]
 ```
+
+In contrast to lists, you CANNOT access the elements in either a `dict_keys` or a `dict_values` object by index.
+
+```python
+pets = {
+  'Taq': ['teacup pig','cat','cat'],
+  'Francesca': ['llama','horse','dog'],
+  'Walter': ['ferret','iguana'],
+  'Caleb': ['dog','rabbit','parakeet']
+}
+
+pet_keys = pets.keys() # ['Taq', 'Francesca', 'Walter', 'Caleb']
+print(pet_keys[0])
+# TypeError: 'dict_keys' object is not subscriptable
+
+# The same happens for 'dict_values'
+```
+
+The easiest way to get around this is to simply convert the objects to lists when you access them.
+
+```python
+pets = {
+  'Taq': ['teacup pig','cat','cat'],
+  'Francesca': ['llama','horse','dog'],
+  'Walter': ['ferret','iguana'],
+  'Caleb': ['dog','rabbit','parakeet']
+}
+
+pet_keys = list(pets.keys())
+print(f'Keys: \n{pet_keys}\n{type(pet_keys)}\n\n')
+# ['Taq', 'Francesca', 'Walter', 'Caleb']
+
+pet_values = list(pets.values())
+print(f'Values: \n{pet_values}\n{type(pet_values)}\n\n')
+# [['teacup pig','cat','cat'], ['dog','rabbit','parakeet'], etc ]]
+
+print(f'First Key: {pet_keys[0]}') # 'Taq'
+print(f'First Value: {pet_values[0]}') # ['teacup pig','cat','cat']
+```
+
+#### Isolating Key/Value Pairs
+
+This one will return a `dict_items` object.
+
+```python
+pets = {
+  'Taq': ['teacup pig','cat','cat'],
+  'Francesca': ['llama','horse','dog'],
+  'Walter': ['ferret','iguana'],
+  'Caleb': ['dog','rabbit','parakeet']
+}
+
+pet_kv_pairs = pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
+print(f'Key/Value Pairs: \n{pet_kv_pairs}\n{type(pet_kv_pairs)}')
+```
+
+It looks like a list of tuples, right? Again, you'd think you could access each pair's tuple by index then, but you can't without first converting the `dict_items` object to a list like we did before.
+
+```python
+pets = {
+  'Taq': ['teacup pig','cat','cat'],
+  'Francesca': ['llama','horse','dog'],
+  'Walter': ['ferret','iguana'],
+  'Caleb': ['dog','rabbit','parakeet']
+}
+
+pet_kv_pairs = pets.items() # [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
+print(f'Key/Value Pairs: \n{pet_kv_pairs}\n{type(pet_kv_pairs)}')
+```
+
+```python
+pets = {
+  'Taq': ['teacup pig','cat','cat'],
+  'Francesca': ['llama','horse','dog'],
+  'Walter': ['ferret','iguana'],
+  'Caleb': ['dog','rabbit','parakeet']
+}
+
+pet_kv_pairs = list(pets.items())
+print(f'Key/Value Pairs: \n{pet_kv_pairs}\n{type(pet_kv_pairs)}\n\n')
+# [('Taq', ['teacup pig','cat','cat']), ('Francesca', [['llama','horse','dog']), etc]
+
+print(pet_kv_pairs[0])
+# ('Taq', ['teacup pig','cat','cat'])
+```
+
+
+```python
+
+```
+
 
 ## Built-in Operators for Manipulating Dicts
 
