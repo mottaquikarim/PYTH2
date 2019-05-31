@@ -100,7 +100,6 @@ for i in x:
 
 When you iterate through an object, `enumerate()` can allow you to keep track of the current item's index position. It stores each one in a Counter object.
 
-
 ```python
 test_scores = [100, 68, 95, 84, 79, 99]
 for idx, score in enumerate(test_scores):
@@ -324,3 +323,6 @@ print(dict1)
 } """
 ```
 
+## Practice PSETs
+
+*Coming soon...*
