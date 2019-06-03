@@ -93,11 +93,9 @@ for color in visible_colors:
 
 ## Loops with Ranges
 
-#### `range()` vs. the `enumerate()` Object
-
 If you want to iterate through only a section of a list, the `range()` and `enumerate()` functions can facilitate this.
 
-`range()`:
+### `range()`
 
 With `while` loops, we saw one way to iterate while counting. Using `range()` with a for loop allows us to be more concise and more specific. 
 
@@ -105,7 +103,7 @@ The  `range()` function uses this syntax: `range(<begin>, <end>, <stride>)`. It 
 
 Consider the differences in the loops below...
 
-*WHILE LOOP*
+#### `range()` with a `while` loop
 
 ```python
 visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
@@ -117,7 +115,7 @@ while 2 < i < 6:
     i += 1
 ```
 
-*FOR LOOP*
+#### `range()` with a `for` loop
 
 ```python
 visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
@@ -129,7 +127,7 @@ for i in x:
     print(visible_colors[i])
 ```
 
-`enumerate()`:
+### `enumerate()`
 
 This one is actually its own data type! When looping through a `list`, you might want to keep track of the index position of the item in each loop iteration. Converting the `list` it into an `enumerate` object allows you to achieve this more easily.
 
@@ -169,7 +167,8 @@ Something very important to watch out for here is falling into an **infinite loo
 
 The **`break` keyword**, the **`continue` keyword**, and the **`else: ` statement** are three core ways to help control the flow and logic within your loops.
 
-#### The `break` Keyword
+### The `break` Keyword
+
 In a Python loop, the `break` keyword *escapes the loop*, regardless of the iteration number and regardless of how much of the loop code it has completed on its current iteration. Once a break executes, the program will continue to execute after the loop.
 
 We might use a break statement if we only want the loop to iterate under a certain condition. For example:
@@ -217,7 +216,8 @@ for i in ['foo', 'bar', 'baz', 'qux']:
   print(i) # foo
 ```
 
-#### The `continue` Keyword
+### The `continue` Keyword
+
 You can also use the `continue` keyword to interrupt the loop code. The difference is that the `continue` keyword escapes *only the current iteration*. A `break` escapes the loop entirely and goes on to execute the code immediately following the loop. A `continue` tells the program to stop where it is within the within the current iteration and *skip to the the next iteration* of the loop. 
 
 Here's an example using a `while` loop. Notice that the `continue` applies to the *outer* while loop, whereas the `break` applies only to the *inner* while loop.
@@ -254,7 +254,7 @@ for i in ['foo', 'bar', 'baz', 'qux']:
   print(i) # foo, qux
 ```
 
-#### The `else` Statement
+### The `else` Statement
 The `else` statement works similarly to a `break` in that it is triggered once the loop has finished all iterations that meet any conditional specifications. Now, you might wonder why you might use this because putting a statement after the loop will also execute once the loop has finished all iterations that meet any conditional specifications.
 
 Here's the difference:
@@ -289,7 +289,7 @@ else:
 
 Here, `i == 'bar'` evaluates to `True` during the second iteration. Even though the third and fourth iterations could have printed when evaluated by the conditional, the `break` executed before the loop got there. Therefore, the loop did not exhaust all viable iterations and it does not trigger the `else` statement.
 
-#### Infinite Loop Example
+### Infinite Loop Example
 
 See if you can figure out why this loop is infinite. (Tip: Don't actually run this code, or your computer will freak out!)
 
@@ -398,4 +398,5 @@ print(dict1)
 
 ## Practice PSETs
 
+[Loop Basics](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/loops_inclass_psets.ipynb)
 *Coming soon...*
