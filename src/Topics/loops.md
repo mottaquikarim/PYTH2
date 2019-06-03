@@ -323,10 +323,10 @@ transaction = {
 for key, value in transaction.items():
     print(f'{key}: {value}')
 
-# Output:
+"""Output:
 account: 1234
 payee: Joe Bloggs
-amount: 10.0
+amount: 10.0"""
 ```
 
 #### Iterate Through Dict Keys
@@ -343,10 +343,10 @@ transaction = {
 for key in transaction:
     print(f'{key}: {transaction[key]}')
 
-# Output:
+"""Output:
 account: 1234
 payee: Joe Bloggs
-amount: 10.0
+amount: 10.0"""
 ```
 
 ### Sorting Dicts with Loops
@@ -365,10 +365,10 @@ for key in sorted(transaction):
     print(f'{key}: {transaction[key]}')
 
 
-# Output:
+"""Output:
 account: 1234
 amount: 10.0
-payee: Joe Bloggs
+payee: Joe Bloggs"""
 ```
 
 #### By the Values of Each Key
