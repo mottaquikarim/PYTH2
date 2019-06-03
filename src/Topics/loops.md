@@ -165,9 +165,9 @@ for idx, i in visible_colors:
 
 ## Control Flow with `break`, `continue`, & `else:`
 
-Something very important to watch out for here is falling into an **infinite loop**. This is one of the most common traps and can make your code go crazy running the loop over and over without moving through the rest of the program!
+Something very important to watch out for here is falling into an **infinite loop**. This is one of the most common traps and can make your code go crazy running the loop over and over without moving through the rest of the program! It happens when you do not have proper control flow in the loop's code. 
 
-The **`break` keyword**, the **`continue` keyword**, and the **`else:` statement** are three core ways to help control the flow and logic within your loops.
+The **`break` keyword**, the **`continue` keyword**, and the **`else: ` statement** are three core ways to help control the flow and logic within your loops.
 
 #### The `break` Keyword
 In a Python loop, the `break` keyword *escapes the loop*, regardless of the iteration number and regardless of how much of the loop code it has completed on its current iteration. Once a break executes, the program will continue to execute after the loop.
@@ -289,8 +289,9 @@ else:
 
 Here, `i == 'bar'` evaluates to `True` during the second iteration. Even though the third and fourth iterations could have printed when evaluated by the conditional, the `break` executed before the loop got there. Therefore, the loop did not exhaust all viable iterations and it does not trigger the `else` statement.
 
-#### Infinite Loops
-Infinite loops can occur when there is not proper control flow in the loop's code. See if you can figure out why this loop is infinite.
+#### Infinite Loop Example
+
+See if you can figure out why this loop is infinite. (Tip: Don't actually run this code, or your computer will freak out!)
 
 ```python
 a = ['foo', 'bar', 'baz', 'qux', 'corge']
@@ -320,7 +321,7 @@ transaction = {
 }
 
 for key, value in transaction.items():
-    print("{}: {}".format(key, value))
+    print(f'{key}: {value}')
 
 # Output:
 account: 1234
@@ -329,11 +330,18 @@ amount: 10.0
 ```
 
 #### Iterate Through Dict Keys
+
 If you only have a dict's keys, you can still iterate through the dict. Notice the loop below results in the same output as the one above iterating through items.
 
 ```python
+transaction = {
+  "amount": 10.00,
+  "payee": "Joe Bloggs",
+  "account": 1234
+}
+
 for key in transaction:
-    print("{}: {}".format(key, transaction[key]))
+    print(f'{key}: {transaction[key]}')
 
 # Output:
 account: 1234
@@ -341,13 +349,21 @@ payee: Joe Bloggs
 amount: 10.0
 ```
 
-#### Sorting Dicts with Loops
+### Sorting Dicts with Loops
 
-You can also sort a dict by iterating through its keys.
+#### By Key
+
 
 ```python
-for key in sorted(transaction): # this is the only difference
-    print("{}: {}".format(key, transaction[key]))
+transaction = {
+  "amount": 10.00,
+  "payee": "Joe Bloggs",
+  "account": 1234
+}
+
+for key in sorted(transaction):
+    print(f'{key}: {transaction[key]}')
+
 
 # Output:
 account: 1234
@@ -355,7 +371,7 @@ amount: 10.0
 payee: Joe Bloggs
 ```
 
-#### Sort the Values of Each Key in a Dict
+#### By the Values of Each Key
 
 Note that the dict itself will not be sorted by the first value in each item. Because the keys are the unique element of a dict, you can only sort dict values *within each key*.
 
@@ -367,9 +383,9 @@ dict1 ={
   "L4":[40, 34, 21, 67] 
 }
 
-for i, j in dict1.items(): 
-  sorted_dict = {i:sorted(j)} # here is sorting!
-  dict1.update(sorted_dict)
+for k, v in dict1.items(): 
+  sorted_pair = {k: sorted(v)} # here is sorting!
+  dict1.update(sorted_pair)
 
 print(dict1)
 """ # prints out...
