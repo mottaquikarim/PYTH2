@@ -86,7 +86,7 @@ Let's go back to that list of colors we wanted to print out and use a `for` loop
 #     <statement(s)>
 
 
-visible_colors = ["red", "orange", "yellow", "green", "blue", "violet"]
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
 for color in visible_colors:
   print(color)
 ```
@@ -99,21 +99,34 @@ If you want to iterate through only a section of a list, the `range()` and `enum
 
 `range()`:
 
-With `while` loops, we saw one way to iterate while counting. Using `range()` with a for loop allows us to be more concise and more specific. The  `range()` function uses this syntax: `range(<begin>, <end>, <stride>)`. It returns an iterable that yields integers starting with <begin>, *up to but **NOT** including <end>*. The <stride> argument isn't required, but if specified, it indicates an amount to skip between values. For example, `range(5, 20, 3)` would iterate through 5, 8, 11, 14, and 17. If <stride> is omitted, it defaults to incrementing by 1.
+With `while` loops, we saw one way to iterate while counting. Using `range()` with a for loop allows us to be more concise and more specific. 
 
-Consider the differences in the loops below:
+The  `range()` function uses this syntax: `range(<begin>, <end>, <stride>)`. It returns an iterable that yields values  starting with the <begin> index, *up to but **NOT** including the <end> index*. The <stride> argument isn't required, but if specified, it indicates an amount to skip between values. For example, `range(5, 20, 3)` would iterate through 5, 8, 11, 14, and 17. If <stride> is omitted, it defaults to incrementing by 1.
+
+Consider the differences in the loops below...
+
+*WHILE LOOP*
 
 ```python
-# numeric range with a while loop
-i = 0
-while i < 5:
-  print i # prints numbers 1, 2, 3, 4
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+print(len(visible_colors), '\n')
 
+i = 3
+while 2 < i < 6:
+    print(visible_colors[i]) # prints numbers 1, 2, 3, 4
+    i += 1
+```
 
-# numeric range with a for loop & range()
-x = range(0,5)
-for i in x: 
-    print(i) # prints numbers 1, 2, 3, 4
+*FOR LOOP*
+
+```python
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+print(len(visible_colors), '\n')
+
+x = range(3, 6)
+
+for i in x:
+    print(visible_colors[i])
 ```
 
 `enumerate()`:
