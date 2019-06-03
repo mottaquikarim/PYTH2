@@ -399,4 +399,3 @@ print(dict1)
 ## Practice PSETs
 
 [Loop Basics](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/loops_inclass_psets.ipynb)
-*Coming soon...*
