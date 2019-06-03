@@ -30,7 +30,7 @@ You can also define your own Python iterables using the principles of OOP (objec
 
 This is the simplest loop and has two primary use cases.
 
-#### Counting
+### Counting
 
 ```python
 i = 0
@@ -42,7 +42,27 @@ print(i) # will print out numbers 1 through 10
 
 What is happening here is we are running the code block within the `while` 100 times. We know to stop because the `boolean comparison` will evaluate to `False` once i exceeds `100`, which is possible only because `i` is being incremented when we write `i += 1`.
 
-#### Booleans
+#### Practice Together!
+
+Use a loop to make a list of all odd numbers between 1 and 10 and another list with all the evens in this range. When done, print the lists.
+
+```python
+odds = []
+evens = []
+
+i = 1
+
+while i <= 10:
+  if i % 2 != 0:
+    odds.append(i)
+  else:
+    evens.append(i)
+  i += 1
+
+print(odds,'\n', evens)
+```
+
+### Booleans
 
 Here's real-life scenario where you might apply a `while` loop. Let's say you've programmed your Amazon Echo or Google Home to make a pot of coffee whenever you say the trigger word "tired". Once you say tired, here's a *simplified pseudo-code version* of what happens behind the scenes:
 
