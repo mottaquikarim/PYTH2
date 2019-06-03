@@ -131,12 +131,36 @@ for i in x:
 
 `enumerate()`:
 
-When you iterate through an object, `enumerate()` can allow you to keep track of the current item's index position. It stores each one in a Counter object.
+This one is actually its own data type! When looping through a `list`, you might want to keep track of the index position of the item in each loop iteration. Converting the `list` it into an `enumerate` object allows you to achieve this more easily.
+
+Take a look at what an `enumerate` object looks like below. Note that you can print the object as a whole to view its contents like you do with a list.
 
 ```python
-test_scores = [100, 68, 95, 84, 79, 99]
-for idx, score in enumerate(test_scores):
-  print(idx, score)
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+enum = enumerate(visible_colors)
+
+print('Print whole list...', visible_colors)
+print('Print whole enumerate object...', enum)
+```
+
+You have to loop through them and print each one. As you do this, you'll see that each item in the `enumerate` object is a tuple. 
+
+```python
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+visible_colors = enumerate(visible_colors)
+
+for i in visible_colors:
+    print(i)
+```
+
+But you can access each item in each tuple like this...
+
+```python
+visible_colors = ['red', 'orange', 'yellow', 'green', 'blue', 'violet']
+visible_colors = enumerate(visible_colors)
+
+for idx, i in visible_colors:
+    print(f'{idx} & {i}')
 ```
 
 ## Control Flow with `break`, `continue`, & `else:`
