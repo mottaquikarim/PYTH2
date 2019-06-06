@@ -25,7 +25,7 @@ Here are all the lectures for this course. This section will be updated with not
 3. ✅  **[Conditionals & Lists - 5/28](src/Lectures_class2/Lecture3.md)**
 4. ✅  **[Tuples, Sets, & Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
 5. ✅  **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
-6. **[Modules & Functions Intro - 6/6](src/Lectures_class2/Lecture6.md)**
+6. ➡️  **[Modules & Functions Intro - 6/6](src/Lectures_class2/Lecture6.md)**
 7. **[Functions - 6/11](src/Lectures_class2/Lecture7.md)**
 8. **[Intro to OOP & Classes - 6/13](src/Lectures_class2/Lecture8.md)**
 9. **[Classes - 6/18](src/Lectures_class2/Lecture9.md)**
