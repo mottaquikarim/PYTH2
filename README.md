@@ -24,22 +24,22 @@ Here are all the lectures for this course. This section will be updated with not
 2. ✅  **[Conditionals - 5/23](src/Lectures_class2/Lecture2.md)**
 3. ✅  **[Conditionals & Lists - 5/28](src/Lectures_class2/Lecture3.md)**
 4. ✅  **[Tuples, Sets, & Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
-5. ✅  **[Loops & Iterators - 6/4](src/Lectures_class2/Lecture5.md)**
-6. ➡️  **[Modules & Functions Intro - 6/6](src/Lectures_class2/Lecture6.md)**
-7. **[Functions - 6/11](src/Lectures_class2/Lecture7.md)**
-8. **[Intro to OOP & Classes - 6/13](src/Lectures_class2/Lecture8.md)**
-9. **[Classes - 6/18](src/Lectures_class2/Lecture9.md)**
-10. **[Intro to Data Science - 6/20](src/Lectures_class2/Lecture10.md)**
-11. **[Intro to Pandas Objects - 6/25](src/Lectures_class2/Lecture11.md)**
-12. **[Pandas Data Processing I - 6/27](src/Lectures_class2/Lecture12.md)**
-13. **[Pandas Data Processing II - 7/2](src/Lectures_class2/Lecture13.md)**
-14. **[Pandas EDA I - 7/9](src/Lectures_class2/Lecture14.md)**
-15. **[Pandas EDA II - 7/11](src/Lectures_class2/Lecture15.md)**
-16. **[Pandas Data Analysis Lab - 7/16](src/Lectures_class2/Lecture16.md)**
-17. **[Data Visualization - 7/18](src/Lectures_class2/Lecture17.md)**
-18. **[Data Visualization Lab - 7/23](src/Lectures_class2/Lecture18.md)**
-19. **[In-Class Project Work - 7/25](src/Lectures_class2/Lecture19.md)**
-20. **[Project Presentations! - 7/30](src/Lectures_class2/Lecture20.md)**
+5. **[Loops & Iterators - 6/6](src/Lectures_class2/Lecture5.md)**
+6. **[Modules & Functions Intro - 6/11](src/Lectures_class2/Lecture6.md)**
+7. **[Functions - 6/13](src/Lectures_class2/Lecture7.md)**
+8. **[Intro to OOP & Classes - 6/18](src/Lectures_class2/Lecture8.md)**
+9. **[Classes - 6/20](src/Lectures_class2/Lecture9.md)**
+10. **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
+11. **[Intro to Pandas Objects - 6/27](src/Lectures_class2/Lecture11.md)**
+12. **[Pandas Data Processing I - 7/2](src/Lectures_class2/Lecture12.md)**
+13. **[Pandas Data Processing II - 7/9](src/Lectures_class2/Lecture13.md)**
+14. **[Pandas EDA I - 7/11](src/Lectures_class2/Lecture14.md)**
+15. **[Pandas EDA II - 7/16](src/Lectures_class2/Lecture15.md)**
+16. **[Pandas Data Analysis Lab - 7/18](src/Lectures_class2/Lecture16.md)**
+17. **[Data Visualization - 7/23](src/Lectures_class2/Lecture17.md)**
+18. **[Data Visualization Lab - 7/25](src/Lectures_class2/Lecture18.md)**
+19. **[In-Class Project Work - 7/30](src/Lectures_class2/Lecture19.md)**
+20. **[Project Presentations! - 8/1](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
 1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)** | **[Notes](src/Topics/Notes/essential_terminology.ipynb)**
 2. **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)** | **[Notes](src/Topics/Notes/basic_data_types.ipynb)**
