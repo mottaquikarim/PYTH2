@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture11.md","title":"Intro to Data Science - 6/20"}
+{"next":"Lectures_class2/Lecture11.md","title":"Intro to Data Science - 6/25"}
 -->
 
 # Lecture 10: Intro to Data Science & Final Project

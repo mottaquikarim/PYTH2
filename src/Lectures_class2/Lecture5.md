@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture6.md","title":"Loops & Iterators - 6/4"}
+{"next":"Lectures_class2/Lecture6.md","title":"Loops & Iterators - 6/6"}
 -->
 
 # Lecture 5: Loops & Iterators

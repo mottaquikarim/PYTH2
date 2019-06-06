@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture7.md","title":"Modules & Functions Intro - 6/6"}
+{"next":"Lectures_class2/Lecture7.md","title":"Modules & Functions Intro - 6/11"}
 -->
 
 # Lecture 6: Modules, Packages, & Intro to Functions
