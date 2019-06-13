@@ -46,9 +46,9 @@ Here are all the lectures for this course. This section will be updated with not
 3. **[Conditionals](src/Topics/nb/conditionals.ipynb)** | **[Notes](src/Topics/Notes/conditionals.ipynb)**
 4. **[Lists](src/Topics/nb/lists.ipynb)** | **[Notes](src/Topics/Notes/lists.ipynb)**
 5. **[Dicts](src/Topics/nb/dicts.ipynb)** | **[Notes](src/Topics/Notes/dicts.ipynb)**
-6. **[Loops](src/Topics/nb/loops.ipynb)**
+6. **[Loops](src/Topics/nb/loops.ipynb)** | **[Notes](src/Topics/Notes/loops.ipynb)**
 7. **[Modules & Packages](src/Topics/nb/modules.ipynb)**
-8. **[Functions](src/Topics/nb/functions.ipynb)**
+8. **[Functions](src/Topics/nb/functions.ipynb)** | **[Notes](src/Topics/Notes/functions.ipynb)**
 9. **[List Comprehensions](src/Topics/nb/list_comprehensions.ipynb)**
 10. **[Classes](src/Topics/nb/classes.ipynb)**
 11. **[Data Science](src/Topics/nb/data_science.ipynb)**
