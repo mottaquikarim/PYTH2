@@ -27,7 +27,7 @@ Here are all the lectures for this course. This section will be updated with not
 5. ✅  **[Loops & Iterators - 6/6](src/Lectures_class2/Lecture5.md)**
 6. ✅  **[Modules & Functions Intro - 6/11](src/Lectures_class2/Lecture6.md)**
 7. ✅  **[Functions - 6/13](src/Lectures_class2/Lecture7.md)**
-8. ➡️  **[Intro to OOP & Classes - 6/18](src/Lectures_class2/Lecture8.md)**
+8. ✅  **[Intro to OOP & Classes - 6/18](src/Lectures_class2/Lecture8.md)**
 9. **[Classes - 6/20](src/Lectures_class2/Lecture9.md)**
 10. **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
 11. **[Intro to Pandas Objects - 6/27](src/Lectures_class2/Lecture11.md)**
