@@ -28,7 +28,7 @@ Here are all the lectures for this course. This section will be updated with not
 6. ✅  **[Modules & Functions Intro - 6/11](src/Lectures_class2/Lecture6.md)**
 7. ✅  **[Functions - 6/13](src/Lectures_class2/Lecture7.md)**
 8. ✅  **[Intro to OOP & Classes - 6/18](src/Lectures_class2/Lecture8.md)**
-9. ➡️  **[Classes - 6/20](src/Lectures_class2/Lecture9.md)**
+9. ✅  **[Classes - 6/20](src/Lectures_class2/Lecture9.md)**
 10. **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
 11. **[Intro to Pandas Objects - 6/27](src/Lectures_class2/Lecture11.md)**
 12. **[Pandas Data Processing I - 7/2](src/Lectures_class2/Lecture12.md)**
@@ -62,7 +62,7 @@ Here are all the lectures for this course. This section will be updated with not
 1. ✅  **[Homework 0 DUE - 5/23](src/Homework/hwk0.md)**
 2. ✅  **[Homework 1 DUE - 6/4](src/Homework/hwk1.md)**
 3. **[Homework 2](src/Homework/hwk2.md)**
-4. ➡️  **[Homework 3 DUE - 6/20](src/Homework/hwk3.md)**
+4. ✅  **[Homework 3 DUE - 6/20](src/Homework/hwk3.md)**
 5. **[Homework 4](src/Homework/hwk4.md)**
 6. **[Homework 5](src/Homework/hwk5.md)**
 7. **[Final Project Reqs](src/Homework/final.md)**
