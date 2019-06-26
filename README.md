@@ -29,7 +29,7 @@ Here are all the lectures for this course. This section will be updated with not
 7. ✅  **[Functions - 6/13](src/Lectures_class2/Lecture7.md)**
 8. ✅  **[Intro to OOP & Classes - 6/18](src/Lectures_class2/Lecture8.md)**
 9. ✅  **[Classes - 6/20](src/Lectures_class2/Lecture9.md)**
-10. ➡️  **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
+10. ✅  **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
 11. **[Intro to Pandas Objects - 6/27](src/Lectures_class2/Lecture11.md)**
 12. **[Pandas Data Processing I - 7/2](src/Lectures_class2/Lecture12.md)**
 13. **[Pandas Data Processing II - 7/9](src/Lectures_class2/Lecture13.md)**
@@ -47,7 +47,7 @@ Here are all the lectures for this course. This section will be updated with not
 4. **[Lists](src/Topics/nb/lists.ipynb)** | **[Notes](src/Topics/Notes/lists.ipynb)**
 5. **[Dicts](src/Topics/nb/dicts.ipynb)** | **[Notes](src/Topics/Notes/dicts.ipynb)**
 6. **[Loops](src/Topics/nb/loops.ipynb)** | **[Notes](src/Topics/Notes/loops.ipynb)**
-7. **[Modules & Packages](src/Topics/nb/modules.ipynb)**
+7. **[Modules & Packages](src/Topics/nb/modules.ipynb)** | **[Notes](src/Topics/Notes/modules.ipynb)**
 8. **[Functions](src/Topics/nb/functions.ipynb)** | **[Notes](src/Topics/Notes/functions.ipynb)**
 9. **[List Comprehensions](src/Topics/nb/list_comprehensions.ipynb)**
 10. **[Classes](src/Topics/nb/classes.ipynb)**
