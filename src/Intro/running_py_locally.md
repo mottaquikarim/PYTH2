@@ -61,7 +61,13 @@ This is a bit confusing, but basically we're setting the path up so Homebrew kno
 open ~/.profile
 ```
 
-The file should open up. Ask your instructor for help if it didn't. Copy and paste the following line at the bottom of this file:
+The file should open up. **If it doesn't,** run this command to create the file in the current directory then repeat the original `open` command.
+
+```bash
+touch .profile
+```
+
+Once the file opens, copy and paste the following line at the bottom of this file:
 
 > export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
@@ -82,6 +88,8 @@ brew install python
 open ~/.bashrc
 ```
 
+If it doesn't exist, create it the same way you created .profile in step 4 and repeat the open command.
+
 At the bottom of that file, copy and paste the following lines:
 
 ```bash
@@ -98,7 +106,15 @@ Right click (control+click on most Macs) on the Terminal icon in your applicatio
 
 > **Pro tip:** Your settings won't be updated until Terminal is fully stopped and restarted. If you simply minimize the program, you will not see any updates!
 
-### 8. Check version.
+### 9. Activate bashrc aliases.
+
+```bash
+source ~/.bashrc
+```
+
+You will have to do this every time you open Terminal to ensure that it interprets `python` as `python3`.
+
+### 9. Check version.
 
 ```bash
 python --version
@@ -106,7 +122,7 @@ python --version
 
 You will get something like this. As long as it starts with a 3, you're good to go!
 
-> Python 3.6.5
+> Python 3.7.3
 
 Now let's check `pip`, the package installer.
 
@@ -114,7 +130,7 @@ Now let's check `pip`, the package installer.
 pip --version
 ```
 
-> pip 10.0.1 from /usr/local/lib/python3.6/site-packages/pip (python 3.6)
+> pip 19.1.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
 
 You want `pip` to be pointing to the Python 3.x version. If either `python` or `pip` are still pointing to version 2, please alert your instructor.
 
