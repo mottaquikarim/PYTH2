@@ -106,7 +106,7 @@ Right click (control+click on most Macs) on the Terminal icon in your applicatio
 
 > **Pro tip:** Your settings won't be updated until Terminal is fully stopped and restarted. If you simply minimize the program, you will not see any updates!
 
-### 9. Activate bashrc aliases.
+### 8. Activate bashrc aliases.
 
 ```bash
 source ~/.bashrc
