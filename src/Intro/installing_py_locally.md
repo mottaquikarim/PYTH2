@@ -2,7 +2,7 @@
 {"next":"Intro/FAQ.md","title":"Running Python Locally"}
 -->
 
-# Running Python Locally
+# Installing Python Locally
 
 Before we get into writing our code, we will have to install a few programs and tools. It may take about a half hr to pull off but ultimately a properly established development environment will pay off in spades as we navigate the rest of our day.
 
