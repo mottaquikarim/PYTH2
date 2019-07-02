@@ -1,5 +1,5 @@
 <!---
-{"next":"Intro/running_py_locally.md","title":"Setting Up Our Environment"}
+{"next":"Intro/installing_py_locally.md","title":"Setting Up Our Environment"}
 -->
 
 # Setting Up Our Environment
