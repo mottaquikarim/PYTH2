@@ -13,7 +13,7 @@
 
 ## Agenda
 
-1. **[Intro to Pandas](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/intro_pandas.md)** | **[Notebook](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/nb/intro_pandas.ipynb)**
+1. **[Intro to Pandas](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/intro_pandas.ipynb)** | **[Notebook](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/nb/intro_pandas.ipynb)**
 
 ## PSET
 
