@@ -8,9 +8,13 @@
 
 ## Objectives
 
-1. **tbd**
+1. Learn the basics of Pandas
 2. **Have fun!**
 
 ## Agenda
 
-1. **[TBD]()**
+1. **[Intro to Pandas](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/intro_pandas.md)** | **[Notebook](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/nb/intro_pandas.ipynb)**
+
+## PSET
+
+1. **[Pandas Basics](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/pandas_basics_pset1.md)** | **[Notebook](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/pandas_basics_pset1.ipynb)**
