@@ -32,7 +32,7 @@ Here are all the lectures for this course. This section will be updated with not
 10. ✅  **[Intro to Data Science - 6/25](src/Lectures_class2/Lecture10.md)**
 11. ✅  **[Intro to Pandas Objects - 6/27](src/Lectures_class2/Lecture11.md)**
 12. ✅  **[Pandas Data Processing I - 7/2](src/Lectures_class2/Lecture12.md)**
-13. **[Pandas Data Processing II - 7/9](src/Lectures_class2/Lecture13.md)**
+13. ➡️  **[Pandas Data Processing II - 7/9](src/Lectures_class2/Lecture13.md)**
 14. **[Pandas EDA I - 7/11](src/Lectures_class2/Lecture14.md)**
 15. **[Pandas EDA II - 7/16](src/Lectures_class2/Lecture15.md)**
 16. **[Pandas Data Analysis Lab - 7/18](src/Lectures_class2/Lecture16.md)**
