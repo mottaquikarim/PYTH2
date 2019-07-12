@@ -64,7 +64,7 @@ Here are all the lectures for this course. This section will be updated with not
 3. **[Homework 2](src/Homework/hwk2.md)**
 4. ✅  **[Homework 3 DUE - 6/20](src/Homework/hwk3.md)**
 5. ✅  **[Homework 4 DUE - 7/02](src/Homework/hwk4.md)**
-6. **[Homework 5](src/Homework/hwk5.md)**
+6. **[Homework 5 DUE - 7/18](src/Homework/hwk5.md)**
 7. **[Final Project Reqs](src/Homework/final.md)**
 ### [RESOURCES](src/Resources/README.md)
 1. **[Python Glossary](src/Resources/python_glossary.md)**
