@@ -37,7 +37,7 @@ Here are all the lectures for this course. This section will be updated with not
 15. ✅  **[Pandas EDA II - 7/16](src/Lectures_class2/Lecture15.md)**
 16. ✅  **[Pandas Data Analysis Lab - 7/18](src/Lectures_class2/Lecture16.md)**
 17. ✅  **[Data Visualization - 7/23](src/Lectures_class2/Lecture17.md)**
-18. ➡️  **[Data Visualization Lab - 7/25](src/Lectures_class2/Lecture18.md)**
+18. ✅  **[Data Visualization Lab - 7/25](src/Lectures_class2/Lecture18.md)**
 19. **[In-Class Project Work - 7/30](src/Lectures_class2/Lecture19.md)**
 20. **[Project Presentations! - 8/1](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
