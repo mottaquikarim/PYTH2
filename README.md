@@ -39,7 +39,7 @@ Here are all the lectures for this course. This section will be updated with not
 17. ✅  **[Data Visualization - 7/23](src/Lectures_class2/Lecture17.md)**
 18. ✅  **[Data Visualization Lab - 7/25](src/Lectures_class2/Lecture18.md)**
 19. ✅  **[In-Class Project Work - 7/30](src/Lectures_class2/Lecture19.md)**
-20. ➡️  **[Project Presentations! - 8/1](src/Lectures_class2/Lecture20.md)**
+20. ✅  **[Project Presentations! - 8/1](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
 1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)** | **[Notes](src/Topics/Notes/essential_terminology.ipynb)**
 2. **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)** | **[Notes](src/Topics/Notes/basic_data_types.ipynb)**
