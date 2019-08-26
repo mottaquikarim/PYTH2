@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture8.md","title":"Functions - 6/13"}
+{"next":"Lectures_class2/Lecture8.md","title":"Functions - 9/16"}
 -->
 
 # Lecture 7: Functions

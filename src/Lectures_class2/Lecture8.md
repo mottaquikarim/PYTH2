@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture9.md","title":"Intro to OOP & Classes - 6/18"}
+{"next":"Lectures_class2/Lecture9.md","title":"Intro to OOP & Classes - 9/18"}
 -->
 
 # Lecture 8: Intro to OOP & Classes

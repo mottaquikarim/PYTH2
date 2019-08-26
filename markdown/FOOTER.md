@@ -54,13 +54,13 @@ Some info about your instructors.
 
 [Hello, Wrold!](https://medium.com/@the_taqquikarim/console-log-hello-wrold-3e3abeb44396) I'm Taq, Tech Lead of the Demand Side (DSP) team at Place Exchange, a programmatic advertising exchange platform for Out of Home media. I'm also a lecturer, leading workshops and courses on a wide variety of topics (frontend / backend) in institutions such as Coalition 4 Queens (now Pursuit), The Startup Institute, NYCDA, OneMonth, The King's College and Columbia Splash. [I've taught Front-end Web Development at GA 14x](https://medium.com/@the_taqquikarim/10-lessons-learned-from-100-weeks-of-teaching-fewd-12c43db14f6b) (so far). When I'm not working I am usually [thinking about math](https://medium.com/math-musings/why-does-25-25-2-2-1-100-25-an-explanation-6c7e7b283d41), [building](https://medium.com/@the_taqquikarim/a-technique-for-saving-content-from-a-data-text-html-uri-10f045a8876d) [software](https://medium.com/@the_taqquikarim/introducing-bonfire-2c0e437895e2), [working](https://photos.app.goo.gl/w1crzgI7DqCgGR373) [on](https://photos.app.goo.gl/EaFkp5SmyO0opkg32) [hardware](https://photos.app.goo.gl/tvxPl2zbIMl7FEnK2) [hacks](https://www.instagram.com/p/8rARZNND_t/?taken-by=taqqui.karim) or hanging out with my cat, Layla Karim.
 
-### Julianna Garreffa
+<!-- ### Julianna Garreffa
 
 <img src="https://github.com/mottaquikarim/PYTH2/blob/master/assets/julianna.jpeg?raw=true" width="150" align="left">
 
 Hi, I'm Julianna! I'm an experienced product manager and budding entrepreneur. I have experience in strategic roadmap planning, launching research-backed product features, orchestrating agile projects, directing technical client onboarding, analyzing data in R, and coding with HTML, CSS and Python. In my free time, I love traveling, volunteering with animals, cooking, and hearing live music. At home though, I'm probably reading or watching movies/TV, snuggled up with my cat, Layla Karim!
 
-<br><br>
+<br><br> -->
 
 ### Layla Karim
 

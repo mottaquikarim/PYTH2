@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture3.md","title":"Conditionals - 5/23"}
+{"next":"Lectures_class2/Lecture3.md","title":"Conditionals - 8/28"}
 -->
 
 # Lecture 2: Control Flow & Conditionals (5/23)

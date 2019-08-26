@@ -1,10 +1,10 @@
 <!---
-{"next":"Homework/hwk4.md","title":"Homework 3 DUE - 6/20"}
+{"next":"Homework/hwk4.md","title":"Homework 3"}
 -->
 
 # Homework 3
 
-1. **[PSET](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/Homework4.ipynb)**
+TBD!
 
 ## ‼️ How to Submit‼️ 
 

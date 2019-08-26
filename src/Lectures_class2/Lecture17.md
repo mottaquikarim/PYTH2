@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture18.md","title":"Data Visualization - 7/23"}
+{"next":"Lectures_class2/Lecture18.md","title":"Data Visualization - 10/21"}
 -->
 
 # Lecture 17: Data Visualization

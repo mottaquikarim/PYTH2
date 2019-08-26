@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture13.md","title":"Pandas Data Processing I - 7/2"}
+{"next":"Lectures_class2/Lecture13.md","title":"Pandas Data Processing I - 10/2"}
 -->
 
 # Lecture 12: Pandas Data Processing I

@@ -1,12 +1,15 @@
 <!---
-{"next":"Homework/final.md","title":"Homework 5 DUE - 7/18"}
+{"next":"Homework/final.md","title":"Homework 5"}
 -->
 
 # Homework 5
 
-1. **[PSET](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/homework_pandas_1.ipynb)**
 
-## How to Submit
+TBD!
+
+## ‼️ How to Submit‼️ 
+
+Please read carefully as instructions have changed!!!
 
 1. Create a [Github account](https://github.com/) if you do not already have one.
 2. Create a [new repository](https://github.com/new); call it **PYTH_Homework_Submissions**.
@@ -15,6 +18,7 @@
 5. Once completed, in Colab go to **File > Download .ipynb**.
 6. Go to your newly created Github repository, click on the "Upload Files" button and drag your `hw4.ipynb` file.
 7. DM your instructor the Github Repo URL via slack.
+
 
 <!--
 ## Data sets

@@ -1,12 +1,19 @@
 <!---
-{"next":"Homework/hwk1.md","title":"Homework 0 DUE - 5/23"}
+{"next":"Homework/hwk1.md","title":"Homework 0 DUE - 9/4"}
 -->
 
 # Homework 0
 
-1. Practice 5 & Example 2 *in your copy* of the Colab notebook `essential_terminology.ipynb` ([Original file here](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/nb/essential_terminology.ipynb))
-2. Practice 1-3 ONLY from Practice Problem Set 1: Basic Data Types *in your copy* of the Colab notebook `basic_data_types.ipynb` ([Original file here](https://github.com/mottaquikarim/PYTH2/blob/master/src/Topics/nb/basic_data_types.ipynb))
+TBD!
 
-## How to Submit
+## ‼️ How to Submit‼️ 
 
-Please zip up the files and DM your instructor on the class Slack.
+Please read carefully as instructions have changed!!!
+
+1. Create a [Github account](https://github.com/) if you do not already have one.
+2. Create a [new repository](https://github.com/new); call it **PYTH_Homework_Submissions**.
+3. Copy the notebook above into a new Colab notebook.
+4. Name that Colab notebook per the naming convention "hwnum.ipynb", e.g. "hw4.ipynb"
+5. Once completed, in Colab go to **File > Download .ipynb**.
+6. Go to your newly created Github repository, click on the "Upload Files" button and drag your `hw4.ipynb` file.
+7. DM your instructor the Github Repo URL via slack.

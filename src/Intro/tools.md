@@ -27,6 +27,6 @@ You can install Jupyter Notebooks locally, BUT instead we will leverage a Google
 Open the link above and sign in to your Google account. Together in class, we'll explore what a notebook can do!
 
 
-## 🎈[Live Class Notes](https://mottaquikarim.github.io/autosync/#/course/pydev/0)
+<!-- ## 🎈[Live Class Notes](https://mottaquikarim.github.io/autosync/#/course/pydev/0)
 
-Live class notes! Anything I write in my code editor will be beamed here for your convenience!
+Live class notes! Anything I write in my code editor will be beamed here for your convenience! -->

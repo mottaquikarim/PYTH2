@@ -1,12 +1,14 @@
 <!---
-{"next":"Homework/hwk5.md","title":"Homework 4 DUE - 7/02"}
+{"next":"Homework/hwk5.md","title":"Homework 4"}
 -->
 
 # Homework 4
 
-1. **[PSET](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/classes_pset.ipynb)**
+TBD!
 
-## How to Submit
+## ‼️ How to Submit‼️ 
+
+Please read carefully as instructions have changed!!!
 
 1. Create a [Github account](https://github.com/) if you do not already have one.
 2. Create a [new repository](https://github.com/new); call it **PYTH_Homework_Submissions**.

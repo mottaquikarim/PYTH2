@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture2.md","title":"Intro to GA & Python - 5/21"}
+{"next":"Lectures_class2/Lecture2.md","title":"Intro to GA & Python - 8/26"}
 -->
 
 # Lecture 1: Intro to GA & Python

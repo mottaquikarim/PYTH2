@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture10.md","title":"Classes - 6/20"}
+{"next":"Lectures_class2/Lecture10.md","title":"Classes - 9/23"}
 -->
 
 # Lecture 9: Classes

@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture20.md","title":"In-Class Project Work - 7/30"}
+{"next":"Lectures_class2/Lecture20.md","title":"In-Class Project Work - 10/28"}
 -->
 
 # Lecture 19: In-Class Project Work

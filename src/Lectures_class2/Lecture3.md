@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture4.md","title":"Conditionals & Lists - 5/28"}
+{"next":"Lectures_class2/Lecture4.md","title":"Conditionals & Lists - 9/4"}
 -->
 
 # Lecture 3: Conditionals & Lists
