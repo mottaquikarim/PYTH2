@@ -8,6 +8,10 @@
 *A hands on and practical introduction
  to programming and python development.*
 
+## [Online Classroom](https://pyth826.slack.com)
+
+Slack is our online classroom - we will share class notes, videos, lectures, etc here.
+
 ## Table of Contents
 
 Here are all the lectures for this course. This section will be updated with notes as we make our way through the curriculum.
@@ -23,22 +27,22 @@ Here are all the lectures for this course. This section will be updated with not
 1. ➡️  **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
 2. **[Conditionals - 8/28](src/Lectures_class2/Lecture2.md)**
 3. **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
-4. ✅  **[Tuples, Sets, & Dicts - 5/30](src/Lectures_class2/Lecture4.md)**
-5. **[Loops & Iterators - 9/9](src/Lectures_class2/Lecture5.md)**
-6. **[Modules & Functions Intro - 9/11](src/Lectures_class2/Lecture6.md)**
-7. **[Functions - 9/16](src/Lectures_class2/Lecture7.md)**
-8. **[Intro to OOP & Classes - 9/18](src/Lectures_class2/Lecture8.md)**
-9. **[Classes - 9/23](src/Lectures_class2/Lecture9.md)**
-10. **[Intro to Data Science - 9/25](src/Lectures_class2/Lecture10.md)**
-11. **[Intro to Pandas Objects - 9/30](src/Lectures_class2/Lecture11.md)**
-12. **[Pandas Data Processing I - 10/2](src/Lectures_class2/Lecture12.md)**
-13. **[Pandas Data Processing II - 10/7](src/Lectures_class2/Lecture13.md)**
-14. **[Pandas EDA I - 10/9](src/Lectures_class2/Lecture14.md)**
-15. ✅  **[Pandas EDA II - 7/14](src/Lectures_class2/Lecture15.md)**
-16. **[Pandas Data Analysis Lab - 10/16](src/Lectures_class2/Lecture16.md)**
-17. **[Data Visualization - 10/21](src/Lectures_class2/Lecture17.md)**
-18. **[Data Visualization Lab - 10/23](src/Lectures_class2/Lecture18.md)**
-19. **[In-Class Project Work - 10/28](src/Lectures_class2/Lecture19.md)**
+4. **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
+5. **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
+6. **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
+7. **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
+8. **[Intro to OOP & Classes - 9/23](src/Lectures_class2/Lecture8.md)**
+9. **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
+10. **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
+11. **[Intro to Pandas Objects - 10/2](src/Lectures_class2/Lecture11.md)**
+12. **[Pandas Data Processing I - 10/7](src/Lectures_class2/Lecture12.md)**
+13. **[Pandas Data Processing II - 10/9](src/Lectures_class2/Lecture13.md)**
+14. **[Pandas EDA I - 10/14](src/Lectures_class2/Lecture14.md)**
+15. **[Pandas EDA II - 10/16](src/Lectures_class2/Lecture15.md)**
+16. **[Pandas Data Analysis Lab - 10/21](src/Lectures_class2/Lecture16.md)**
+17. **[Data Visualization - 10/23](src/Lectures_class2/Lecture17.md)**
+18. **[Data Visualization Lab - 10/28](src/Lectures_class2/Lecture18.md)**
+19. **[In-Class Project Work - 10/30](src/Lectures_class2/Lecture19.md)**
 20. ✅  **[Project Presentations! - 8/1](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
 1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)** | **[Notes](src/Topics/Notes/essential_terminology.ipynb)**
