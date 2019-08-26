@@ -1,5 +1,5 @@
 <!---
-{"next":"Topics/README.md","title":"Project Presentations! - 8/1"}
+{"next":"Topics/README.md","title":"Project Presentations! - 11/4"}
 -->
 
 # Lecture 20: Final Project Presentations!
