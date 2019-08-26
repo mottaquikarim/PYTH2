@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture5.md","title":"Tuples, Sets, & Dicts - 5/30"}
+{"next":"Lectures_class2/Lecture5.md","title":"Tuples, Sets, & Dicts - 9/9"}
 -->
 
 # Lecture 4: Tuples, Sets, & Dicts

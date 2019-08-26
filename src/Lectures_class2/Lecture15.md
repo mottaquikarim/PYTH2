@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture16.md","title":"Pandas EDA II - 7/14"}
+{"next":"Lectures_class2/Lecture16.md","title":"Pandas EDA II - 10/16"}
 -->
 
 # Lecture 15: Pandas Exploratory Data Analysis II

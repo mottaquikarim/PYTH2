@@ -10,7 +10,7 @@ Please find below important tools and resources that would be useful for class.
 
 This will be one of the only two slide decks we ever get through in class. Use this resource to set expectations about class in general on a high level.
 
-## 🎊 [Slack](https://pydev-ga-521.slack.com/)
+## 🎊 [Slack](https://pyth826.slack.com/)
 
 Class slack! This is how we communicate and keep in touch.
 

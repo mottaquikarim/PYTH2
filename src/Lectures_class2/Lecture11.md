@@ -1,5 +1,5 @@
 <!---
-{"next":"Lectures_class2/Lecture12.md","title":"Intro to Pandas Objects - 9/30"}
+{"next":"Lectures_class2/Lecture12.md","title":"Intro to Pandas Objects - 10/2"}
 -->
 
 # Lecture 11: Intro to Pandas Objects
