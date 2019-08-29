@@ -2,11 +2,17 @@
 {"next":"Homework/hwk1.md","title":"Homework 0 DUE - 9/4"}
 -->
 
-# Homework 0
+# Homework 1
 
-TBD!
+**[This PSET](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/basic_data_inclass_psets.ipynb)**
+
+^^ This is the remainder of the in-class PSET we started. Class notes are **[here](https://colab.research.google.com/drive/1WiGwiP9dAWqKE02P_GAIf3UTWJbZOsGU#scrollTo=T1gTHPUW5BOI)**.
+
+
 
 ## ‼️ How to Submit‼️ 
+
+**REMEMBER: we will go over how to submit HW in class Wednesday!!**
 
 Please read carefully as instructions have changed!!!
 
