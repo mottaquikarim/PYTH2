@@ -64,7 +64,7 @@ Here are all the lectures for this course. This section will be updated with not
 17. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
 1. ✅  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
-2. **[Homework 1](src/Homework/hwk1.md)**
+2. **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
 3. **[Homework 2](src/Homework/hwk2.md)**
 4. **[Homework 3](src/Homework/hwk3.md)**
 5. **[Homework 4](src/Homework/hwk4.md)**
