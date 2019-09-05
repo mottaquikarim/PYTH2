@@ -1,10 +1,11 @@
 <!---
-{"next":"Homework/hwk2.md","title":"Homework 1"}
+{"next":"Homework/hwk2.md","title":"Homework 1 DUE - 9/9"}
 -->
 
 # Homework 1
 
-TBD!
+**[This PSET](https://colab.research.google.com/github/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/conditionals_inclass_psets.ipynb)**
+
 
 ## ‼️ How to Submit‼️ 
 
