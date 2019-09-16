@@ -29,7 +29,7 @@ Here are all the lectures for this course. This section will be updated with not
 3. ✅  **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
 4. ✅  **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
 5. ✅  **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
-6. **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
+6. ➡️  **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
 7. **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
 8. **[Intro to OOP & Classes - 9/23](src/Lectures_class2/Lecture8.md)**
 9. **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
@@ -65,7 +65,7 @@ Here are all the lectures for this course. This section will be updated with not
 ### [HOMEWORK](src/Homework/README.md)
 1. ✅  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
 2. ✅  **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
-3. **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
+3. ➡️  **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
 4. **[Homework 3](src/Homework/hwk3.md)**
 5. **[Homework 4](src/Homework/hwk4.md)**
 6. **[Homework 5](src/Homework/hwk5.md)**
