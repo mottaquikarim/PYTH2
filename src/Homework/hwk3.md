@@ -1,10 +1,10 @@
 <!---
-{"next":"Homework/hwk4.md","title":"Homework 3"}
+{"next":"Homework/hwk4.md","title":"Homework 3 DUE - 9/23"}
 -->
 
 # Homework 3
 
-TBD!
+**[This PSET](https://github.com/mottaquikarim/PYTH2/blob/master/src/PSETS/nb/homework_3_loops.ipynb)**
 
 ## ‼️ How to Submit‼️ 
 
