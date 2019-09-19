@@ -30,7 +30,7 @@ Here are all the lectures for this course. This section will be updated with not
 4. ✅  **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
 5. ✅  **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
 6. ✅  **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
-7. ➡️  **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
+7. ✅  **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
 8. **[Intro to OOP & Classes - 9/23](src/Lectures_class2/Lecture8.md)**
 9. **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
 10. **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
