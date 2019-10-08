@@ -35,7 +35,7 @@ Here are all the lectures for this course. This section will be updated with not
 9. ✅  **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
 10. ✅  **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
 11. ✅  **[Intro to Pandas Objects - 10/2](src/Lectures_class2/Lecture11.md)**
-12. ➡️  **[Pandas Data Processing I - 10/7](src/Lectures_class2/Lecture12.md)**
+12. ✅  **[Pandas Data Processing I - 10/7](src/Lectures_class2/Lecture12.md)**
 13. **[Pandas Data Processing II - 10/9](src/Lectures_class2/Lecture13.md)**
 14. **[Pandas EDA I - 10/14](src/Lectures_class2/Lecture14.md)**
 15. **[Pandas EDA II - 10/16](src/Lectures_class2/Lecture15.md)**
