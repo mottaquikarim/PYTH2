@@ -1,111 +1,93 @@
-#  FUNCTIONS
+#  CLASSES
 
-## BASIC_FUNCTION_OPS
+## CLASS_BASICS
 
 ### P1.PY
 
 
+
 ```python
 """
-Function Basics I - No Input
+Person class
 """
 
-# Write a and call a function called "rand_list" that generates a list of 5 random numbers between 1 and 500. Print out that list.
-
+# Create a Person class with the following properties
+# 1. name
+# 2. age
+# 3. social security number
 
 ```
+
+
 ### P2.PY
 
+
+
 ```python
 """
-Function Basics II - Arguments
+Cat class
 """
 
-# Write a and call function called "names" that separately intakes a person's first name and a person's last name. It should concatenate the names and return the person's full name.
+# Implement a class called "Cat" with the following properties:
+# name
+# breed
+# age
 
+# also, implement a method called "speak" that should print out "purr"
 
 ```
+
 
 ### P3.PY
 
+
+
 ```python
 """
-Function Basics III - Default Arguments
-"""
+Phone Contacts
+""" 
 
-# Now write a and call function called "fave_colors" that separately intakes a person's first name, a person's last name, and **optionally** their favorite color.
-
-# The function should create and return a dict with the full name as a key and the favorite color as the value. If the person does not enter a favorite color, you should assume they have no favorite color and assign theirs to None. Try both use cases.
-
+# Create a class called "Contact" that will store the below items for each contact in your phone. The starred items should be required. Instantiate two Contact instance objects and access each of their attributes.
+    ### name*
+    ### mobile_num
+    ### work_num
+    ### email
 
 ```
+
 
 ### P4.PY
 
+
+
 ```python
 """
-Function Basics IV - Multiple Return Values
+Rectangle
 """
 
-# Write a and call a function called "figures" that takes any two numbers and **individually** returns the following as integers:
-# their sum
-# their product
-# the quotient for num1 / num2
-
-"""Print each value out individually in this format:
-(using 12 and 3)
-sum: 15
-product: 36
-quotient: 4
-"""
-
-
+# Write a Python class named "Rectangle" constructed by values for length and width. It should include two methods to calculate the "area" and the "perimeter" of a rectangle. Instantiate a Rectangle and call both methods.
 ```
+
 
 ### P5.PY
 
+
+
 ```python
 """
-Function Basics V - Indeterminate Arguments
+Circle
 """
 
-# Write a and call a function called "high_low" that takes 3 numbers and returns the highest and lowest ones.
+# Write a Python class named "Circle" constructed by a radius value and a class attribute for pi. You can use 3.14159 for the value of pi for simplicity. It should include two methods to calculate the "area" and the "perimeter" of a circle. Instantiate a Circle and call both methods.
+
+
 
 
 ```
 
-## DB_SEARCH
 
-### P1.PY
+### P6.PY
 
-```python
-"""
-GPA Calculator
-"""
-
-# Write a function called "simple_gpa" to find GPA when student enters a letter grade as a string. Assign the result to a variable called "gpa".
-
-"""
-Use these conversions:
-A+ --> 4.0
-A --> 4.0
-A- --> 3.7
-B+ --> 3.3
-B --> 3.0
-B- --> 2.7
-C+ --> 2.3
-C --> 2.0
-C- --> 1.7
-D+ --> 1.3
-D --> 1.0
-D- --> 0.7
-F --> 0.0
-"""
-
-
-```
-
-### P2.PY
 
 
 ```python
@@ -113,32 +95,15 @@ F --> 0.0
 RGB to HEX
 """
 
-# Write a and call a function called "rgb_hex" that takes a parameter called "color." The function should be able to intake a color in rgb format and return it in hex format as well as vice versa. A sample of color conversions are below. Write in logic so the function can interpret rgb and hex colors entered in different formats such as "rgb_hex((255,255,255))" or "rgb_hex('ffffff')". Also make sure to account for someone inputting a color not in the database.
+# Remember our function "rgb_hex" from the functions pset? That function took a color in rgb format and returned it in hex format as well as vice versa. Wouldn't it be so much easier to do that with a class called Color?
 
-color_conversions = {
-'#4286f4': 'rgb(66, 134, 244)',
-'#5905c6': 'rgb(89, 5, 198)',
-'#fce702': 'rgb(252, 231, 2)',
-'#ffffff': 'rgb(255, 255, 255)',
-'#000000': 'rgb(0, 0, 0)',
-'#0ac913': 'rgb(10, 201, 19)',
-'#65c672': 'rgb(101, 198, 114)',
-'#f8d6ff': 'rgb(248, 214, 255)',
-'#b70782': 'rgb(183, 7, 130)',
-'#001184': 'rgb(0, 17, 132)',
-'#495eed': 'rgb(73, 94, 237)',
-'#b7ffb8': 'rgb(183, 255, 184)',
-'#ffbf00': 'rgb(255, 191, 0)',
-'#7a020e': 'rgb(122, 2, 14)',
-'#ff5e6e': 'rgb(255, 94, 110)',
-'#22003d': 'rgb(34, 0, 61)'
-}
+# Define a class called "Color" to store each color's rgb and hex values. Define a method called "convert_codes()" to retrieve one value given the other. Create at least one instance of Color and try the convert_codes() method.
 
 
 ```
 
 
-## MATH
+## VEHICLES
 
 ### P1.PY
 
@@ -146,16 +111,12 @@ color_conversions = {
 
 ```python
 """
-Simple Interest Calculator
+Vehicles I 
 """
 
-# Write a function called "simple_interest" that will allow a user to find out how much they will have in savings based on their current funds and an interest rate. (Instead of collecting user input, you can directly pass values of your choosing for the arguments.)
-
-# The formula for simple interest is...
-# A = P(1 + rt), where...
-# P = principal amount of money
-# r = interest rate
-# t = number of time periods the principal will earn interest
+# Create a "Vehicle" class with instance attributes for "name" and "owner". 
+# Add a method called "start_engine()" that prints "Vroom!". 
+# Instantiate a Vehicle called "submarine" and then access all its attributes and methods for practice.
 
 
 ```
@@ -167,16 +128,10 @@ Simple Interest Calculator
 
 ```python
 """
-Permutations & Combinations
+Vehicles II
 """
 
-# Create two functions:
-	# One called "perms", which outputs the **number** of possible **permutations** of rolling two 6-sided dice and assign it to a variable called "permutations".
-	# One called "combs", which outputs the **number** of possible **combinations** of rolling two 6-sided dice and assigns it to a variable called "combinations".
-	# Hint: The formulas for these are below, where n is the number of possible outcomes for one trial and r is the number of outcomes you will pick at a time. The contextual difference is that order matters for permutations, meaning the same two numbers in a different order count as two unique permutations. For combinations, the order doesn't matter.
-
-# permutation formula = n! / (n-r)!
-# combination formula = n! / (nâr)!r!
+# Define 3 unique child classes for Vehicle - Car, Plane, and Boat. Each of these should have its own class attributes for "motion" and "terrain". (For Car, these would be something like "drive" and "land".)
 
 
 ```
@@ -188,16 +143,65 @@ Permutations & Combinations
 
 ```python
 """
-Multiples
+Vehicles III
 """
 
-# Write a function called "sum_multiples" that take two numbers and returns the sum of their multiples between 0 and some limit. These three items should be generalized as parameters.
+# For Car, define a method called "honk_horn()" that prints "HONK!"
+# For Plane, define a method called "take_off()" that prints "Fasten your seatbelts!"
+# For Boat, define a method called "drop_achor()" that prints "Anchors away!"
+```
 
+
+### P4.PY
+
+
+
+```python
+"""
+Vehicles IV
+"""
+
+# Create an instance of each child class. Access all their attributes and methods, including those inherited from their parent class Vehicle.
+
+# TAKEAWAY! - Vehicle is the baseline class for other more specific types of vehicles. Typically, you wouldn't instantiate a Vehicle because the child classes are more useful for storing information about vehicles. The Vehicle class serves to create a relationship between its children. However, "submarine" might be created as a Vehicle because it's so rare that you might not need a full Submarine class!
+```
+
+
+### P5.PY
+
+
+
+```python
+"""
+Vehicles V
+"""
+
+# Let's expand the Car class to be more comprehensive. Include attributes for...
+## brand name
+## plates
+## owner
+## fuel (e.g. gasoline, battery, etc.)
+## fuel_level (a numerical amount that defaults to 50, and max speed in MPH that defaults to None. 
+```
+
+
+### P6.PY
+
+
+
+```python
+"""
+Vehicles VI
+"""
+
+# Next, define new method called "check_fuel_level()" for your newly expanded Car class. If the fuel_level attribute is < 15, the method should reset fuel_level to 50 and print out how many units it refueled the car, e.g. 'Refueled 38 units.' Otherwise, it should simply print 'No need to refuel right now.'
+
+# Create at least TWO instances of Car, one of which has a fuel level below 15. Access the new attributes and call the check_fuel_level() method for each instance.
 
 ```
 
 
-## DATA_MANIPULATION
+## WEDDING_GUESTS
 
 ### P1.PY
 
@@ -205,28 +209,23 @@ Multiples
 
 ```python
 """
-File Organization
+Weddings I - Guest List
 """
 
-# The dict "files" below contains file names and the name of the person who owns each file. Write and call a function to reorganize "files" such that it contains each person's name and the files he/she owns. Assign the resultant dict to a new dict called "grouped_by_owner". Print out the key value pairs in this format - key: value.
+# Imagine for this problem set that you are planning a wedding. 
 
-# Function name should be: group_by_owners
-# Dict of results should be named: files_by_owner
 
-files = {
-  'Input1.txt': 'Beau',
-  'Code1.py': 'Mischa',
-  'Output1.txt': 'Beau',
-  'Input2.txt': 'Beau',
-  'Code2.py': 'Mischa',
-  'Output2.txt': 'Beau',
-  'Input3.txt': 'Percy',
-  'Code3.py': 'Alejandra',
-  'Output3.txt': 'Percy'
-}
+# A) Define a class called "Guest" to help you manage all the information about each invitee. This should initially include instance attributes for the guests's name, phone, and an optional "invite_sent" that defaults to False. Guest should also include an instance method called "send_invite()", which changes the value of invite_sent to True once you send an invitation to that guest.
 
 
 
+# B) Next, define a child class called "Bridesmaid", which includes the same initial attributes and inherits Guest's instance method.
+
+
+
+# C) Finally, create at least one instance of each class and do the following:
+### Call send_invite() on each instance.
+### Check whether Bridesmaid is a child of Guest and vice versa.
 ```
 
 
@@ -236,13 +235,57 @@ files = {
 
 ```python
 """
-Clean Pairs
+Weddings II - Record Bridesmaid RSVPs
 """
 
-# Below is a list of common food pairings. Write a function called "cleaner" that cleans the data such that each list item is a tuple (e.g. ('Milk', 'Cookies')). Assign the results to a variable called "clean_pairs".
+# Create a method in Guest to record a guests's rsvp to your invitation. It should record whether they have any dietary restrictions (e.g. vegetarian, kosher, halal, etc.) and whether they're bringing a plus one. If they are bringing a plus one, it should record the name of the plus one and his/her dietary restrictions if any. These values should be stored in instance attributes.
 
-pairs = [('Milk', 'Cookies'), ('Peanut Butter - Jelly'), ('Spaghetti & Meatballs'), ('Eggs', 'Bacon'), ('Pancakes & Syrup'), ('Chicken - Waffles'), ('Peas', 'Carrots')]
+# Try out this method on at least one instance of Guest and at least one instance of Bridesmaid.
+```
 
+
+### P3.PY
+
+
+
+```python
+"""
+Weddings III - Record Shower & Bachelorette RSVP
+"""
+
+# Create two methods in Bridesmaid to record a the bridesmaid's rsvp to the bridal shower and the bachelorette party. You can call them "record_shower_rsvp()" and "record_bachelorette_rsvp()". They will work just like the general "record_rsvp()" except there will be no plus ones or diet questions. Their rsvp answers should be stored in instance attributes with the same name (i.e. shower_rsvp & bachelorette_rsvp).
+```
+
+
+## DOGS
+
+### P1.PY
+
+
+
+```python
+"""
+Dogs I
+"""
+
+# Create a class called "Dog". It should include: 
+## A class attribute "domesticated" w. value True
+## An instance method called "bark()" that prints "Woof!"
+```
+
+
+### P2.PY
+
+
+
+```python
+"""
+Dogs II
+""" 
+
+# Create child class for 3 dog breeds - Collie, Siberian Husky, and Pekingese. Each should have:
+## 2 class attributes for "breed" and "temperament". The latter should be a list.
+## 3 instance attributes for "name", "age", and "gender".
 
 
 ```
@@ -254,18 +297,15 @@ pairs = [('Milk', 'Cookies'), ('Peanut Butter - Jelly'), ('Spaghetti & Meatballs
 
 ```python
 """
-Password Requirements
-"""
+Dogs III
+""" 
 
-# Write a Python program called "pw_validator" to validate a password based on the security requirements outlined below.
+# A) Add an instance method to Collie called "herd_the_kids()" that prints "Here are your children!"
 
-# VALIDATION REQUIREMENTS:
-## At least 1 lowercase letter [a-z]
-## At least 1 uppercase letter [A-Z].
-## At least 1 number [0-9].
-## At least 1 special character [~!@#$%&*].
-## Min length 6 characters.
-## Max length 16 characters.
+# B) Add an instance method called "bark()" to Pekingese. This should override the parent method "bark()" such that when you call bark() on an instance of Pekingese, it prints "Yap!" instead.
+
+# C) Instantiate one of each breed. Access the attributes, methods, and parent methods of each one. BONUS: Aside from herd_the_kids(), you should be able to do this in a loop.
+
 
 
 ```
@@ -277,78 +317,14 @@ Password Requirements
 
 ```python
 """
-Rainbows & Wobniars
+Dogs IV - Tricks (CHALLENGE!)
 """
 
-# Write a function called "wobniar", which should contain the local variable "rainbow" below. The function should collect every other color of the rainbow starting at index 0 and add each one to a new list. When you add each color, it should be spelled backwards. For example, the word 'sing' would be added to the new list as 'gnis'. Return and print the list.
+# Many dogs know how to do common tricks or follow common commands. You could create methods for each trick/command in the Dog parent class, but the problem is that not all dogs know all tricks/commands. 
 
+# However, it would be inefficient to define a custom set of instance methods for tricks/commands every time you instantiate a unique Collie (or SiberianHuskey or Pekingese etc.).
 
-```
-
-
-## CHALLENGES
-
-### P1.PY
-
-
-
-```python
-"""
-Sum of Squares
-"""
-
-
-# Write a function called "sum_squares" that finds the sum of the squares of any number of integers passed into the function.
-
-# For example, someone could enter three individual integers, a list of five integers, or a tuple nested in a list of eight integers.
-
-# Hint: The solution tests out different scenarios, so you can pass those numbers into your function to see if you can get the same answer for different scenarios.
-
-
-```
-
-
-### P2.PY
-
-
-
-```python
-"""
-Speeding Tickets
-"""
-
-# Imagine you're a cop waiting on the side of the road to pick up speeders. Write a function called "speeders" to check the speed of drivers and record their license plate numbers.
-## If speed is less than or equal 70 (mph), it should print "Good". 
-## If the speed is greater than 70, find the license plate number of that driver in your "driver_points" dict (see below) and add a point to their license for every 5 full mph above the speed limit.
-## If at any point that driver has 12 or more points on his/her license, print "License Suspended".
-## Call the function on each driver in the "passing_cars" dict below to see difference use cases work.
-
-# p.s. Feel free to move these around in your code as needed.
-passing_cars = { # license plate nums & speed
-  '4GRONPH': 68,
-  'OJGL6WD': 82,
-  'Q5517FA': 70,
-  'S0PNWEJ': 95,
-  'RM23RXC': 64,
-  'KH5TH8D': 100,
-  'IHEHJ4P': 67,
-  'SVK90LT': 73,
-  'LJSV4N1': 88,
-  'KDRLGXM': 91
-}
-
-driver_points = { # license plate nums & points
-  '4GRONPH': 8,
-  'OJGL6WD': 12,
-  'Q5517FA': 1,
-  'S0PNWEJ': 2,
-  'RM23RXC': 6,
-  'KH5TH8D': 7,
-  'IHEHJ4P': 10,
-  'SVK90LT': 5,
-  'LJSV4N1': 3,
-  'KDRLGXM': 9
-  }
+# Find an efficient way to specify which tricks each unique dog knows and to call them. You can use "roll_over", "fetch", "shake_hands", and "spin". Secondly, find a way to teach a dog new trick from this set.
 
 
 
