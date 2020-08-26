@@ -24,7 +24,7 @@ Here are all the lectures for this course. This section will be updated with not
 3. **[Running Python Locally](src/Intro/installing_py_locally.md)**
 4. **[FAQ](src/Intro/FAQ.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
-1. **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
+1. ➡️  **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
 2. **[Conditionals - 8/28](src/Lectures_class2/Lecture2.md)**
 3. **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
 4. **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
