@@ -26,7 +26,7 @@ Here are all the lectures for this course. This section will be updated with not
 ### [LECTURES](src/Lectures_class2/README.md)
 1. ✅  **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
 2. ✅  **[Conditionals - 8/28](src/Lectures_class2/Lecture2.md)**
-3. ➡️  **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
+3. ✅  **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
 4. **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
 5. **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
 6. **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
@@ -63,7 +63,7 @@ Here are all the lectures for this course. This section will be updated with not
 16. **[Course Review](src/Topics/nb/course_review.ipynb)**
 17. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
-1. ➡️  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
+1. ✅  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
 2. **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
 3. **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
 4. **[Homework 3 DUE - 9/23](src/Homework/hwk3.md)**
