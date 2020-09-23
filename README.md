@@ -31,7 +31,7 @@ Here are all the lectures for this course. This section will be updated with not
 5. ✅  **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
 6. ✅  **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
 7. ✅  **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
-8. **[Functions - 9/23](src/Lectures_class2/Lecture8.md)**
+8. ➡️  **[Functions - 9/23](src/Lectures_class2/Lecture8.md)**
 9. **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
 10. **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
 11. **[Intro to Pandas Objects - 10/2](src/Lectures_class2/Lecture11.md)**
@@ -66,7 +66,7 @@ Here are all the lectures for this course. This section will be updated with not
 1. ✅  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
 2. ✅  **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
 3. ✅  **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
-4. **[Homework 3 DUE - 9/23](src/Homework/hwk3.md)**
+4. ➡️  **[Homework 3 DUE - 9/23](src/Homework/hwk3.md)**
 5. **[Homework 4](src/Homework/hwk4.md)**
 6. **[Homework 5](src/Homework/hwk5.md)**
 7. **[Final Project Reqs](src/Homework/final.md)**
