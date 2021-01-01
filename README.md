@@ -24,26 +24,26 @@ Here are all the lectures for this course. This section will be updated with not
 3. **[Running Python Locally](src/Intro/installing_py_locally.md)**
 4. **[FAQ](src/Intro/FAQ.md)**
 ### [LECTURES](src/Lectures_class2/README.md)
-1. ✅  **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
-2. ✅  **[Conditionals - 8/28](src/Lectures_class2/Lecture2.md)**
-3. ✅  **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
-4. ✅  **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
-5. ✅  **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
-6. ✅  **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
-7. ✅  **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
-8. ✅  **[Functions - 9/23](src/Lectures_class2/Lecture8.md)**
-9. ✅  **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
-10. ✅  **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
-11. ✅  **[Intro to Pandas Objects - 10/2](src/Lectures_class2/Lecture11.md)**
-12. ✅  **[Pandas Data Processing I - 10/7](src/Lectures_class2/Lecture12.md)**
-13. ✅  **[Pandas Data Processing II - 10/9](src/Lectures_class2/Lecture13.md)**
-14. ✅  **[Pandas EDA I - 10/14](src/Lectures_class2/Lecture14.md)**
-15. ✅  **[Pandas EDA II - 10/16](src/Lectures_class2/Lecture15.md)**
-16. ✅  **[Pandas Data Analysis Lab - 10/21](src/Lectures_class2/Lecture16.md)**
-17. ✅  **[Data Visualization - 10/23](src/Lectures_class2/Lecture17.md)**
-18. ✅  **[Data Visualization Lab - 10/28](src/Lectures_class2/Lecture18.md)**
-19. ✅  **[In-Class Project Work - 10/30](src/Lectures_class2/Lecture19.md)**
-20. ✅  **[Project Presentations! - 11/4](src/Lectures_class2/Lecture20.md)**
+1. **[Intro to GA & Python - 8/26](src/Lectures_class2/Lecture1.md)**
+2. **[Conditionals - 8/28](src/Lectures_class2/Lecture2.md)**
+3. **[Conditionals & Lists - 9/4](src/Lectures_class2/Lecture3.md)**
+4. **[Tuples, Sets, & Dicts - 9/9](src/Lectures_class2/Lecture4.md)**
+5. **[Loops & Iterators - 9/11](src/Lectures_class2/Lecture5.md)**
+6. **[Modules & Functions Intro - 9/16](src/Lectures_class2/Lecture6.md)**
+7. **[Functions - 9/18](src/Lectures_class2/Lecture7.md)**
+8. **[Functions - 9/23](src/Lectures_class2/Lecture8.md)**
+9. **[Classes - 9/25](src/Lectures_class2/Lecture9.md)**
+10. **[Intro to Data Science - 9/30](src/Lectures_class2/Lecture10.md)**
+11. **[Intro to Pandas Objects - 10/2](src/Lectures_class2/Lecture11.md)**
+12. **[Pandas Data Processing I - 10/7](src/Lectures_class2/Lecture12.md)**
+13. **[Pandas Data Processing II - 10/9](src/Lectures_class2/Lecture13.md)**
+14. **[Pandas EDA I - 10/14](src/Lectures_class2/Lecture14.md)**
+15. **[Pandas EDA II - 10/16](src/Lectures_class2/Lecture15.md)**
+16. **[Pandas Data Analysis Lab - 10/21](src/Lectures_class2/Lecture16.md)**
+17. **[Data Visualization - 10/23](src/Lectures_class2/Lecture17.md)**
+18. **[Data Visualization Lab - 10/28](src/Lectures_class2/Lecture18.md)**
+19. **[In-Class Project Work - 10/30](src/Lectures_class2/Lecture19.md)**
+20. **[Project Presentations! - 11/4](src/Lectures_class2/Lecture20.md)**
 ### [TOPICS](src/Topics/README.md)
 1. **[Essential Terminology](src/Topics/nb/essential_terminology.ipynb)** | **[Notes](src/Topics/Notes/essential_terminology.ipynb)**
 2. **[Basic Data Types](src/Topics/nb/basic_data_types.ipynb)** | **[Notes](src/Topics/Notes/basic_data_types.ipynb)**
@@ -63,10 +63,10 @@ Here are all the lectures for this course. This section will be updated with not
 16. **[Course Review](src/Topics/nb/course_review.ipynb)**
 17. **[Python Project Ideas](src/Topics/nb/project_ideas.ipynb)**
 ### [HOMEWORK](src/Homework/README.md)
-1. ✅  **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
-2. ✅  **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
-3. ✅  **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
-4. ✅  **[Homework 3 DUE - 9/23](src/Homework/hwk3.md)**
+1. **[Homework 0 DUE - 9/4](src/Homework/hwk0.md)**
+2. **[Homework 1 DUE - 9/9](src/Homework/hwk1.md)**
+3. **[Homework 2 DUE - 9/16](src/Homework/hwk2.md)**
+4. **[Homework 3 DUE - 9/23](src/Homework/hwk3.md)**
 5. **[Homework 4](src/Homework/hwk4.md)**
 6. **[Homework 5](src/Homework/hwk5.md)**
 7. **[Final Project Reqs](src/Homework/final.md)**
